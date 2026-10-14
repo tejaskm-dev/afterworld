@@ -1,0 +1,10 @@
+{
+  "type": "afterworld:wonder",
+  "wonder": "hanged_lanterns",
+  "sink": 3,
+  "max_relief": 8,
+  "biomes": "#afterworld:has_structure/hanged_lanterns",
+  "step": "top_layer_modification",
+  "terrain_adaptation": "beard_box",
+  "spawn_overrides": {}
+}

@@ -1,0 +1,18 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "pattern": [
+    " A ",
+    "SLS",
+    "SSS"
+  ],
+  "key": {
+    "A": "minecraft:amethyst_shard",
+    "S": "minecraft:chiseled_stone_bricks",
+    "L": "minecraft:lodestone"
+  },
+  "result": {
+    "id": "afterworld:waystone",
+    "count": 1
+  }
+}

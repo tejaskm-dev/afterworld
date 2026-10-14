@@ -1,0 +1,23 @@
+{
+  "type": "afterworld:ground",
+  "biome": "afterworld:rustscar_canyons",
+  "surface": [
+    {
+      "state": "minecraft:coarse_dirt",
+      "noise": 0,
+      "min": 0.86,
+      "max": 1.01
+    }
+  ],
+  "plants": [
+    {
+      "state": "minecraft:dead_bush",
+      "chance": 0.015
+    },
+    {
+      "state": "minecraft:short_dry_grass",
+      "chance": 0.02
+    }
+  ],
+  "sand": true
+}

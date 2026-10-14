@@ -1,0 +1,29 @@
+{
+  "type": "afterworld:spire",
+  "body": {
+    "type": "minecraft:weighted",
+    "entries": [
+      {
+        "data": "minecraft:cut_sandstone",
+        "weight": 3
+      },
+      {
+        "data": "minecraft:smooth_sandstone",
+        "weight": 2
+      },
+      {
+        "data": "minecraft:chiseled_sandstone",
+        "weight": 1
+      }
+    ]
+  },
+  "style": "taper",
+  "min_height": 8,
+  "max_height": 16,
+  "min_radius": 0.9,
+  "max_radius": 1.4,
+  "glow_chance": 0.0,
+  "tip": {
+    "id": "minecraft:waxed_cut_copper"
+  }
+}

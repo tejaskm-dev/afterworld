@@ -1,0 +1,33 @@
+{
+  "type": "afterworld:spire",
+  "body": {
+    "type": "minecraft:weighted",
+    "entries": [
+      {
+        "data": "minecraft:terracotta",
+        "weight": 2
+      },
+      {
+        "data": "minecraft:red_terracotta",
+        "weight": 2
+      },
+      {
+        "data": "minecraft:orange_terracotta",
+        "weight": 1
+      },
+      {
+        "data": "minecraft:red_sandstone",
+        "weight": 2
+      }
+    ]
+  },
+  "style": "columns",
+  "min_height": 6,
+  "max_height": 14,
+  "min_radius": 2.0,
+  "max_radius": 3.5,
+  "glow_chance": 0.05,
+  "glow": {
+    "id": "minecraft:raw_copper_block"
+  }
+}

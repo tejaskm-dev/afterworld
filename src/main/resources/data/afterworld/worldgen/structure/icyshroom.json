@@ -1,0 +1,10 @@
+{
+  "type": "afterworld:wonder",
+  "wonder": "icyshroom",
+  "sink": 3,
+  "max_relief": 8,
+  "biomes": "#afterworld:has_structure/icyshroom",
+  "step": "surface_structures",
+  "terrain_adaptation": "beard_box",
+  "spawn_overrides": {}
+}

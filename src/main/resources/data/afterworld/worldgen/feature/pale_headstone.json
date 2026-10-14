@@ -1,0 +1,26 @@
+{
+  "type": "afterworld:spire",
+  "body": {
+    "type": "minecraft:weighted",
+    "entries": [
+      {
+        "data": "minecraft:calcite",
+        "weight": 2
+      },
+      {
+        "data": "minecraft:polished_diorite",
+        "weight": 2
+      },
+      {
+        "data": "minecraft:diorite",
+        "weight": 1
+      }
+    ]
+  },
+  "style": "taper",
+  "min_height": 2,
+  "max_height": 3,
+  "min_radius": 0.3,
+  "max_radius": 0.5,
+  "glow_chance": 0.0
+}

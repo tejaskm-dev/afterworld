@@ -1,0 +1,39 @@
+{
+  "type": "afterworld:ruin",
+  "wall": {
+    "type": "minecraft:weighted",
+    "entries": [
+      {
+        "data": "minecraft:cut_sandstone",
+        "weight": 3
+      },
+      {
+        "data": "minecraft:waxed_cut_copper",
+        "weight": 1
+      },
+      {
+        "data": "minecraft:waxed_exposed_cut_copper",
+        "weight": 1
+      }
+    ]
+  },
+  "floor": {
+    "type": "minecraft:weighted",
+    "entries": [
+      {
+        "data": "minecraft:smooth_sandstone",
+        "weight": 1
+      }
+    ]
+  },
+  "style": "walls",
+  "loot_chance": 0.5,
+  "underwater": false,
+  "accent": {
+    "id": "minecraft:waxed_copper_bulb",
+    "properties": {
+      "lit": "true"
+    }
+  },
+  "loot": "afterworld:chests/clockwork_cache"
+}

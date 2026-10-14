@@ -1,0 +1,14 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "category": "misc",
+  "ingredients": [
+    "minecraft:iron_axe",
+    "afterworld:gear_spring",
+    "afterworld:gear_spring",
+    "minecraft:iron_block"
+  ],
+  "result": {
+    "id": "afterworld:gearspring_maul",
+    "count": 1
+  }
+}

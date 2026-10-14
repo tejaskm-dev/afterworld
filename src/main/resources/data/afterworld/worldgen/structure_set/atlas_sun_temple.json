@@ -1,0 +1,13 @@
+{
+  "placement": {
+    "type": "afterworld:atlas",
+    "site": "sun_temple",
+    "salt": 7405
+  },
+  "structures": [
+    {
+      "structure": "afterworld:sun_temple",
+      "weight": 1
+    }
+  ]
+}

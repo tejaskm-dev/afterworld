@@ -1,0 +1,265 @@
+{
+  "attributes": {
+    "minecraft:audio/background_music": {
+      "default": {
+        "max_delay": 24000,
+        "min_delay": 12000,
+        "sound": "afterworld:music.wilds"
+      }
+    },
+    "minecraft:gameplay/creature_world_gen_spawn_probability": 0.14,
+    "minecraft:gameplay/natural_mob_spawns": {
+      "argument": {
+        "spawn_costs": {},
+        "spawns_by_category": {
+          "ambient": [
+            {
+              "type": "minecraft:bat",
+              "count": 8,
+              "weight": 5
+            },
+            {
+              "type": "afterworld:wisp",
+              "count": 1,
+              "weight": 4
+            },
+            {
+              "type": "afterworld:rime_moth",
+              "count": {
+                "type": "minecraft:uniform",
+                "min_inclusive": 2,
+                "max_inclusive": 4
+              },
+              "weight": 10
+            }
+          ],
+          "creature": [
+            {
+              "type": "minecraft:rabbit",
+              "count": {
+                "type": "minecraft:uniform",
+                "max_inclusive": 3,
+                "min_inclusive": 2
+              },
+              "weight": 4
+            },
+            {
+              "type": "minecraft:polar_bear",
+              "count": {
+                "type": "minecraft:uniform",
+                "max_inclusive": 2,
+                "min_inclusive": 1
+              },
+              "weight": 1
+            },
+            {
+              "type": "afterworld:rimehorn",
+              "count": {
+                "type": "minecraft:uniform",
+                "min_inclusive": 2,
+                "max_inclusive": 4
+              },
+              "weight": 14
+            }
+          ],
+          "monster": [
+            {
+              "type": "minecraft:spider",
+              "count": 4,
+              "weight": 30
+            },
+            {
+              "type": "minecraft:zombie",
+              "count": 4,
+              "weight": 27
+            },
+            {
+              "type": "minecraft:zombie_villager",
+              "count": 1,
+              "weight": 2
+            },
+            {
+              "type": "minecraft:zombie_horse",
+              "count": 1,
+              "weight": 2
+            },
+            {
+              "type": "minecraft:skeleton",
+              "count": 4,
+              "weight": 6
+            },
+            {
+              "type": "minecraft:creeper",
+              "count": 4,
+              "weight": 30
+            },
+            {
+              "type": "minecraft:slime",
+              "count": 4,
+              "weight": 30
+            },
+            {
+              "type": "minecraft:enderman",
+              "count": {
+                "type": "minecraft:uniform",
+                "max_inclusive": 4,
+                "min_inclusive": 1
+              },
+              "weight": 3
+            },
+            {
+              "type": "minecraft:witch",
+              "count": 1,
+              "weight": 2
+            },
+            {
+              "type": "minecraft:stray",
+              "count": 4,
+              "weight": 24
+            },
+            {
+              "type": "afterworld:rime_wight",
+              "count": {
+                "type": "minecraft:uniform",
+                "min_inclusive": 1,
+                "max_inclusive": 2
+              },
+              "weight": 40
+            },
+            {
+              "type": "afterworld:shardling",
+              "count": {
+                "type": "minecraft:uniform",
+                "min_inclusive": 1,
+                "max_inclusive": 2
+              },
+              "weight": 15
+            },
+            {
+              "type": "afterworld:ice_crawler",
+              "count": {
+                "type": "minecraft:uniform",
+                "min_inclusive": 1,
+                "max_inclusive": 2
+              },
+              "weight": 30
+            }
+          ],
+          "underground_water_creature": [
+            {
+              "type": "minecraft:glow_squid",
+              "count": {
+                "type": "minecraft:uniform",
+                "max_inclusive": 6,
+                "min_inclusive": 4
+              },
+              "weight": 10
+            }
+          ]
+        }
+      },
+      "modifier": "overlay"
+    },
+    "minecraft:visual/ambient_particles": {
+      "argument": [
+        {
+          "particle": {
+            "type": "minecraft:snowflake"
+          },
+          "probability": 0.003
+        },
+        {
+          "particle": {
+            "type": "afterworld:mote",
+            "color": -7345921
+          },
+          "probability": 0.0012
+        }
+      ],
+      "modifier": "append"
+    },
+    "minecraft:visual/cloud_height": 300.0,
+    "minecraft:visual/fog_color": "#e8f0fa",
+    "minecraft:visual/sky_color": "#b8d0ee",
+    "minecraft:visual/water_fog_color": "#2a4980"
+  },
+  "carvers": [
+    "minecraft:cave",
+    "minecraft:cave_extra_underground",
+    "minecraft:canyon"
+  ],
+  "downfall": 0.5,
+  "effects": {
+    "water_color": "#4a7ad6",
+    "grass_color": "#a0b8b0",
+    "foliage_color": "#8aa49c"
+  },
+  "features": [
+    [
+      "afterworld:ground_glimmerfrost"
+    ],
+    [
+      "minecraft:lake_lava_underground",
+      "minecraft:lake_lava_surface"
+    ],
+    [
+      "minecraft:amethyst_geode"
+    ],
+    [
+      "minecraft:monster_room",
+      "minecraft:monster_room_deep"
+    ],
+    [],
+    [],
+    [
+      "minecraft:ore_dirt",
+      "minecraft:ore_gravel",
+      "minecraft:ore_granite_upper",
+      "minecraft:ore_granite_lower",
+      "minecraft:ore_diorite_upper",
+      "minecraft:ore_diorite_lower",
+      "minecraft:ore_andesite_upper",
+      "minecraft:ore_andesite_lower",
+      "minecraft:ore_tuff",
+      "minecraft:ore_coal_upper",
+      "minecraft:ore_coal_lower",
+      "minecraft:ore_iron_upper",
+      "minecraft:ore_iron_middle",
+      "minecraft:ore_iron_small",
+      "minecraft:ore_gold",
+      "minecraft:ore_gold_lower",
+      "minecraft:ore_redstone",
+      "minecraft:ore_redstone_lower",
+      "minecraft:ore_diamond",
+      "minecraft:ore_diamond_medium",
+      "minecraft:ore_diamond_large",
+      "minecraft:ore_diamond_buried",
+      "minecraft:ore_lapis",
+      "minecraft:ore_lapis_buried",
+      "minecraft:ore_copper",
+      "minecraft:underwater_magma",
+      "minecraft:disk_sand",
+      "minecraft:disk_clay",
+      "minecraft:disk_gravel"
+    ],
+    [
+      "afterworld:cave_camp",
+      "afterworld:cave_frost"
+    ],
+    [
+      "minecraft:spring_water",
+      "minecraft:spring_lava"
+    ],
+    [
+      "afterworld:frost_bones",
+      "afterworld:glimmer_crystal",
+      "afterworld:glimmer_boulder",
+      "afterworld:glimmer_shrine"
+    ],
+    [
+      "minecraft:freeze_top_layer"
+    ]
+  ],
+  "has_precipitation": true,
+  "temperature": -0.2
+}

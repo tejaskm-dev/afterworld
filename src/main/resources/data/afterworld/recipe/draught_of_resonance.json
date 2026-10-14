@@ -1,0 +1,13 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "category": "misc",
+  "ingredients": [
+    "minecraft:glass_bottle",
+    "afterworld:angler_lure",
+    "afterworld:kitsune_tail"
+  ],
+  "result": {
+    "id": "afterworld:draught_of_resonance",
+    "count": 2
+  }
+}

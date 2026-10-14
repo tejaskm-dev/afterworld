@@ -1,0 +1,54 @@
+{
+  "placement": {
+    "type": "minecraft:random_spread",
+    "salt": 7201,
+    "separation": 7,
+    "spacing": 20
+  },
+  "structures": [
+    {
+      "structure": "afterworld:moon_gazebo",
+      "weight": 3
+    },
+    {
+      "structure": "afterworld:moon_gazebo_snow",
+      "weight": 3
+    },
+    {
+      "structure": "afterworld:star_spire",
+      "weight": 3
+    },
+    {
+      "structure": "afterworld:icyshroom",
+      "weight": 4
+    },
+    {
+      "structure": "afterworld:waystone",
+      "weight": 5
+    },
+    {
+      "structure": "afterworld:lodge",
+      "weight": 3
+    },
+    {
+      "structure": "afterworld:lodge_snow",
+      "weight": 3
+    },
+    {
+      "structure": "afterworld:chapel",
+      "weight": 3
+    },
+    {
+      "structure": "afterworld:oasis",
+      "weight": 5
+    },
+    {
+      "structure": "afterworld:stilt_house",
+      "weight": 5
+    },
+    {
+      "structure": "afterworld:airship",
+      "weight": 3
+    }
+  ]
+}

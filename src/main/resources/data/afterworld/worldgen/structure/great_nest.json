@@ -1,0 +1,10 @@
+{
+  "type": "afterworld:wonder",
+  "wonder": "great_nest",
+  "sink": 3,
+  "max_relief": 18,
+  "biomes": "#afterworld:has_structure/great_nest",
+  "step": "top_layer_modification",
+  "terrain_adaptation": "beard_box",
+  "spawn_overrides": {}
+}

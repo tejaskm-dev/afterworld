@@ -1,0 +1,17 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "equipment",
+  "pattern": [
+    "  F",
+    " F ",
+    "S  "
+  ],
+  "key": {
+    "F": "afterworld:dusk_fang",
+    "S": "minecraft:stick"
+  },
+  "result": {
+    "id": "afterworld:wayfarers_fang",
+    "count": 1
+  }
+}

@@ -1,0 +1,13 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "category": "misc",
+  "ingredients": [
+    "minecraft:glass_bottle",
+    "minecraft:golden_carrot",
+    "minecraft:glow_berries"
+  ],
+  "result": {
+    "id": "afterworld:phial_of_second_wind",
+    "count": 1
+  }
+}

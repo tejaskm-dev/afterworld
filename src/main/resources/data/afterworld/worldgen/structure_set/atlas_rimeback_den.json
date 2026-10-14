@@ -1,0 +1,13 @@
+{
+  "placement": {
+    "type": "afterworld:atlas",
+    "site": "rimeback_den",
+    "salt": 7404
+  },
+  "structures": [
+    {
+      "structure": "afterworld:rimeback_den",
+      "weight": 1
+    }
+  ]
+}

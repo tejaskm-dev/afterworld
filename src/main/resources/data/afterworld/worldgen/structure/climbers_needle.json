@@ -1,0 +1,10 @@
+{
+  "type": "afterworld:wonder",
+  "wonder": "climbers_needle",
+  "sink": 3,
+  "max_relief": 10,
+  "biomes": "#afterworld:has_structure/climbers_needle",
+  "step": "top_layer_modification",
+  "terrain_adaptation": "beard_box",
+  "spawn_overrides": {}
+}

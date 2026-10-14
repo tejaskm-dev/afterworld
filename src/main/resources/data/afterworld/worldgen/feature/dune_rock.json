@@ -1,0 +1,27 @@
+{
+  "type": "afterworld:outcrop",
+  "body": {
+    "type": "minecraft:weighted",
+    "entries": [
+      {
+        "data": "minecraft:sandstone",
+        "weight": 3
+      },
+      {
+        "data": "minecraft:smooth_sandstone",
+        "weight": 1
+      },
+      {
+        "data": "minecraft:cut_sandstone",
+        "weight": 1
+      }
+    ]
+  },
+  "cap_chance": 0.5,
+  "min_size": 1.6,
+  "max_size": 3.2,
+  "lumps": 3,
+  "cap": {
+    "id": "minecraft:sand"
+  }
+}

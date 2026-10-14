@@ -1,0 +1,53 @@
+{
+  "type": "afterworld:ground",
+  "biome": "afterworld:petalfall",
+  "surface": [
+    {
+      "state": "minecraft:moss_block",
+      "noise": 1,
+      "min": 0.0,
+      "max": 0.05
+    }
+  ],
+  "plants": [
+    {
+      "state": {
+        "id": "minecraft:pink_petals",
+        "properties": {
+          "flower_amount": "4"
+        }
+      },
+      "chance": 0.12
+    },
+    {
+      "state": "minecraft:short_grass",
+      "chance": 0.15
+    },
+    {
+      "state": "minecraft:allium",
+      "chance": 0.01
+    },
+    {
+      "state": {
+        "id": "minecraft:peony",
+        "properties": {
+          "half": "lower"
+        }
+      },
+      "chance": 0.006
+    },
+    {
+      "state": {
+        "id": "minecraft:lilac",
+        "properties": {
+          "half": "lower"
+        }
+      },
+      "chance": 0.006
+    },
+    {
+      "state": "minecraft:wildflowers",
+      "chance": 0.03
+    }
+  ]
+}

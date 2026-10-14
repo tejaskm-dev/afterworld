@@ -1,0 +1,454 @@
+{
+ "npc": "mab",
+ "entry": [
+  {
+   "go": "meet",
+   "if": [
+    "!flag:met:mab"
+   ]
+  },
+  {
+   "go": "brew_cook",
+   "if": [
+    "side:brew=0",
+    "has:afterworld:lurker_fang*3",
+    "has:afterworld:bog_amber",
+    "has:afterworld:moth_dust*2"
+   ]
+  },
+  {
+   "go": "brew_progress",
+   "if": [
+    "side:brew=0"
+   ]
+  },
+  {
+   "go": "brew_cook_again",
+   "if": [
+    "side:brew=1"
+   ]
+  },
+  {
+   "go": "brew_test",
+   "if": [
+    "side:brew=2"
+   ]
+  },
+  {
+   "go": "brew_done",
+   "if": [
+    "side:brew=3"
+   ]
+  },
+  {
+   "go": "greet"
+  }
+ ],
+ "nodes": {
+  "meet": {
+   "lines": [
+    {
+     "text": "Heh. Another one wading in. I'm Mab. The fen is mine, and I'm the fen's.",
+     "sound": "afterworld:va.mab.meet_0",
+     "ticks": 185,
+     "cue": "cackles",
+     "beats": [
+      0,
+      730,
+      1880,
+      2620,
+      3350,
+      4570,
+      5310,
+      6440,
+      7310,
+      8040,
+      8870
+     ]
+    },
+    {
+     "text": "Mind the lurkers. They look like logs, right up until they don't.",
+     "sound": "afterworld:va.mab.meet_1",
+     "ticks": 103,
+     "beats": [
+      30,
+      440,
+      850,
+      1380,
+      1860,
+      2260,
+      2700,
+      3320,
+      3750,
+      4170,
+      4670
+     ]
+    }
+   ],
+   "options": [
+    {
+     "text": "Any advice?",
+     "go": "advice"
+    },
+    {
+     "text": "I'd like to cross the water dry.",
+     "go": "brew_offer",
+     "if": [
+      "!side:brew:started"
+     ]
+    },
+    {
+     "text": "What are you brewing?",
+     "go": "#shop"
+    },
+    {
+     "text": "Farewell.",
+     "go": "#end"
+    }
+   ]
+  },
+  "greet": {
+   "lines": [
+    {
+     "text": "Still breathing? The fen likes you, then. Or it's saving you for later.",
+     "sound": "afterworld:va.mab.greet_0",
+     "ticks": 117,
+     "cue": "sly",
+     "beats": [
+      10,
+      460,
+      1380,
+      1820,
+      2260,
+      3210,
+      3650,
+      4140,
+      4580,
+      5020,
+      5460
+     ]
+    }
+   ],
+   "options": [
+    {
+     "text": "Any advice?",
+     "go": "advice"
+    },
+    {
+     "text": "I'd like to cross the water dry.",
+     "go": "brew_offer",
+     "if": [
+      "!side:brew:started"
+     ]
+    },
+    {
+     "text": "What are you brewing?",
+     "go": "#shop"
+    },
+    {
+     "text": "Farewell.",
+     "go": "#end"
+    }
+   ]
+  },
+  "advice": {
+   "lines": [
+    {
+     "text": "Brew before you fight, not after. And never answer the bog when it calls your name.",
+     "sound": "afterworld:va.mab.advice_0",
+     "ticks": 130,
+     "beats": [
+      30,
+      540,
+      1070,
+      1650,
+      2330,
+      3320,
+      3820,
+      4340,
+      4920,
+      5500,
+      6020
+     ]
+    }
+   ],
+   "options": [
+    {
+     "text": "What are you brewing?",
+     "go": "#shop"
+    },
+    {
+     "text": "Farewell.",
+     "go": "#end"
+    }
+   ]
+  },
+  "brew_offer": {
+   "lines": [
+    {
+     "text": "Want to cross my fen without wet boots? Heh. There's a charm for that. But a charm needs a brew, and a brew needs a fool to fetch for it.",
+     "sound": "afterworld:va.mab.brew_offer_0",
+     "ticks": 199,
+     "beats": [
+      30,
+      850,
+      1700,
+      2860,
+      3730,
+      5020,
+      5830,
+      6950,
+      7760,
+      8570,
+      9450
+     ]
+    },
+    {
+     "text": "Three lurker fangs, one lump of bog amber, and two pinches of moth dust. Bring them, and mind the logs.",
+     "sound": "afterworld:va.mab.brew_offer_1",
+     "ticks": 170,
+     "beats": [
+      10,
+      680,
+      1350,
+      2170,
+      2850,
+      3600,
+      4270,
+      5020,
+      6640,
+      7340,
+      8030
+     ]
+    }
+   ],
+   "options": [
+    {
+     "text": "I'll fetch them.",
+     "go": "#end",
+     "do": [
+      "side:brew:start"
+     ]
+    },
+    {
+     "text": "Not now.",
+     "go": "#end"
+    }
+   ]
+  },
+  "brew_progress": {
+   "lines": [
+    {
+     "text": "Fangs, amber, dust. I'll not repeat myself a third time. I will, actually. Fangs. Amber. Dust.",
+     "sound": "afterworld:va.mab.brew_progress_0",
+     "ticks": 214,
+     "cue": "cackles",
+     "beats": [
+      0,
+      990,
+      2020,
+      3280,
+      4100,
+      5200,
+      6100,
+      6920,
+      8090,
+      9140,
+      10240
+     ]
+    }
+   ],
+   "options": [
+    {
+     "text": "What are you brewing?",
+     "go": "#shop"
+    },
+    {
+     "text": "Farewell.",
+     "go": "#end"
+    }
+   ]
+  },
+  "brew_cook": {
+   "lines": [
+    {
+     "text": "Good, good. Now, the cauldron. Drop each one in when the brew turns the right colour, and stir with the bubbles, not against them.",
+     "sound": "afterworld:va.mab.brew_cook_0",
+     "ticks": 195,
+     "beats": [
+      20,
+      860,
+      2210,
+      3380,
+      4210,
+      4990,
+      5790,
+      6770,
+      7560,
+      8430,
+      9280
+     ]
+    }
+   ],
+   "do": [
+    "take:afterworld:lurker_fang*3",
+    "take:afterworld:bog_amber",
+    "take:afterworld:moth_dust*2",
+    "side:brew:advance"
+   ],
+   "options": [
+    {
+     "text": "Start brewing.",
+     "go": "#end",
+     "do": [
+      "minigame:brewing"
+     ]
+    },
+    {
+     "text": "In a moment.",
+     "go": "#end"
+    }
+   ]
+  },
+  "brew_cook_again": {
+   "lines": [
+    {
+     "text": "The cauldron's still hot. Again, and gently this time.",
+     "sound": "afterworld:va.mab.brew_cook_again_0",
+     "ticks": 94,
+     "beats": [
+      20,
+      380,
+      740,
+      1100,
+      1830,
+      2190,
+      2820,
+      3210,
+      3570,
+      3930,
+      4290
+     ]
+    }
+   ],
+   "options": [
+    {
+     "text": "Start brewing.",
+     "go": "#end",
+     "do": [
+      "minigame:brewing"
+     ]
+    },
+    {
+     "text": "Farewell.",
+     "go": "#end"
+    }
+   ]
+  },
+  "brew_test": {
+   "lines": [
+    {
+     "text": "Drink it, and walk out to the dead tree in the middle of the water and back. If you come back dry, the charm is yours.",
+     "sound": "afterworld:va.mab.brew_test_0",
+     "ticks": 152,
+     "beats": [
+      30,
+      700,
+      1450,
+      2070,
+      2700,
+      3320,
+      3940,
+      5080,
+      5700,
+      6490,
+      7110
+     ]
+    },
+    {
+     "text": "If you come back wet, well. It's a learning experience.",
+     "sound": "afterworld:va.mab.brew_test_1",
+     "ticks": 149,
+     "cue": "cackles",
+     "beats": [
+      30,
+      630,
+      1240,
+      2130,
+      3010,
+      3630,
+      4300,
+      4890,
+      5540,
+      6390,
+      7000
+     ]
+    }
+   ],
+   "options": [
+    {
+     "text": "Drink it.",
+     "go": "#end",
+     "do": [
+      "minigame:waterwalk"
+     ]
+    },
+    {
+     "text": "Farewell.",
+     "go": "#end"
+    }
+   ]
+  },
+  "brew_done": {
+   "lines": [
+    {
+     "text": "Dry as a bone! Take the charm. It'll hold you up on water, and on lava that's had a good long think about cooling.",
+     "sound": "afterworld:va.mab.brew_done_0",
+     "ticks": 164,
+     "cue": "cackles",
+     "beats": [
+      20,
+      680,
+      1690,
+      2350,
+      3390,
+      4050,
+      4800,
+      5460,
+      6270,
+      6950,
+      7690
+     ]
+    },
+    {
+     "text": "Don't make a habit of the lava.",
+     "sound": "afterworld:va.mab.brew_done_1",
+     "ticks": 47,
+     "beats": [
+      10,
+      210,
+      400,
+      600,
+      790,
+      980,
+      1180,
+      1370,
+      1570,
+      1760,
+      1950
+     ]
+    }
+   ],
+   "do": [
+    "side:brew:finish",
+    "give:afterworld:mirewalk_charm"
+   ],
+   "options": [
+    {
+     "text": "Thank you, Mab.",
+     "go": "#end"
+    }
+   ]
+  }
+ }
+}

@@ -1,0 +1,32 @@
+{
+  "values": [
+    "afterworld:cinder_beetle",
+    "afterworld:sand_sifter",
+    "afterworld:glyph_scarab",
+    "afterworld:gloomweaver",
+    {
+      "id": "minecraft:spider",
+      "required": false
+    },
+    {
+      "id": "minecraft:cave_spider",
+      "required": false
+    },
+    {
+      "id": "minecraft:silverfish",
+      "required": false
+    },
+    {
+      "id": "minecraft:endermite",
+      "required": false
+    },
+    {
+      "id": "minecraft:bee",
+      "required": false
+    },
+    {
+      "id": "minecraft:shulker",
+      "required": false
+    }
+  ]
+}

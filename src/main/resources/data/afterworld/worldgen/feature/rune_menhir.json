@@ -1,0 +1,29 @@
+{
+  "type": "afterworld:spire",
+  "body": {
+    "type": "minecraft:weighted",
+    "entries": [
+      {
+        "data": "minecraft:stone_bricks",
+        "weight": 3
+      },
+      {
+        "data": "minecraft:mossy_stone_bricks",
+        "weight": 2
+      },
+      {
+        "data": "minecraft:chiseled_stone_bricks",
+        "weight": 1
+      }
+    ]
+  },
+  "style": "taper",
+  "min_height": 4,
+  "max_height": 8,
+  "min_radius": 0.6,
+  "max_radius": 1.0,
+  "glow_chance": 0.04,
+  "glow": {
+    "id": "minecraft:crying_obsidian"
+  }
+}

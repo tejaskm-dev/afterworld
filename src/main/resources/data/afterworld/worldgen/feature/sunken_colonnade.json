@@ -1,0 +1,40 @@
+{
+  "type": "afterworld:ruin",
+  "wall": {
+    "type": "minecraft:weighted",
+    "entries": [
+      {
+        "data": "minecraft:prismarine_bricks",
+        "weight": 2
+      },
+      {
+        "data": "minecraft:stone_bricks",
+        "weight": 2
+      },
+      {
+        "data": "minecraft:mossy_stone_bricks",
+        "weight": 1
+      }
+    ]
+  },
+  "floor": {
+    "type": "minecraft:weighted",
+    "entries": [
+      {
+        "data": "minecraft:prismarine",
+        "weight": 1
+      },
+      {
+        "data": "minecraft:stone_bricks",
+        "weight": 1
+      }
+    ]
+  },
+  "style": "colonnade",
+  "loot_chance": 0.45,
+  "underwater": true,
+  "accent": {
+    "id": "minecraft:sea_lantern"
+  },
+  "loot": "afterworld:chests/sunken_cache"
+}

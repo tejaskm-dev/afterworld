@@ -1,0 +1,18 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "pattern": [
+    "CFC",
+    "FIF",
+    "CFC"
+  ],
+  "key": {
+    "C": "minecraft:copper_ingot",
+    "F": "afterworld:clockwork_fragment",
+    "I": "minecraft:iron_ingot"
+  },
+  "result": {
+    "id": "afterworld:gearwork",
+    "count": 4
+  }
+}

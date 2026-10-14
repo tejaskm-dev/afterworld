@@ -1,0 +1,69 @@
+{
+  "type": "afterworld:cave_decor",
+  "tries": 3,
+  "min_y": -48,
+  "max_y": 50,
+  "radius": 4,
+  "floor_chance": 0.15,
+  "ceiling_chance": 0.3,
+  "floor_paint": {
+    "type": "minecraft:weighted",
+    "entries": [
+      {
+        "data": "minecraft:tuff",
+        "weight": 2
+      },
+      {
+        "data": "minecraft:polished_tuff",
+        "weight": 1
+      },
+      {
+        "data": "minecraft:calcite",
+        "weight": 1
+      }
+    ]
+  },
+  "floor": {
+    "type": "minecraft:weighted",
+    "entries": [
+      {
+        "data": {
+          "id": "minecraft:pointed_dripstone",
+          "properties": {
+            "vertical_direction": "up",
+            "thickness": "tip"
+          }
+        },
+        "weight": 1
+      }
+    ]
+  },
+  "ceiling_paint": {
+    "type": "minecraft:weighted",
+    "entries": [
+      {
+        "data": "minecraft:dripstone_block",
+        "weight": 2
+      },
+      {
+        "data": "minecraft:tuff",
+        "weight": 1
+      }
+    ]
+  },
+  "ceiling": {
+    "type": "minecraft:weighted",
+    "entries": [
+      {
+        "data": {
+          "id": "minecraft:pointed_dripstone",
+          "properties": {
+            "vertical_direction": "down",
+            "thickness": "tip"
+          }
+        },
+        "weight": 1
+      }
+    ]
+  }
+}

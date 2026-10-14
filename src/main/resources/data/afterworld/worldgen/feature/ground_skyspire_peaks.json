@@ -1,0 +1,25 @@
+{
+  "type": "afterworld:ground",
+  "biome": "afterworld:skyspire_peaks",
+  "surface": [
+    {
+      "state": "minecraft:snow_block",
+      "noise": 0,
+      "min": 0.5,
+      "max": 1.01
+    },
+    {
+      "state": "minecraft:calcite",
+      "noise": 1,
+      "min": 0.93,
+      "max": 1.01
+    },
+    {
+      "state": "minecraft:stone",
+      "noise": 1,
+      "min": 0.0,
+      "max": 0.06
+    }
+  ],
+  "plants": []
+}

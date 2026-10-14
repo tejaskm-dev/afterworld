@@ -1,0 +1,10 @@
+{
+  "type": "afterworld:wonder",
+  "wonder": "frozen_mage_tower",
+  "sink": 3,
+  "max_relief": 14,
+  "biomes": "#afterworld:has_structure/frozen_mage_tower",
+  "step": "top_layer_modification",
+  "terrain_adaptation": "beard_box",
+  "spawn_overrides": {}
+}

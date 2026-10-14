@@ -1,0 +1,44 @@
+{
+  "attributes": {
+    "minecraft:visual/sky_color": "#231d4a",
+    "minecraft:visual/fog_color": "#2c2558",
+    "minecraft:visual/star_brightness": 0.55,
+    "minecraft:visual/sun_angle": 180.0,
+    "minecraft:visual/star_angle": 200.0,
+    "minecraft:visual/moon_angle": 330.0,
+    "minecraft:visual/cloud_height": 60.0,
+    "minecraft:visual/cloud_color": "#ff3a3466",
+    "minecraft:visual/sunrise_sunset_color": "#00000000",
+    "minecraft:audio/background_music": {
+      "default": {
+        "max_delay": 6000,
+        "min_delay": 2400,
+        "sound": "afterworld:music.wilds"
+      }
+    },
+    "minecraft:gameplay/natural_mob_spawns": {
+      "argument": {
+        "spawn_costs": {},
+        "spawns_by_category": {
+          "ambient": [],
+          "axolotls": [],
+          "creature": [],
+          "misc": [],
+          "monster": [],
+          "underground_water_creature": [],
+          "water_ambient": [],
+          "water_creature": []
+        }
+      },
+      "modifier": "overlay"
+    }
+  },
+  "carvers": [],
+  "downfall": 0.0,
+  "effects": {
+    "water_color": "#3f76e4"
+  },
+  "features": [],
+  "has_precipitation": false,
+  "temperature": 0.5
+}

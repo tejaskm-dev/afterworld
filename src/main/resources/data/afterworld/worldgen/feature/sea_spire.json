@@ -1,0 +1,29 @@
+{
+  "type": "afterworld:spire",
+  "body": {
+    "type": "minecraft:weighted",
+    "entries": [
+      {
+        "data": "minecraft:prismarine",
+        "weight": 3
+      },
+      {
+        "data": "minecraft:dark_prismarine",
+        "weight": 1
+      },
+      {
+        "data": "minecraft:prismarine_bricks",
+        "weight": 1
+      }
+    ]
+  },
+  "style": "shard",
+  "min_height": 8,
+  "max_height": 18,
+  "min_radius": 1.0,
+  "max_radius": 2.0,
+  "glow_chance": 0.08,
+  "glow": {
+    "id": "minecraft:sea_lantern"
+  }
+}

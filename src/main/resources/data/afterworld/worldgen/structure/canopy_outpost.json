@@ -1,0 +1,10 @@
+{
+  "type": "afterworld:wonder",
+  "wonder": "canopy_outpost",
+  "sink": 3,
+  "max_relief": 12,
+  "biomes": "#afterworld:has_structure/canopy_outpost",
+  "step": "top_layer_modification",
+  "terrain_adaptation": "beard_box",
+  "spawn_overrides": {}
+}

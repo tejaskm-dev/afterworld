@@ -1,0 +1,13 @@
+{
+  "placement": {
+    "type": "afterworld:atlas",
+    "site": "lantern_dojo",
+    "salt": 7403
+  },
+  "structures": [
+    {
+      "structure": "afterworld:lantern_dojo",
+      "weight": 1
+    }
+  ]
+}

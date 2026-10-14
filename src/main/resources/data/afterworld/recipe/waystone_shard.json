@@ -1,0 +1,12 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "category": "misc",
+  "ingredients": [
+    "minecraft:amethyst_shard",
+    "afterworld:root_heartwood"
+  ],
+  "result": {
+    "id": "afterworld:waystone_shard",
+    "count": 2
+  }
+}

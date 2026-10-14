@@ -1,0 +1,16 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "equipment",
+  "pattern": [
+    "A A",
+    "B B"
+  ],
+  "key": {
+    "A": "afterworld:lynx_pelt",
+    "B": "minecraft:leather"
+  },
+  "result": {
+    "id": "afterworld:duskpine_ranger_boots",
+    "count": 1
+  }
+}

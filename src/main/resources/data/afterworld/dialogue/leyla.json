@@ -1,0 +1,225 @@
+{
+ "npc": "leyla",
+ "entry": [
+  {
+   "go": "found",
+   "if": [
+    "side:caravan=1"
+   ]
+  },
+  {
+   "go": "waiting",
+   "if": [
+    "side:caravan=2"
+   ]
+  },
+  {
+   "go": "home",
+   "if": [
+    "side:caravan:finished"
+   ]
+  },
+  {
+   "go": "stranger"
+  }
+ ],
+ "nodes": {
+  "stranger": {
+   "lines": [
+    {
+     "text": "Shh. Keep your voice down. The storm-eaters hunt by sound.",
+     "sound": "afterworld:va.leyla.stranger_0",
+     "ticks": 98,
+     "cue": "whispering",
+     "beats": [
+      0,
+      400,
+      1030,
+      1420,
+      1820,
+      2210,
+      2920,
+      3320,
+      3710,
+      4100,
+      4490
+     ]
+    },
+    {
+     "text": "If you're going back to the Hourglass, find a merchant called Rashid. Tell him his sister is alive, and very, very annoyed.",
+     "sound": "afterworld:va.leyla.stranger_1",
+     "ticks": 163,
+     "beats": [
+      30,
+      710,
+      1380,
+      2190,
+      2860,
+      3980,
+      4650,
+      5330,
+      6240,
+      7030,
+      7700
+     ]
+    }
+   ],
+   "options": [
+    {
+     "text": "Farewell.",
+     "go": "#end"
+    }
+   ]
+  },
+  "found": {
+   "lines": [
+    {
+     "text": "You're not a storm-eater. Rashid sent you? Of course he did. He'd send the whole Guild if it didn't cost him a coin.",
+     "sound": "afterworld:va.leyla.found_0",
+     "ticks": 150,
+     "cue": "relieved",
+     "beats": [
+      20,
+      640,
+      1260,
+      2300,
+      3270,
+      3890,
+      4610,
+      5220,
+      5840,
+      6460,
+      7070
+     ]
+    },
+    {
+     "text": "We hid down here when the sand opened and those things came out. Eight drivers, all alive. Mostly whole.",
+     "sound": "afterworld:va.leyla.found_1",
+     "ticks": 142,
+     "beats": [
+      30,
+      600,
+      1160,
+      1720,
+      2310,
+      2870,
+      3930,
+      4490,
+      5310,
+      6160,
+      6720
+     ]
+    }
+   ],
+   "options": [
+    {
+     "text": "The way out is clear. Go now.",
+     "go": "freed",
+     "if": [
+      "clear:24"
+     ],
+     "do": [
+      "side:caravan:advance",
+      "xp:40"
+     ]
+    },
+    {
+     "text": "Stay hidden. I'll clear the way first.",
+     "go": "#end",
+     "if": [
+      "!clear:24"
+     ]
+    },
+    {
+     "text": "Farewell.",
+     "go": "#end"
+    }
+   ]
+  },
+  "freed": {
+   "lines": [
+    {
+     "text": "Then we walk at dusk. Tell my brother we're coming. And that I counted the spice.",
+     "sound": "afterworld:va.leyla.freed_0",
+     "ticks": 95,
+     "cue": "smiles",
+     "beats": [
+      20,
+      400,
+      780,
+      1490,
+      1860,
+      2240,
+      2620,
+      3190,
+      3570,
+      3950,
+      4320
+     ]
+    }
+   ],
+   "options": [
+    {
+     "text": "Safe road, Leyla.",
+     "go": "#end"
+    }
+   ]
+  },
+  "waiting": {
+   "lines": [
+    {
+     "text": "We leave at dusk. Go on ahead, and tell Rashid to put the kettle on.",
+     "sound": "afterworld:va.leyla.waiting_0",
+     "ticks": 80,
+     "beats": [
+      20,
+      330,
+      640,
+      1260,
+      1560,
+      2010,
+      2320,
+      2620,
+      2930,
+      3240,
+      3540
+     ]
+    }
+   ],
+   "options": [
+    {
+     "text": "Farewell.",
+     "go": "#end"
+    }
+   ]
+  },
+  "home": {
+   "lines": [
+    {
+     "text": "The road's quiet again. The sand owes you one, traveller. So do I.",
+     "sound": "afterworld:va.leyla.home_0",
+     "ticks": 92,
+     "beats": [
+      20,
+      380,
+      740,
+      1100,
+      1790,
+      2140,
+      2500,
+      2860,
+      3530,
+      3890,
+      4240
+     ]
+    }
+   ],
+   "options": [
+    {
+     "text": "Farewell.",
+     "go": "#end"
+    }
+   ]
+  }
+ }
+}

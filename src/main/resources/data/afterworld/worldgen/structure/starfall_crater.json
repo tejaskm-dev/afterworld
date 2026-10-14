@@ -1,0 +1,10 @@
+{
+  "type": "afterworld:wonder",
+  "wonder": "starfall_crater",
+  "sink": 10,
+  "max_relief": 8,
+  "biomes": "#afterworld:has_structure/starfall_crater",
+  "step": "top_layer_modification",
+  "terrain_adaptation": "beard_box",
+  "spawn_overrides": {}
+}

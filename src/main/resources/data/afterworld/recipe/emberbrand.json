@@ -1,0 +1,14 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "category": "misc",
+  "ingredients": [
+    "minecraft:diamond_sword",
+    "afterworld:ember_core",
+    "afterworld:ember_core",
+    "minecraft:blaze_rod"
+  ],
+  "result": {
+    "id": "afterworld:emberbrand",
+    "count": 1
+  }
+}

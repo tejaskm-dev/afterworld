@@ -1,0 +1,14 @@
+{
+  "layers": {
+    "humanoid": [
+      {
+        "texture": "afterworld:gilded_glyphmail"
+      }
+    ],
+    "humanoid_leggings": [
+      {
+        "texture": "afterworld:gilded_glyphmail"
+      }
+    ]
+  }
+}

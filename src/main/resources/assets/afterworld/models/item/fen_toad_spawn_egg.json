@@ -1,0 +1,6 @@
+{
+  "parent": "minecraft:item/generated",
+  "textures": {
+    "layer0": "afterworld:item/fen_toad_spawn_egg"
+  }
+}

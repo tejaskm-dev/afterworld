@@ -1,0 +1,14 @@
+{
+  "placement": {
+    "type": "minecraft:random_spread",
+    "salt": 7105,
+    "separation": 26,
+    "spacing": 60
+  },
+  "structures": [
+    {
+      "structure": "afterworld:angels",
+      "weight": 1
+    }
+  ]
+}

@@ -1,0 +1,6 @@
+{
+  "parent": "minecraft:item/generated",
+  "textures": {
+    "layer0": "afterworld:item/bone_gull_spawn_egg"
+  }
+}

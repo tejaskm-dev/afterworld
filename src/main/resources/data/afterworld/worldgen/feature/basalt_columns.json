@@ -1,0 +1,36 @@
+{
+  "type": "afterworld:spire",
+  "body": {
+    "type": "minecraft:weighted",
+    "entries": [
+      {
+        "data": {
+          "id": "minecraft:basalt",
+          "properties": {
+            "axis": "y"
+          }
+        },
+        "weight": 3
+      },
+      {
+        "data": {
+          "id": "minecraft:polished_basalt",
+          "properties": {
+            "axis": "y"
+          }
+        },
+        "weight": 1
+      },
+      {
+        "data": "minecraft:smooth_basalt",
+        "weight": 1
+      }
+    ]
+  },
+  "style": "columns",
+  "min_height": 4,
+  "max_height": 12,
+  "min_radius": 2.0,
+  "max_radius": 4.0,
+  "glow_chance": 0.0
+}

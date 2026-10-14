@@ -1,0 +1,14 @@
+{
+  "type": "afterworld:ground",
+  "biome": "afterworld:ember_shallows",
+  "surface": [
+    {
+      "state": "minecraft:sand",
+      "noise": 0,
+      "min": 0.0,
+      "max": 1.01
+    }
+  ],
+  "plants": [],
+  "sand": true
+}

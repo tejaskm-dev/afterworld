@@ -1,0 +1,10 @@
+{
+  "type": "afterworld:wonder",
+  "wonder": "angels",
+  "sink": 2,
+  "max_relief": 14,
+  "biomes": "#afterworld:has_structure/angels",
+  "step": "surface_structures",
+  "terrain_adaptation": "beard_box",
+  "spawn_overrides": {}
+}

@@ -1,0 +1,15 @@
+{
+  "type": "afterworld:tree",
+  "log": "minecraft:pale_oak_log",
+  "leaves": {
+    "id": "minecraft:oak_leaves"
+  },
+  "shape": "column",
+  "min_height": 9,
+  "max_height": 14,
+  "snow": false,
+  "hang": {
+    "id": "minecraft:pale_hanging_moss"
+  },
+  "hang_chance": 0.06
+}

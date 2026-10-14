@@ -1,0 +1,6 @@
+{
+  "parent": "minecraft:item/generated",
+  "textures": {
+    "layer0": "afterworld:item/tidecaller_jelly_spawn_egg"
+  }
+}

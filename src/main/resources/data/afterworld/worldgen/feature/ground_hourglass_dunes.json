@@ -1,0 +1,23 @@
+{
+  "type": "afterworld:ground",
+  "biome": "afterworld:hourglass_dunes",
+  "surface": [
+    {
+      "state": "minecraft:smooth_sandstone",
+      "noise": 1,
+      "min": 0.97,
+      "max": 1.01
+    }
+  ],
+  "plants": [
+    {
+      "state": "minecraft:dead_bush",
+      "chance": 0.01
+    },
+    {
+      "state": "minecraft:short_dry_grass",
+      "chance": 0.02
+    }
+  ],
+  "sand": true
+}

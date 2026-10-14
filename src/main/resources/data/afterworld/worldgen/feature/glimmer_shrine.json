@@ -1,0 +1,43 @@
+{
+  "type": "afterworld:ruin",
+  "wall": {
+    "type": "minecraft:weighted",
+    "entries": [
+      {
+        "data": "minecraft:polished_diorite",
+        "weight": 3
+      },
+      {
+        "data": "minecraft:calcite",
+        "weight": 2
+      },
+      {
+        "data": "minecraft:packed_ice",
+        "weight": 1
+      }
+    ]
+  },
+  "floor": {
+    "type": "minecraft:weighted",
+    "entries": [
+      {
+        "data": "minecraft:snow_block",
+        "weight": 1
+      },
+      {
+        "data": "minecraft:calcite",
+        "weight": 1
+      }
+    ]
+  },
+  "style": "colonnade",
+  "loot_chance": 0.4,
+  "underwater": false,
+  "accent": {
+    "id": "minecraft:soul_lantern",
+    "properties": {
+      "hanging": "false"
+    }
+  },
+  "loot": "afterworld:chests/ruin_cache"
+}

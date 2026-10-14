@@ -1,0 +1,10 @@
+{
+  "type": "afterworld:wonder",
+  "wonder": "star_spire",
+  "sink": 3,
+  "max_relief": 10,
+  "biomes": "#afterworld:has_structure/star_spire",
+  "step": "surface_structures",
+  "terrain_adaptation": "beard_box",
+  "spawn_overrides": {}
+}

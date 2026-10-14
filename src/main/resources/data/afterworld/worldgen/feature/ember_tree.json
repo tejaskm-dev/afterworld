@@ -1,0 +1,11 @@
+{
+  "type": "afterworld:tree",
+  "log": "minecraft:acacia_log",
+  "leaves": {
+    "id": "minecraft:acacia_leaves"
+  },
+  "shape": "flat",
+  "min_height": 6,
+  "max_height": 9,
+  "snow": false
+}

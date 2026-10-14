@@ -1,0 +1,9 @@
+version:5023
+onboardAccessibility:false
+resourcePacks:["vanilla","file/Afterworld-Resources.zip","file/Allure_1.28.zip"]
+renderDistance:8
+simulationDistance:6
+enableVsync:false
+maxFps:240
+key_iris.keybind.reload:key.keyboard.unknown
+key_iris.keybind.toggleShaders:key.keyboard.unknown

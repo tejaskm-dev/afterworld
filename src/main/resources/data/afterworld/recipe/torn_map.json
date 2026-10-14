@@ -1,0 +1,12 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "category": "misc",
+  "ingredients": [
+    "minecraft:paper",
+    "afterworld:anomaly_residue"
+  ],
+  "result": {
+    "id": "afterworld:torn_map",
+    "count": 1
+  }
+}

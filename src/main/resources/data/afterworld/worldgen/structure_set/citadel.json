@@ -1,0 +1,14 @@
+{
+  "placement": {
+    "type": "minecraft:random_spread",
+    "salt": 7103,
+    "separation": 36,
+    "spacing": 80
+  },
+  "structures": [
+    {
+      "structure": "afterworld:citadel",
+      "weight": 1
+    }
+  ]
+}

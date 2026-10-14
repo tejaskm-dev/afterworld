@@ -1,0 +1,10 @@
+{
+  "type": "afterworld:wonder",
+  "wonder": "citadel",
+  "sink": 2,
+  "max_relief": 22,
+  "biomes": "#afterworld:has_structure/citadel",
+  "step": "surface_structures",
+  "terrain_adaptation": "beard_box",
+  "spawn_overrides": {}
+}

@@ -1,0 +1,219 @@
+{
+ "npc": "rook",
+ "entry": [
+  {
+   "go": "meet",
+   "if": [
+    "!flag:met:rook"
+   ]
+  },
+  {
+   "go": "greet"
+  }
+ ],
+ "nodes": {
+  "meet": {
+   "lines": [
+    {
+     "text": "Ah! A climber! Welcome to Rook's Landing. Warm fire, fair prices, no refunds.",
+     "sound": "afterworld:va.rook.meet_0",
+     "ticks": 146,
+     "cue": "cheerfully",
+     "beats": [
+      30,
+      680,
+      1240,
+      2110,
+      2660,
+      3220,
+      4160,
+      4840,
+      5390,
+      6180,
+      6830
+     ]
+    },
+    {
+     "text": "I've been on this Ladder longer than your grandmother's grandmother. Never reached the top. Never fell off, either. I take the back stairs.",
+     "sound": "afterworld:va.rook.meet_1",
+     "ticks": 186,
+     "cue": "chuckles",
+     "beats": [
+      20,
+      820,
+      1550,
+      2280,
+      3020,
+      4180,
+      4950,
+      6100,
+      7160,
+      8050,
+      8810
+     ]
+    }
+   ],
+   "options": [
+    {
+     "text": "Show me your wares.",
+     "go": "#shop"
+    },
+    {
+     "text": "What's ahead?",
+     "go": "ahead"
+    },
+    {
+     "text": "Who are you, really?",
+     "go": "who"
+    },
+    {
+     "text": "Farewell.",
+     "go": "#end"
+    }
+   ]
+  },
+  "greet": {
+   "lines": [
+    {
+     "text": "Back again! Sit, sit. The fire doesn't charge.",
+     "sound": "afterworld:va.rook.greet_0",
+     "ticks": 82,
+     "cue": "warmly",
+     "beats": [
+      30,
+      340,
+      650,
+      950,
+      1390,
+      1700,
+      2250,
+      2640,
+      2940,
+      3260,
+      3600
+     ]
+    }
+   ],
+   "options": [
+    {
+     "text": "Show me your wares.",
+     "go": "#shop"
+    },
+    {
+     "text": "What's ahead?",
+     "go": "ahead"
+    },
+    {
+     "text": "Who are you, really?",
+     "go": "who"
+    },
+    {
+     "text": "Farewell.",
+     "go": "#end"
+    }
+   ]
+  },
+  "ahead": {
+   "lines": [
+    {
+     "text": "Five floors to the next landing. Every tenth, a Warden's echo waits. Not the Warden, mind. Just the memory of one. Memories hit just as hard.",
+     "sound": "afterworld:va.rook.ahead_0",
+     "ticks": 220,
+     "cue": "whispers",
+     "beats": [
+      30,
+      800,
+      1590,
+      2930,
+      3840,
+      4640,
+      5890,
+      7060,
+      8060,
+      9610,
+      10450
+     ]
+    },
+    {
+     "text": "Stock up. Drink something red. And if the Ladder throws you out, come back. It always lets you back in.",
+     "sound": "afterworld:va.rook.ahead_1",
+     "ticks": 151,
+     "beats": [
+      20,
+      590,
+      1430,
+      2000,
+      2880,
+      3450,
+      4020,
+      4930,
+      5920,
+      6490,
+      7060
+     ]
+    }
+   ],
+   "options": [
+    {
+     "text": "Show me your wares.",
+     "go": "#shop"
+    },
+    {
+     "text": "Farewell.",
+     "go": "#end"
+    }
+   ]
+  },
+  "who": {
+   "lines": [
+    {
+     "text": "The Edict-writers built this place to prove their Wardens. I swept the floors. Then they left, and I stayed.",
+     "sound": "afterworld:va.rook.who_0",
+     "ticks": 162,
+     "cue": "laughs",
+     "beats": [
+      30,
+      640,
+      1240,
+      1920,
+      2570,
+      3210,
+      4270,
+      5170,
+      6030,
+      6980,
+      7620
+     ]
+    },
+    {
+     "text": "Somebody has to keep the fires lit. And somebody has to sell you potions at a very reasonable markup.",
+     "sound": "afterworld:va.rook.who_1",
+     "ticks": 131,
+     "beats": [
+      30,
+      570,
+      1140,
+      1680,
+      2560,
+      3090,
+      3630,
+      4210,
+      4790,
+      5330,
+      6000
+     ]
+    }
+   ],
+   "options": [
+    {
+     "text": "Show me your wares.",
+     "go": "#shop"
+    },
+    {
+     "text": "Farewell.",
+     "go": "#end"
+    }
+   ]
+  }
+ }
+}

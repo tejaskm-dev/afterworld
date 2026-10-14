@@ -1,0 +1,21 @@
+{
+	"required": true,
+	"package": "dev.afterworld.client.mixin",
+	"compatibilityLevel": "JAVA_25",
+	"client": [
+		"AvatarRendererMixin",
+		"BossHealthOverlayAccessor",
+		"FirstPersonHandsMixin",
+		"GameRendererMixin",
+		"LevelLoadingScreenMixin",
+		"LivingEntityRendererMixin",
+		"LivingSwingMixin",
+		"LoadingOverlayMixin",
+		"MinecraftMixin",
+		"PlayerModelMixin",
+		"TitleScreenMixin"
+	],
+	"injectors": {
+		"defaultRequire": 1
+	}
+}

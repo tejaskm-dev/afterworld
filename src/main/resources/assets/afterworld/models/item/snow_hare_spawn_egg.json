@@ -1,0 +1,6 @@
+{
+  "parent": "minecraft:item/generated",
+  "textures": {
+    "layer0": "afterworld:item/snow_hare_spawn_egg"
+  }
+}

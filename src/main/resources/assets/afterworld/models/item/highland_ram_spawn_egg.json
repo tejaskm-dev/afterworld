@@ -1,0 +1,6 @@
+{
+  "parent": "minecraft:item/generated",
+  "textures": {
+    "layer0": "afterworld:item/highland_ram_spawn_egg"
+  }
+}

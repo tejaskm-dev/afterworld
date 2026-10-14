@@ -1,0 +1,13 @@
+{
+  "placement": {
+    "type": "afterworld:atlas",
+    "site": "gilded_vault",
+    "salt": 7401
+  },
+  "structures": [
+    {
+      "structure": "afterworld:gilded_vault",
+      "weight": 1
+    }
+  ]
+}

@@ -1,0 +1,27 @@
+{
+  "replace": false,
+  "values": [
+    "afterworld:ashen_moor",
+    "afterworld:duskpine_weald",
+    "afterworld:echo_hollows",
+    "afterworld:ember_steppe",
+    "afterworld:frostmere_pines",
+    "afterworld:glimmerfrost",
+    "afterworld:gloomwald",
+    "afterworld:hollowwood",
+    "afterworld:hourglass_dunes",
+    "afterworld:mossmere_wood",
+    "afterworld:pale_reach",
+    "afterworld:petalfall",
+    "afterworld:rimeglass_spires",
+    "afterworld:rootways",
+    "afterworld:rustscar_canyons",
+    "afterworld:shardfields",
+    "afterworld:skyspire_peaks",
+    "afterworld:sporeveil",
+    "afterworld:verdant_tangle",
+    "afterworld:vesper_downs",
+    "afterworld:whitewaste",
+    "afterworld:windworn_highlands"
+  ]
+}

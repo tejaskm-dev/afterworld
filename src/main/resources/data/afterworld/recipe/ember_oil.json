@@ -1,0 +1,12 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "category": "misc",
+  "ingredients": [
+    "afterworld:toad_oil",
+    "minecraft:blaze_powder"
+  ],
+  "result": {
+    "id": "afterworld:ember_oil",
+    "count": 2
+  }
+}

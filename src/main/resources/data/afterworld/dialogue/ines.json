@@ -1,0 +1,454 @@
+{
+ "npc": "ines",
+ "entry": [
+  {
+   "go": "meet",
+   "if": [
+    "!flag:met:ines"
+   ]
+  },
+  {
+   "go": "bell_rope",
+   "if": [
+    "side:bell=0",
+    "has:afterworld:bell_rope"
+   ]
+  },
+  {
+   "go": "bell_progress",
+   "if": [
+    "side:bell=0"
+   ]
+  },
+  {
+   "go": "bell_listen",
+   "if": [
+    "side:bell=1"
+   ]
+  },
+  {
+   "go": "bell_done",
+   "if": [
+    "side:bell=2"
+   ]
+  },
+  {
+   "go": "greet"
+  }
+ ],
+ "nodes": {
+  "meet": {
+   "lines": [
+    {
+     "text": "Peace, traveller. I am Sister Ines, of the Morrow Court. We remember the dead, so that they may rest.",
+     "sound": "afterworld:va.ines.meet_0",
+     "ticks": 180,
+     "beats": [
+      10,
+      730,
+      1450,
+      2170,
+      2890,
+      3610,
+      4570,
+      5290,
+      6010,
+      6730,
+      7610
+     ]
+    },
+    {
+     "text": "The bell of this chapel drowned long ago. Still, some nights, I hear it ring.",
+     "sound": "afterworld:va.ines.meet_1",
+     "ticks": 153,
+     "beats": [
+      30,
+      650,
+      1260,
+      1870,
+      2480,
+      3280,
+      3890,
+      4500,
+      5110,
+      5720,
+      6400
+     ]
+    }
+   ],
+   "options": [
+    {
+     "text": "Can you tend my wounds?",
+     "go": "heal",
+     "do": [
+      "heal"
+     ]
+    },
+    {
+     "text": "Who rings it?",
+     "go": "bell_offer",
+     "if": [
+      "!side:bell:started"
+     ]
+    },
+    {
+     "text": "What do you keep here?",
+     "go": "#shop"
+    },
+    {
+     "text": "Farewell.",
+     "go": "#end"
+    }
+   ]
+  },
+  "greet": {
+   "lines": [
+    {
+     "text": "Welcome back. The candles burned steady while you were gone.",
+     "sound": "afterworld:va.ines.greet_0",
+     "ticks": 103,
+     "beats": [
+      20,
+      410,
+      800,
+      1190,
+      1580,
+      1970,
+      2360,
+      2750,
+      3140,
+      3530,
+      3970
+     ]
+    }
+   ],
+   "options": [
+    {
+     "text": "Can you tend my wounds?",
+     "go": "heal",
+     "do": [
+      "heal"
+     ]
+    },
+    {
+     "text": "Who rings the bell?",
+     "go": "bell_offer",
+     "if": [
+      "!side:bell:started"
+     ]
+    },
+    {
+     "text": "What do the crypt records say?",
+     "go": "lich",
+     "if": [
+      "chapter>=3"
+     ]
+    },
+    {
+     "text": "What do you keep here?",
+     "go": "#shop"
+    },
+    {
+     "text": "Farewell.",
+     "go": "#end"
+    }
+   ]
+  },
+  "heal": {
+   "lines": [
+    {
+     "text": "There. Rest a moment. The road will wait for you. It always does.",
+     "sound": "afterworld:va.ines.heal_0",
+     "ticks": 133,
+     "beats": [
+      20,
+      540,
+      1060,
+      1580,
+      2100,
+      2620,
+      3140,
+      3660,
+      4180,
+      4700,
+      5270
+     ]
+    }
+   ],
+   "options": [
+    {
+     "text": "Farewell.",
+     "go": "#end"
+    }
+   ]
+  },
+  "bell_offer": {
+   "lines": [
+    {
+     "text": "Some nights a voice hums near the altar. A child's voice, I think. The bell-ringer's apprentice, who drowned with the bell.",
+     "sound": "afterworld:va.ines.bell_offer_0",
+     "ticks": 191,
+     "beats": [
+      20,
+      760,
+      1500,
+      2240,
+      3220,
+      3960,
+      4700,
+      5830,
+      6570,
+      7330,
+      8090
+     ]
+    },
+    {
+     "text": "The bell's rope was carried off by the tide. It lies in the drowned shrine on the coast, if the old records are right. Bring it back, and perhaps she can finish her song.",
+     "sound": "afterworld:va.ines.bell_offer_1",
+     "ticks": 235,
+     "beats": [
+      30,
+      950,
+      1870,
+      3130,
+      4040,
+      4960,
+      5900,
+      7340,
+      8320,
+      9240,
+      10240
+     ]
+    }
+   ],
+   "options": [
+    {
+     "text": "I'll find the rope.",
+     "go": "#end",
+     "do": [
+      "side:bell:start"
+     ]
+    },
+    {
+     "text": "Not now.",
+     "go": "#end"
+    }
+   ]
+  },
+  "bell_progress": {
+   "lines": [
+    {
+     "text": "The drowned shrine, on the coast. Go carefully. The sea keeps what it takes.",
+     "sound": "afterworld:va.ines.bell_progress_0",
+     "ticks": 155,
+     "beats": [
+      20,
+      640,
+      1260,
+      1870,
+      2490,
+      3100,
+      3720,
+      4340,
+      4950,
+      5570,
+      6200
+     ]
+    }
+   ],
+   "options": [
+    {
+     "text": "Farewell.",
+     "go": "#end"
+    }
+   ]
+  },
+  "bell_rope": {
+   "lines": [
+    {
+     "text": "The rope! It's still whole. Bring it to the altar bells, and listen.",
+     "sound": "afterworld:va.ines.bell_rope_0",
+     "ticks": 119,
+     "beats": [
+      20,
+      490,
+      950,
+      1410,
+      1880,
+      2340,
+      2800,
+      3270,
+      3730,
+      4190,
+      4690
+     ]
+    },
+    {
+     "text": "When the humming starts, ring the small bells in the same order. Gently.",
+     "sound": "afterworld:va.ines.bell_rope_1",
+     "ticks": 124,
+     "cue": "softly",
+     "beats": [
+      20,
+      500,
+      980,
+      1460,
+      1940,
+      2420,
+      2900,
+      3380,
+      3860,
+      4340,
+      4850
+     ]
+    }
+   ],
+   "do": [
+    "take:afterworld:bell_rope",
+    "side:bell:advance"
+   ],
+   "options": [
+    {
+     "text": "I'll listen.",
+     "go": "#end",
+     "do": [
+      "minigame:melody"
+     ]
+    }
+   ]
+  },
+  "bell_listen": {
+   "lines": [
+    {
+     "text": "Ring them as she hums. If you lose the tune, she will hum it again.",
+     "sound": "afterworld:va.ines.bell_listen_0",
+     "ticks": 118,
+     "beats": [
+      10,
+      470,
+      920,
+      1380,
+      1990,
+      2450,
+      2900,
+      3360,
+      3810,
+      4270,
+      4770
+     ]
+    }
+   ],
+   "options": [
+    {
+     "text": "Listen again.",
+     "go": "#end",
+     "do": [
+      "minigame:melody"
+     ]
+    },
+    {
+     "text": "Farewell.",
+     "go": "#end"
+    }
+   ]
+  },
+  "bell_done": {
+   "lines": [
+    {
+     "text": "She finished it. Did you hear? The whole song.",
+     "sound": "afterworld:va.ines.bell_done_0",
+     "ticks": 117,
+     "cue": "softly",
+     "beats": [
+      0,
+      390,
+      780,
+      2150,
+      2540,
+      2930,
+      3320,
+      3710,
+      4100,
+      4490,
+      4880
+     ]
+    },
+    {
+     "text": "This bell is hers. Ring it, and it will lift you, the way a song lifts a heavy heart. Up, and up.",
+     "sound": "afterworld:va.ines.bell_done_1",
+     "ticks": 194,
+     "beats": [
+      30,
+      780,
+      1530,
+      2290,
+      3040,
+      3790,
+      4540,
+      5290,
+      6910,
+      7660,
+      8430
+     ]
+    }
+   ],
+   "do": [
+    "side:bell:finish",
+    "give:afterworld:skyward_bell"
+   ],
+   "options": [
+    {
+     "text": "Thank you, Sister.",
+     "go": "#end"
+    }
+   ]
+  },
+  "lich": {
+   "lines": [
+    {
+     "text": "The records speak of a lich who hid his heart in three places. A barrow on the Vesper Downs. An ossuary gate in the Pale Reach. And his own necropolis.",
+     "sound": "afterworld:va.ines.lich_0",
+     "ticks": 236,
+     "beats": [
+      30,
+      1000,
+      1960,
+      2930,
+      3890,
+      5200,
+      6260,
+      7230,
+      8190,
+      9190,
+      10210
+     ]
+    },
+    {
+     "text": "Break all three, or he will not stay down. The Court will pray for you. It helps more than you'd think.",
+     "sound": "afterworld:va.ines.lich_1",
+     "ticks": 163,
+     "cue": "quietly",
+     "beats": [
+      30,
+      650,
+      1270,
+      1890,
+      2500,
+      3120,
+      3920,
+      4530,
+      5530,
+      6150,
+      6800
+     ]
+    }
+   ],
+   "options": [
+    {
+     "text": "Farewell.",
+     "go": "#end"
+    }
+   ]
+  }
+ }
+}

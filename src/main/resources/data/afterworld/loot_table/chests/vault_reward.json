@@ -1,0 +1,129 @@
+{
+  "type": "minecraft:chest",
+  "pools": [
+    {
+      "rolls": {
+        "type": "minecraft:uniform",
+        "min": 4,
+        "max": 7
+      },
+      "entries": [
+        {
+          "type": "minecraft:item",
+          "name": "afterworld:clockwork_fragment",
+          "weight": 6,
+          "modifier": {
+            "type": "minecraft:set_count",
+            "count": {
+              "type": "minecraft:uniform",
+              "min": 2,
+              "max": 5
+            }
+          }
+        },
+        {
+          "type": "minecraft:item",
+          "name": "minecraft:gold_ingot",
+          "weight": 4,
+          "modifier": {
+            "type": "minecraft:set_count",
+            "count": {
+              "type": "minecraft:uniform",
+              "min": 2,
+              "max": 5
+            }
+          }
+        },
+        {
+          "type": "minecraft:item",
+          "name": "minecraft:diamond",
+          "weight": 2,
+          "modifier": {
+            "type": "minecraft:set_count",
+            "count": {
+              "type": "minecraft:uniform",
+              "min": 1,
+              "max": 2
+            }
+          }
+        },
+        {
+          "type": "minecraft:item",
+          "name": "minecraft:clock",
+          "weight": 2
+        },
+        {
+          "type": "minecraft:item",
+          "name": "minecraft:emerald",
+          "weight": 4,
+          "modifier": {
+            "type": "minecraft:set_count",
+            "count": {
+              "type": "minecraft:uniform",
+              "min": 3,
+              "max": 8
+            }
+          }
+        },
+        {
+          "type": "minecraft:item",
+          "name": "afterworld:anomaly_residue",
+          "weight": 3,
+          "modifier": {
+            "type": "minecraft:set_count",
+            "count": {
+              "type": "minecraft:uniform",
+              "min": 2,
+              "max": 5
+            }
+          }
+        }
+      ]
+    },
+    {
+      "rolls": 1,
+      "entries": [
+        {
+          "type": "minecraft:item",
+          "name": "afterworld:edict_fragment_return",
+          "weight": 1
+        },
+        {
+          "type": "minecraft:item",
+          "name": "afterworld:edict_fragment_echoes",
+          "weight": 1
+        },
+        {
+          "type": "minecraft:item",
+          "name": "afterworld:edict_fragment_weightlessness",
+          "weight": 1
+        },
+        {
+          "type": "minecraft:item",
+          "name": "afterworld:edict_fragment_hunger",
+          "weight": 1
+        },
+        {
+          "type": "minecraft:item",
+          "name": "afterworld:edict_fragment_hospitality",
+          "weight": 1
+        },
+        {
+          "type": "minecraft:item",
+          "name": "afterworld:edict_fragment_stillness",
+          "weight": 1
+        },
+        {
+          "type": "minecraft:item",
+          "name": "afterworld:edict_fragment_witness",
+          "weight": 1
+        },
+        {
+          "type": "minecraft:item",
+          "name": "afterworld:edict_fragment_forgotten",
+          "weight": 1
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,19 @@
+{
+  "type": "afterworld:giant_mushroom",
+  "stem": "minecraft:mushroom_stem",
+  "cap": {
+    "type": "minecraft:weighted",
+    "entries": [
+      {
+        "data": "minecraft:red_mushroom_block",
+        "weight": 1
+      }
+    ]
+  },
+  "shape": "flat",
+  "min_height": 5,
+  "max_height": 9,
+  "min_cap": 3,
+  "max_cap": 4,
+  "spot_chance": 0.12
+}

@@ -1,0 +1,12 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "category": "misc",
+  "ingredients": [
+    "afterworld:toad_oil",
+    "minecraft:spider_eye"
+  ],
+  "result": {
+    "id": "afterworld:venom_oil",
+    "count": 2
+  }
+}

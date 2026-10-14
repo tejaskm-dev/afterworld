@@ -1,0 +1,30 @@
+{
+  "type": "afterworld:spire",
+  "body": {
+    "type": "minecraft:weighted",
+    "entries": [
+      {
+        "data": "minecraft:packed_mud",
+        "weight": 2
+      },
+      {
+        "data": "minecraft:mud_bricks",
+        "weight": 1
+      },
+      {
+        "data": "minecraft:terracotta",
+        "weight": 1
+      },
+      {
+        "data": "minecraft:brown_terracotta",
+        "weight": 1
+      }
+    ]
+  },
+  "style": "taper",
+  "min_height": 4,
+  "max_height": 9,
+  "min_radius": 1.4,
+  "max_radius": 2.4,
+  "glow_chance": 0.0
+}

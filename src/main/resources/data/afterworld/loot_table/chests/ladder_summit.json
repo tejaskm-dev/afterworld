@@ -1,0 +1,179 @@
+{
+  "type": "minecraft:chest",
+  "pools": [
+    {
+      "rolls": 1,
+      "entries": [
+        {
+          "type": "minecraft:item",
+          "name": "afterworld:gold_crown",
+          "weight": 1,
+          "modifier": [
+            {
+              "type": "minecraft:set_count",
+              "count": {
+                "type": "minecraft:uniform",
+                "min": 12,
+                "max": 18
+              }
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "rolls": 1,
+      "entries": [
+        {
+          "type": "minecraft:item",
+          "name": "afterworld:edict_shard",
+          "weight": 1,
+          "modifier": [
+            {
+              "type": "minecraft:set_count",
+              "count": {
+                "type": "minecraft:uniform",
+                "min": 3,
+                "max": 4
+              }
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "rolls": 2,
+      "entries": [
+        {
+          "type": "minecraft:item",
+          "name": "afterworld:amulet_of_quiet_steps",
+          "weight": 1
+        },
+        {
+          "type": "minecraft:item",
+          "name": "afterworld:mothlantern_locket",
+          "weight": 1
+        },
+        {
+          "type": "minecraft:item",
+          "name": "afterworld:emberheart_pendant",
+          "weight": 1
+        },
+        {
+          "type": "minecraft:item",
+          "name": "afterworld:rimecore_charm",
+          "weight": 1
+        },
+        {
+          "type": "minecraft:item",
+          "name": "afterworld:gearsprung_anklet",
+          "weight": 1
+        },
+        {
+          "type": "minecraft:item",
+          "name": "afterworld:warden_glyph_ring",
+          "weight": 1
+        }
+      ]
+    },
+    {
+      "rolls": {
+        "type": "minecraft:uniform",
+        "min": 2,
+        "max": 3
+      },
+      "entries": [
+        {
+          "type": "minecraft:item",
+          "name": "afterworld:moonsilver_rapier",
+          "weight": 1
+        },
+        {
+          "type": "minecraft:item",
+          "name": "afterworld:duskpine_longbow",
+          "weight": 1
+        },
+        {
+          "type": "minecraft:item",
+          "name": "afterworld:wayfarers_fang",
+          "weight": 1
+        },
+        {
+          "type": "minecraft:item",
+          "name": "afterworld:emberbrand",
+          "weight": 1
+        },
+        {
+          "type": "minecraft:item",
+          "name": "afterworld:ashen_warbanner",
+          "weight": 1
+        },
+        {
+          "type": "minecraft:item",
+          "name": "afterworld:echo_edge",
+          "weight": 1
+        },
+        {
+          "type": "minecraft:item",
+          "name": "afterworld:rimefang_spear",
+          "weight": 1
+        },
+        {
+          "type": "minecraft:item",
+          "name": "afterworld:starweavers_wand",
+          "weight": 1
+        },
+        {
+          "type": "minecraft:item",
+          "name": "afterworld:dunewalkers_chain",
+          "weight": 1
+        },
+        {
+          "type": "minecraft:item",
+          "name": "afterworld:gearspring_maul",
+          "weight": 1
+        },
+        {
+          "type": "minecraft:item",
+          "name": "afterworld:brassmere_repeater",
+          "weight": 1
+        },
+        {
+          "type": "minecraft:item",
+          "name": "afterworld:shardsong_glaive",
+          "weight": 1
+        },
+        {
+          "type": "minecraft:item",
+          "name": "afterworld:mirrorglass_chakram",
+          "weight": 1
+        },
+        {
+          "type": "minecraft:item",
+          "name": "afterworld:thunderdrum_gauntlets",
+          "weight": 1
+        }
+      ]
+    },
+    {
+      "rolls": 1,
+      "entries": [
+        {
+          "type": "minecraft:item",
+          "name": "minecraft:enchanted_golden_apple",
+          "weight": 1
+        }
+      ]
+    },
+    {
+      "rolls": 1,
+      "entries": [
+        {
+          "type": "minecraft:item",
+          "name": "minecraft:netherite_ingot",
+          "weight": 1
+        }
+      ]
+    }
+  ]
+}

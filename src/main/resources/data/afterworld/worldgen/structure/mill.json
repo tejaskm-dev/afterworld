@@ -1,0 +1,10 @@
+{
+  "type": "afterworld:wonder",
+  "wonder": "mill",
+  "sink": 5,
+  "max_relief": 12,
+  "biomes": "#afterworld:has_structure/mill",
+  "step": "surface_structures",
+  "terrain_adaptation": "beard_box",
+  "spawn_overrides": {}
+}

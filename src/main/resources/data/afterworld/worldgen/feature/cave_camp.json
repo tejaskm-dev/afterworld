@@ -1,0 +1,7 @@
+{
+  "type": "afterworld:cave_camp",
+  "tries": 4,
+  "min_y": -48,
+  "max_y": 40,
+  "loot": "afterworld:chests/cave_cache"
+}

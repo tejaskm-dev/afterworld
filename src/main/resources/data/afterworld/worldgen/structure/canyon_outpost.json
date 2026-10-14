@@ -1,0 +1,10 @@
+{
+  "type": "afterworld:wonder",
+  "wonder": "canyon_outpost",
+  "sink": 3,
+  "max_relief": 14,
+  "biomes": "#afterworld:has_structure/canyon_outpost",
+  "step": "top_layer_modification",
+  "terrain_adaptation": "beard_box",
+  "spawn_overrides": {}
+}

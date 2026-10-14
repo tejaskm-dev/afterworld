@@ -1,0 +1,22 @@
+{
+  "variants": {
+    "active=false,kind=gate": {
+      "model": "afterworld:block/ladder_stone_gate"
+    },
+    "active=true,kind=gate": {
+      "model": "afterworld:block/ladder_stone_gate"
+    },
+    "active=false,kind=up": {
+      "model": "afterworld:block/ladder_stone_up"
+    },
+    "active=true,kind=up": {
+      "model": "afterworld:block/ladder_stone_up_active"
+    },
+    "active=false,kind=out": {
+      "model": "afterworld:block/ladder_stone_out"
+    },
+    "active=true,kind=out": {
+      "model": "afterworld:block/ladder_stone_out_active"
+    }
+  }
+}

@@ -1,0 +1,43 @@
+{
+  "type": "afterworld:ruin",
+  "wall": {
+    "type": "minecraft:weighted",
+    "entries": [
+      {
+        "data": "minecraft:deepslate_bricks",
+        "weight": 3
+      },
+      {
+        "data": "minecraft:cracked_deepslate_bricks",
+        "weight": 2
+      },
+      {
+        "data": "minecraft:cobbled_deepslate",
+        "weight": 1
+      }
+    ]
+  },
+  "floor": {
+    "type": "minecraft:weighted",
+    "entries": [
+      {
+        "data": "minecraft:deepslate_tiles",
+        "weight": 2
+      },
+      {
+        "data": "minecraft:cobbled_deepslate",
+        "weight": 1
+      }
+    ]
+  },
+  "style": "walls",
+  "loot_chance": 0.4,
+  "underwater": false,
+  "accent": {
+    "id": "minecraft:soul_lantern",
+    "properties": {
+      "hanging": "false"
+    }
+  },
+  "loot": "afterworld:chests/ruin_cache"
+}

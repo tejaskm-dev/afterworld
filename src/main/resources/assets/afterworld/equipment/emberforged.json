@@ -1,0 +1,14 @@
+{
+  "layers": {
+    "humanoid": [
+      {
+        "texture": "afterworld:emberforged"
+      }
+    ],
+    "humanoid_leggings": [
+      {
+        "texture": "afterworld:emberforged"
+      }
+    ]
+  }
+}

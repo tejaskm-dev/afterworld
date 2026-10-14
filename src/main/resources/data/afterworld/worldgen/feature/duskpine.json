@@ -1,0 +1,25 @@
+{
+  "type": "afterworld:tree",
+  "log": "minecraft:spruce_log",
+  "leaves": {
+    "type": "minecraft:weighted",
+    "entries": [
+      {
+        "data": "minecraft:spruce_leaves",
+        "weight": 4
+      },
+      {
+        "data": "minecraft:azalea_leaves",
+        "weight": 1
+      }
+    ]
+  },
+  "shape": "cone",
+  "min_height": 11,
+  "max_height": 19,
+  "snow": false,
+  "hang": {
+    "id": "minecraft:pale_hanging_moss"
+  },
+  "hang_chance": 0.05
+}

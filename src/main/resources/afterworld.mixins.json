@@ -1,0 +1,26 @@
+{
+	"required": true,
+	"package": "dev.afterworld.mixin",
+	"compatibilityLevel": "JAVA_25",
+	"mixins": [
+		"AbstractVillagerMixin",
+		"InventoryMixin",
+		"ItemEntityMixin",
+		"LivingEntityMixin",
+		"MobAccessor",
+		"MannequinAccessor",
+		"MobMixin",
+		"MultiNoiseBiomeSourceMixin",
+		"MultiNoiseBiomeSourceParameterListMixin",
+		"RandomSpreadPlacementMixin",
+		"SpreadPlacementAccessor",
+		"StructureStateAccessor",
+		"StoppedMobMixin"
+	],
+	"injectors": {
+		"defaultRequire": 1
+	},
+	"overwrites": {
+		"requireAnnotations": true
+	}
+}

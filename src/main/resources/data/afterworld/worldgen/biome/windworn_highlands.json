@@ -1,0 +1,282 @@
+{
+  "attributes": {
+    "minecraft:audio/background_music": {
+      "default": {
+        "max_delay": 24000,
+        "min_delay": 12000,
+        "sound": "afterworld:music.wilds"
+      }
+    },
+    "minecraft:gameplay/creature_world_gen_spawn_probability": 0.14,
+    "minecraft:gameplay/natural_mob_spawns": {
+      "argument": {
+        "spawn_costs": {},
+        "spawns_by_category": {
+          "ambient": [
+            {
+              "type": "minecraft:bat",
+              "count": 8,
+              "weight": 5
+            }
+          ],
+          "creature": [
+            {
+              "type": "minecraft:sheep",
+              "count": 4,
+              "weight": 5
+            },
+            {
+              "type": "minecraft:pig",
+              "count": 4,
+              "weight": 4
+            },
+            {
+              "type": "minecraft:chicken",
+              "count": 4,
+              "weight": 4
+            },
+            {
+              "type": "minecraft:cow",
+              "count": 4,
+              "weight": 4
+            },
+            {
+              "type": "minecraft:llama",
+              "count": {
+                "type": "minecraft:uniform",
+                "max_inclusive": 6,
+                "min_inclusive": 4
+              },
+              "weight": 2
+            },
+            {
+              "type": "afterworld:hollow_stag",
+              "count": {
+                "type": "minecraft:uniform",
+                "min_inclusive": 1,
+                "max_inclusive": 3
+              },
+              "weight": 8
+            },
+            {
+              "type": "afterworld:crow",
+              "count": {
+                "type": "minecraft:uniform",
+                "min_inclusive": 2,
+                "max_inclusive": 3
+              },
+              "weight": 6
+            },
+            {
+              "type": "afterworld:rimehorn",
+              "count": {
+                "type": "minecraft:uniform",
+                "min_inclusive": 1,
+                "max_inclusive": 3
+              },
+              "weight": 4
+            },
+            {
+              "type": "afterworld:highland_ram",
+              "count": {
+                "type": "minecraft:uniform",
+                "min_inclusive": 2,
+                "max_inclusive": 4
+              },
+              "weight": 12
+            },
+            {
+              "type": "afterworld:windrider_eagle",
+              "count": 1,
+              "weight": 5
+            }
+          ],
+          "monster": [
+            {
+              "type": "minecraft:spider",
+              "count": 4,
+              "weight": 30
+            },
+            {
+              "type": "minecraft:zombie",
+              "count": 4,
+              "weight": 28
+            },
+            {
+              "type": "minecraft:zombie_villager",
+              "count": 1,
+              "weight": 2
+            },
+            {
+              "type": "minecraft:skeleton",
+              "count": 4,
+              "weight": 30
+            },
+            {
+              "type": "minecraft:creeper",
+              "count": 4,
+              "weight": 30
+            },
+            {
+              "type": "minecraft:slime",
+              "count": 4,
+              "weight": 30
+            },
+            {
+              "type": "minecraft:enderman",
+              "count": {
+                "type": "minecraft:uniform",
+                "max_inclusive": 4,
+                "min_inclusive": 1
+              },
+              "weight": 3
+            },
+            {
+              "type": "minecraft:witch",
+              "count": 1,
+              "weight": 2
+            },
+            {
+              "type": "afterworld:gearhound",
+              "count": {
+                "type": "minecraft:uniform",
+                "min_inclusive": 2,
+                "max_inclusive": 3
+              },
+              "weight": 15
+            },
+            {
+              "type": "afterworld:rule_wraith",
+              "count": 1,
+              "weight": 10
+            },
+            {
+              "type": "afterworld:rime_wight",
+              "count": 1,
+              "weight": 8
+            },
+            {
+              "type": "afterworld:dusk_hound",
+              "count": {
+                "type": "minecraft:uniform",
+                "min_inclusive": 2,
+                "max_inclusive": 4
+              },
+              "weight": 15
+            }
+          ],
+          "underground_water_creature": [
+            {
+              "type": "minecraft:glow_squid",
+              "count": {
+                "type": "minecraft:uniform",
+                "max_inclusive": 6,
+                "min_inclusive": 4
+              },
+              "weight": 10
+            }
+          ]
+        }
+      },
+      "modifier": "overlay"
+    },
+    "minecraft:visual/ambient_particles": {
+      "argument": [
+        {
+          "particle": {
+            "type": "afterworld:mote",
+            "color": -3614520
+          },
+          "probability": 0.0005
+        }
+      ],
+      "modifier": "append"
+    },
+    "minecraft:visual/cloud_height": 300.0,
+    "minecraft:visual/fog_color": "#c8d0d8",
+    "minecraft:visual/sky_color": "#9ab4cc",
+    "minecraft:visual/water_fog_color": "#385a7a"
+  },
+  "carvers": [
+    "minecraft:cave",
+    "minecraft:cave_extra_underground",
+    "minecraft:canyon"
+  ],
+  "downfall": 0.4,
+  "effects": {
+    "water_color": "#4a6a8a",
+    "grass_color": "#7f9a6a",
+    "foliage_color": "#6f8a5a"
+  },
+  "features": [
+    [
+      "afterworld:ground_windworn_highlands"
+    ],
+    [
+      "minecraft:lake_lava_underground",
+      "minecraft:lake_lava_surface"
+    ],
+    [
+      "minecraft:amethyst_geode"
+    ],
+    [
+      "minecraft:monster_room",
+      "minecraft:monster_room_deep"
+    ],
+    [],
+    [],
+    [
+      "minecraft:ore_dirt",
+      "minecraft:ore_gravel",
+      "minecraft:ore_granite_upper",
+      "minecraft:ore_granite_lower",
+      "minecraft:ore_diorite_upper",
+      "minecraft:ore_diorite_lower",
+      "minecraft:ore_andesite_upper",
+      "minecraft:ore_andesite_lower",
+      "minecraft:ore_tuff",
+      "minecraft:ore_coal_upper",
+      "minecraft:ore_coal_lower",
+      "minecraft:ore_iron_upper",
+      "minecraft:ore_iron_middle",
+      "minecraft:ore_iron_small",
+      "minecraft:ore_gold",
+      "minecraft:ore_gold_lower",
+      "minecraft:ore_redstone",
+      "minecraft:ore_redstone_lower",
+      "minecraft:ore_diamond",
+      "minecraft:ore_diamond_medium",
+      "minecraft:ore_diamond_large",
+      "minecraft:ore_diamond_buried",
+      "minecraft:ore_lapis",
+      "minecraft:ore_lapis_buried",
+      "minecraft:ore_copper",
+      "minecraft:underwater_magma",
+      "minecraft:disk_sand",
+      "minecraft:disk_clay",
+      "minecraft:disk_gravel",
+      "minecraft:ore_emerald"
+    ],
+    [
+      "afterworld:cave_camp",
+      "afterworld:cave_glimmer",
+      "minecraft:ore_infested"
+    ],
+    [
+      "minecraft:spring_water",
+      "minecraft:spring_lava"
+    ],
+    [
+      "afterworld:standing_stones",
+      "afterworld:rune_menhir",
+      "afterworld:windworn_tree",
+      "afterworld:highland_boulder",
+      "afterworld:highland_tower"
+    ],
+    [
+      "minecraft:freeze_top_layer"
+    ]
+  ],
+  "has_precipitation": true,
+  "temperature": 0.3
+}

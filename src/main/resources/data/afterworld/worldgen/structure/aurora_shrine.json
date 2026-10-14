@@ -1,0 +1,10 @@
+{
+  "type": "afterworld:wonder",
+  "wonder": "aurora_shrine",
+  "sink": 3,
+  "max_relief": 8,
+  "biomes": "#afterworld:has_structure/aurora_shrine",
+  "step": "top_layer_modification",
+  "terrain_adaptation": "beard_box",
+  "spawn_overrides": {}
+}

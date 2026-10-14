@@ -1,0 +1,8 @@
+{
+  "parent": "minecraft:block/cube_bottom_top",
+  "textures": {
+    "top": "afterworld:block/seal_top",
+    "side": "afterworld:block/seal_side",
+    "bottom": "afterworld:block/seal_side"
+  }
+}

@@ -1,0 +1,11 @@
+{
+  "values": [
+    "afterworld:ice_crawler",
+    "afterworld:rime_wight",
+    "afterworld:rimeback_colossus",
+    {
+      "id": "minecraft:snow_golem",
+      "required": false
+    }
+  ]
+}

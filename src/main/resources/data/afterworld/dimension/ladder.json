@@ -1,0 +1,13 @@
+{
+  "type": "afterworld:ladder",
+  "generator": {
+    "type": "minecraft:flat",
+    "settings": {
+      "layers": [],
+      "biome": "afterworld:ladder_void",
+      "lakes": false,
+      "features": false,
+      "structure_overrides": []
+    }
+  }
+}

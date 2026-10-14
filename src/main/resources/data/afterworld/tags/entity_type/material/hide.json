@@ -1,0 +1,82 @@
+{
+  "values": [
+    "afterworld:dune_strider",
+    "afterworld:thornback_boar",
+    "afterworld:highland_ram",
+    "afterworld:floe_seal",
+    "afterworld:tusked_narwhal",
+    "afterworld:rimehorn",
+    "afterworld:rime_brute",
+    "afterworld:skywhale",
+    "afterworld:duskstrider",
+    "afterworld:hollow_stag",
+    {
+      "id": "minecraft:cow",
+      "required": false
+    },
+    {
+      "id": "minecraft:mooshroom",
+      "required": false
+    },
+    {
+      "id": "minecraft:horse",
+      "required": false
+    },
+    {
+      "id": "minecraft:donkey",
+      "required": false
+    },
+    {
+      "id": "minecraft:mule",
+      "required": false
+    },
+    {
+      "id": "minecraft:llama",
+      "required": false
+    },
+    {
+      "id": "minecraft:trader_llama",
+      "required": false
+    },
+    {
+      "id": "minecraft:camel",
+      "required": false
+    },
+    {
+      "id": "minecraft:hoglin",
+      "required": false
+    },
+    {
+      "id": "minecraft:zoglin",
+      "required": false
+    },
+    {
+      "id": "minecraft:ravager",
+      "required": false
+    },
+    {
+      "id": "minecraft:sniffer",
+      "required": false
+    },
+    {
+      "id": "minecraft:polar_bear",
+      "required": false
+    },
+    {
+      "id": "minecraft:goat",
+      "required": false
+    },
+    {
+      "id": "minecraft:pig",
+      "required": false
+    },
+    {
+      "id": "minecraft:sheep",
+      "required": false
+    },
+    {
+      "id": "minecraft:panda",
+      "required": false
+    }
+  ]
+}

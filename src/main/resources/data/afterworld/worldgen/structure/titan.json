@@ -1,0 +1,10 @@
+{
+  "type": "afterworld:wonder",
+  "wonder": "titan",
+  "sink": 2,
+  "max_relief": 16,
+  "biomes": "#afterworld:has_structure/titan",
+  "step": "surface_structures",
+  "terrain_adaptation": "beard_box",
+  "spawn_overrides": {}
+}

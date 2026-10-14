@@ -1,0 +1,44 @@
+{
+  "type": "afterworld:ground",
+  "biome": "afterworld:pale_reach",
+  "surface": [
+    {
+      "state": "minecraft:pale_moss_block",
+      "noise": 0,
+      "min": 0.74,
+      "max": 1.01
+    },
+    {
+      "state": "minecraft:calcite",
+      "noise": 1,
+      "min": 0.96,
+      "max": 1.01
+    }
+  ],
+  "plants": [
+    {
+      "state": "minecraft:short_grass",
+      "chance": 0.18
+    },
+    {
+      "state": "minecraft:pale_moss_carpet",
+      "chance": 0.06
+    },
+    {
+      "state": "minecraft:lily_of_the_valley",
+      "chance": 0.01
+    },
+    {
+      "state": "minecraft:white_tulip",
+      "chance": 0.006
+    },
+    {
+      "state": "minecraft:azure_bluet",
+      "chance": 0.008
+    },
+    {
+      "state": "minecraft:open_eyeblossom",
+      "chance": 0.004
+    }
+  ]
+}

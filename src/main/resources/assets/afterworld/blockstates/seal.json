@@ -1,0 +1,10 @@
+{
+  "variants": {
+    "solved=false": {
+      "model": "afterworld:block/seal"
+    },
+    "solved=true": {
+      "model": "afterworld:block/seal_solved"
+    }
+  }
+}

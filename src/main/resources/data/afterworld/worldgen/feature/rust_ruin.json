@@ -1,0 +1,39 @@
+{
+  "type": "afterworld:ruin",
+  "wall": {
+    "type": "minecraft:weighted",
+    "entries": [
+      {
+        "data": "minecraft:cut_red_sandstone",
+        "weight": 3
+      },
+      {
+        "data": "minecraft:red_sandstone",
+        "weight": 2
+      },
+      {
+        "data": "minecraft:waxed_exposed_cut_copper",
+        "weight": 1
+      }
+    ]
+  },
+  "floor": {
+    "type": "minecraft:weighted",
+    "entries": [
+      {
+        "data": "minecraft:red_sandstone",
+        "weight": 1
+      }
+    ]
+  },
+  "style": "walls",
+  "loot_chance": 0.4,
+  "underwater": false,
+  "accent": {
+    "id": "minecraft:waxed_exposed_copper_lantern",
+    "properties": {
+      "hanging": "false"
+    }
+  },
+  "loot": "afterworld:chests/ruin_cache"
+}

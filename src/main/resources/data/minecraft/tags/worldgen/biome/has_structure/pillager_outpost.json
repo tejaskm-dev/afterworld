@@ -1,0 +1,15 @@
+{
+  "replace": false,
+  "values": [
+    "afterworld:ashen_moor",
+    "afterworld:duskpine_weald",
+    "afterworld:ember_steppe",
+    "afterworld:glimmerfrost",
+    "afterworld:hourglass_dunes",
+    "afterworld:petalfall",
+    "afterworld:shardfields",
+    "afterworld:skyspire_peaks",
+    "afterworld:vesper_downs",
+    "afterworld:whitewaste"
+  ]
+}

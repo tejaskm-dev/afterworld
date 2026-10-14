@@ -1,0 +1,10 @@
+{
+  "type": "afterworld:wonder",
+  "wonder": "abandoned_mine",
+  "sink": 6,
+  "max_relief": 14,
+  "biomes": "#afterworld:has_structure/abandoned_mine",
+  "step": "top_layer_modification",
+  "terrain_adaptation": "beard_box",
+  "spawn_overrides": {}
+}

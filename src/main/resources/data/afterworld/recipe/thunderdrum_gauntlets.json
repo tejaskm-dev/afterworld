@@ -1,0 +1,17 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "equipment",
+  "pattern": [
+    "H H",
+    "ICI"
+  ],
+  "key": {
+    "H": "afterworld:ram_horn",
+    "I": "minecraft:iron_ingot",
+    "C": "minecraft:copper_ingot"
+  },
+  "result": {
+    "id": "afterworld:thunderdrum_gauntlets",
+    "count": 1
+  }
+}

@@ -1,0 +1,13 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "category": "misc",
+  "ingredients": [
+    "minecraft:gunpowder",
+    "afterworld:rime_pearl",
+    "minecraft:snowball"
+  ],
+  "result": {
+    "id": "afterworld:frost_bomb",
+    "count": 2
+  }
+}

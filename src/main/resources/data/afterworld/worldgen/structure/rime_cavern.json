@@ -1,0 +1,10 @@
+{
+  "type": "afterworld:wonder",
+  "wonder": "rime_cavern",
+  "sink": 3,
+  "max_relief": 16,
+  "biomes": "#afterworld:has_structure/rime_cavern",
+  "step": "top_layer_modification",
+  "terrain_adaptation": "beard_box",
+  "spawn_overrides": {}
+}

@@ -1,0 +1,15 @@
+{
+  "type": "afterworld:tree",
+  "log": "minecraft:jungle_log",
+  "leaves": {
+    "id": "minecraft:jungle_leaves"
+  },
+  "shape": "giant",
+  "min_height": 18,
+  "max_height": 28,
+  "snow": false,
+  "extra": {
+    "id": "minecraft:flowering_azalea_leaves"
+  },
+  "extra_chance": 0.08
+}

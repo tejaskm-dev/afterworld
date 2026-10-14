@@ -1,0 +1,11 @@
+{
+  "type": "afterworld:tree",
+  "log": "minecraft:oak_log",
+  "leaves": {
+    "id": "minecraft:oak_leaves"
+  },
+  "shape": "twisted",
+  "min_height": 5,
+  "max_height": 8,
+  "snow": false
+}

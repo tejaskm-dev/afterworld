@@ -1,0 +1,14 @@
+{
+  "layers": {
+    "humanoid": [
+      {
+        "texture": "afterworld:starweave"
+      }
+    ],
+    "humanoid_leggings": [
+      {
+        "texture": "afterworld:starweave"
+      }
+    ]
+  }
+}

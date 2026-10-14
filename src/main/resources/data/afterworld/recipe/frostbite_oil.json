@@ -1,0 +1,12 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "category": "misc",
+  "ingredients": [
+    "afterworld:toad_oil",
+    "afterworld:rime_pearl"
+  ],
+  "result": {
+    "id": "afterworld:frostbite_oil",
+    "count": 2
+  }
+}

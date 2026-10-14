@@ -1,0 +1,22 @@
+{
+  "values": [
+    "afterworld:fen_toad",
+    "afterworld:sporeling",
+    "afterworld:mire_shambler",
+    "afterworld:fungal_brute",
+    "afterworld:tidecaller_jelly",
+    "afterworld:bog_lurker",
+    {
+      "id": "minecraft:slime",
+      "required": false
+    },
+    {
+      "id": "minecraft:magma_cube",
+      "required": false
+    },
+    {
+      "id": "minecraft:frog",
+      "required": false
+    }
+  ]
+}

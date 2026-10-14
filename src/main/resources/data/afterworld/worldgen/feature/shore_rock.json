@@ -1,0 +1,24 @@
+{
+  "type": "afterworld:outcrop",
+  "body": {
+    "type": "minecraft:weighted",
+    "entries": [
+      {
+        "data": "minecraft:stone",
+        "weight": 2
+      },
+      {
+        "data": "minecraft:tuff",
+        "weight": 1
+      },
+      {
+        "data": "minecraft:cobblestone",
+        "weight": 1
+      }
+    ]
+  },
+  "cap_chance": 0.6,
+  "min_size": 1.2,
+  "max_size": 2.2,
+  "lumps": 3
+}

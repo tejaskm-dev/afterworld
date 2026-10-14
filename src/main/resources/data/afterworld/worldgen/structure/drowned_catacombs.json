@@ -1,0 +1,10 @@
+{
+  "type": "afterworld:wonder",
+  "wonder": "drowned_catacombs",
+  "sink": 38,
+  "max_relief": 10,
+  "biomes": "#afterworld:has_structure/drowned_catacombs",
+  "step": "top_layer_modification",
+  "terrain_adaptation": "beard_box",
+  "spawn_overrides": {}
+}

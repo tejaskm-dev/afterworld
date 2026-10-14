@@ -1,0 +1,19 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "pattern": [
+    " B ",
+    "WSW",
+    " A "
+  ],
+  "key": {
+    "B": "afterworld:bell_fragment",
+    "W": "afterworld:grave_wax",
+    "S": "minecraft:iron_sword",
+    "A": "minecraft:amethyst_shard"
+  },
+  "result": {
+    "id": "afterworld:apologetic_blade",
+    "count": 1
+  }
+}

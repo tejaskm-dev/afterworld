@@ -1,0 +1,302 @@
+{
+  "attributes": {
+    "minecraft:audio/background_music": {
+      "default": {
+        "max_delay": 24000,
+        "min_delay": 12000,
+        "sound": "afterworld:music.wilds"
+      }
+    },
+    "minecraft:gameplay/creature_world_gen_spawn_probability": 0.14,
+    "minecraft:gameplay/increased_fire_burnout": true,
+    "minecraft:gameplay/natural_mob_spawns": {
+      "argument": {
+        "spawn_costs": {},
+        "spawns_by_category": {
+          "ambient": [
+            {
+              "type": "minecraft:bat",
+              "count": 8,
+              "weight": 5
+            },
+            {
+              "type": "afterworld:petal_sprite",
+              "count": {
+                "type": "minecraft:uniform",
+                "min_inclusive": 1,
+                "max_inclusive": 3
+              },
+              "weight": 6
+            },
+            {
+              "type": "afterworld:wisp",
+              "count": 1,
+              "weight": 4
+            }
+          ],
+          "creature": [
+            {
+              "type": "minecraft:sheep",
+              "count": 4,
+              "weight": 5
+            },
+            {
+              "type": "minecraft:pig",
+              "count": 4,
+              "weight": 4
+            },
+            {
+              "type": "minecraft:chicken",
+              "count": 4,
+              "weight": 4
+            },
+            {
+              "type": "minecraft:cow",
+              "count": 4,
+              "weight": 4
+            },
+            {
+              "type": "minecraft:chicken",
+              "count": 4,
+              "weight": 4
+            },
+            {
+              "type": "minecraft:parrot",
+              "count": {
+                "type": "minecraft:uniform",
+                "max_inclusive": 2,
+                "min_inclusive": 1
+              },
+              "weight": 18
+            },
+            {
+              "type": "minecraft:panda",
+              "count": {
+                "type": "minecraft:uniform",
+                "max_inclusive": 2,
+                "min_inclusive": 1
+              },
+              "weight": 1
+            },
+            {
+              "type": "afterworld:mossback",
+              "count": {
+                "type": "minecraft:uniform",
+                "min_inclusive": 1,
+                "max_inclusive": 2
+              },
+              "weight": 6
+            },
+            {
+              "type": "afterworld:thornback_boar",
+              "count": {
+                "type": "minecraft:uniform",
+                "min_inclusive": 2,
+                "max_inclusive": 3
+              },
+              "weight": 10
+            },
+            {
+              "type": "afterworld:fen_toad",
+              "count": {
+                "type": "minecraft:uniform",
+                "min_inclusive": 1,
+                "max_inclusive": 2
+              },
+              "weight": 6
+            }
+          ],
+          "monster": [
+            {
+              "type": "minecraft:spider",
+              "count": 4,
+              "weight": 30
+            },
+            {
+              "type": "minecraft:zombie",
+              "count": 4,
+              "weight": 28
+            },
+            {
+              "type": "minecraft:zombie_villager",
+              "count": 1,
+              "weight": 2
+            },
+            {
+              "type": "minecraft:skeleton",
+              "count": 4,
+              "weight": 30
+            },
+            {
+              "type": "minecraft:creeper",
+              "count": 4,
+              "weight": 30
+            },
+            {
+              "type": "minecraft:slime",
+              "count": 4,
+              "weight": 30
+            },
+            {
+              "type": "minecraft:enderman",
+              "count": {
+                "type": "minecraft:uniform",
+                "max_inclusive": 4,
+                "min_inclusive": 1
+              },
+              "weight": 3
+            },
+            {
+              "type": "minecraft:witch",
+              "count": 1,
+              "weight": 2
+            },
+            {
+              "type": "minecraft:ocelot",
+              "count": {
+                "type": "minecraft:uniform",
+                "max_inclusive": 3,
+                "min_inclusive": 1
+              },
+              "weight": 1
+            },
+            {
+              "type": "afterworld:bog_lurker",
+              "count": {
+                "type": "minecraft:uniform",
+                "min_inclusive": 1,
+                "max_inclusive": 2
+              },
+              "weight": 30
+            },
+            {
+              "type": "afterworld:echo_stalker",
+              "count": 1,
+              "weight": 15
+            },
+            {
+              "type": "afterworld:vine_strangler",
+              "count": 1,
+              "weight": 20
+            }
+          ],
+          "underground_water_creature": [
+            {
+              "type": "minecraft:glow_squid",
+              "count": {
+                "type": "minecraft:uniform",
+                "max_inclusive": 6,
+                "min_inclusive": 4
+              },
+              "weight": 10
+            }
+          ]
+        }
+      },
+      "modifier": "overlay"
+    },
+    "minecraft:visual/ambient_particles": {
+      "argument": [
+        {
+          "particle": {
+            "type": "minecraft:spore_blossom_air"
+          },
+          "probability": 0.004
+        },
+        {
+          "particle": {
+            "type": "minecraft:firefly"
+          },
+          "probability": 0.0008
+        }
+      ],
+      "modifier": "append"
+    },
+    "minecraft:visual/cloud_height": 300.0,
+    "minecraft:visual/fog_color": "#a8e0c0",
+    "minecraft:visual/sky_color": "#8fd0d0",
+    "minecraft:visual/water_fog_color": "#2b7a69"
+  },
+  "carvers": [
+    "minecraft:cave",
+    "minecraft:cave_extra_underground",
+    "minecraft:canyon"
+  ],
+  "downfall": 0.9,
+  "effects": {
+    "water_color": "#2f9a8a",
+    "grass_color": "#4fb83a",
+    "foliage_color": "#3a9a2a"
+  },
+  "features": [
+    [
+      "afterworld:ground_verdant_tangle"
+    ],
+    [
+      "minecraft:lake_lava_underground",
+      "minecraft:lake_lava_surface"
+    ],
+    [
+      "minecraft:amethyst_geode"
+    ],
+    [
+      "minecraft:monster_room",
+      "minecraft:monster_room_deep"
+    ],
+    [],
+    [],
+    [
+      "minecraft:ore_dirt",
+      "minecraft:ore_gravel",
+      "minecraft:ore_granite_upper",
+      "minecraft:ore_granite_lower",
+      "minecraft:ore_diorite_upper",
+      "minecraft:ore_diorite_lower",
+      "minecraft:ore_andesite_upper",
+      "minecraft:ore_andesite_lower",
+      "minecraft:ore_tuff",
+      "minecraft:ore_coal_upper",
+      "minecraft:ore_coal_lower",
+      "minecraft:ore_iron_upper",
+      "minecraft:ore_iron_middle",
+      "minecraft:ore_iron_small",
+      "minecraft:ore_gold",
+      "minecraft:ore_gold_lower",
+      "minecraft:ore_redstone",
+      "minecraft:ore_redstone_lower",
+      "minecraft:ore_diamond",
+      "minecraft:ore_diamond_medium",
+      "minecraft:ore_diamond_large",
+      "minecraft:ore_diamond_buried",
+      "minecraft:ore_lapis",
+      "minecraft:ore_lapis_buried",
+      "minecraft:ore_copper",
+      "minecraft:underwater_magma",
+      "minecraft:disk_sand",
+      "minecraft:disk_clay",
+      "minecraft:disk_gravel"
+    ],
+    [
+      "afterworld:cave_camp",
+      "afterworld:cave_rootways"
+    ],
+    [
+      "minecraft:spring_water",
+      "minecraft:spring_lava"
+    ],
+    [
+      "afterworld:tangle_giant",
+      "afterworld:tangle_tree",
+      "afterworld:tangle_colonnade",
+      "afterworld:tangle_lamp",
+      "minecraft:bamboo_vegetation",
+      "minecraft:vines",
+      "minecraft:patch_melon"
+    ],
+    [
+      "minecraft:freeze_top_layer"
+    ]
+  ],
+  "has_precipitation": true,
+  "temperature": 0.95
+}

@@ -1,0 +1,30 @@
+{
+  "providers": [
+    {
+      "type": "space",
+      "advances": {
+        " ": 5,
+        "‌": 0
+      }
+    },
+    {
+      "type": "bitmap",
+      "file": "afterworld:font/display.png",
+      "height": 12,
+      "ascent": 8,
+      "chars": [
+        "ABCDEFGHIJKLMNOP",
+        "QRSTUVWXYZ012345",
+        "6789.,!?'\"-_:;/(",
+        ")[]&+=<>*#%…·▸◂◆",
+        "◇■□↑↓←→abcdefghi",
+        "jklmnopqrstuvwxy",
+        "z\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000"
+      ]
+    },
+    {
+      "type": "reference",
+      "id": "minecraft:include/default"
+    }
+  ]
+}

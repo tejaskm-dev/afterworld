@@ -1,0 +1,11 @@
+{
+  "type": "afterworld:tree",
+  "log": "minecraft:spruce_log",
+  "leaves": {
+    "id": "minecraft:spruce_leaves"
+  },
+  "shape": "cone",
+  "min_height": 9,
+  "max_height": 16,
+  "snow": true
+}

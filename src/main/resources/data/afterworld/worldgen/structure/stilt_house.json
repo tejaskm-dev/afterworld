@@ -1,0 +1,10 @@
+{
+  "type": "afterworld:wonder",
+  "wonder": "stilt_house",
+  "sink": 4,
+  "max_relief": 6,
+  "biomes": "#afterworld:has_structure/stilt_house",
+  "step": "surface_structures",
+  "terrain_adaptation": "beard_box",
+  "spawn_overrides": {}
+}

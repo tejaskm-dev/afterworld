@@ -1,0 +1,11 @@
+{
+  "type": "afterworld:bones",
+  "bone": {
+    "id": "minecraft:bone_block",
+    "properties": {
+      "axis": "y"
+    }
+  },
+  "min_length": 10,
+  "max_length": 18
+}

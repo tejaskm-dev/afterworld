@@ -1,0 +1,12 @@
+{
+  "replace": false,
+  "values": [
+    "afterworld:ashen_moor",
+    "afterworld:ember_shallows",
+    "afterworld:ember_steppe",
+    "afterworld:gloamfen",
+    "afterworld:hourglass_dunes",
+    "afterworld:rustscar_canyons",
+    "afterworld:verdant_tangle"
+  ]
+}

@@ -1,0 +1,474 @@
+{
+ "npc": "selene",
+ "entry": [
+  {
+   "go": "meet",
+   "if": [
+    "!flag:met:selene"
+   ]
+  },
+  {
+   "go": "stars_assemble",
+   "if": [
+    "side:stars=0",
+    "has:afterworld:star_chart_fragment*3"
+   ]
+  },
+  {
+   "go": "stars_progress",
+   "if": [
+    "side:stars=0"
+   ]
+  },
+  {
+   "go": "stars_wait",
+   "if": [
+    "side:stars=1",
+    "time:day"
+   ]
+  },
+  {
+   "go": "stars_dials",
+   "if": [
+    "side:stars=1"
+   ]
+  },
+  {
+   "go": "stars_done",
+   "if": [
+    "side:stars=2"
+   ]
+  },
+  {
+   "go": "greet"
+  }
+ ],
+ "nodes": {
+  "meet": {
+   "lines": [
+    {
+     "text": "Hush. The moon is listening. I'm Selene. I keep the gazebo, and I count the stars that fall.",
+     "sound": "afterworld:va.selene.meet_0",
+     "ticks": 172,
+     "cue": "whispers",
+     "beats": [
+      10,
+      650,
+      1540,
+      2780,
+      3420,
+      4060,
+      4700,
+      5340,
+      5980,
+      6620,
+      7280
+     ]
+    },
+    {
+     "text": "Every night there is one fewer. I think someone is collecting them.",
+     "sound": "afterworld:va.selene.meet_1",
+     "ticks": 117,
+     "beats": [
+      10,
+      480,
+      940,
+      1400,
+      1860,
+      2320,
+      2790,
+      3250,
+      3710,
+      4170,
+      4660
+     ]
+    }
+   ],
+   "options": [
+    {
+     "text": "What happens to a fallen star?",
+     "go": "lore"
+    },
+    {
+     "text": "Can I help?",
+     "go": "stars_offer",
+     "if": [
+      "!side:stars:started"
+     ]
+    },
+    {
+     "text": "May I trade?",
+     "go": "#shop"
+    },
+    {
+     "text": "Farewell.",
+     "go": "#end"
+    }
+   ]
+  },
+  "greet": {
+   "lines": [
+    {
+     "text": "The sky is kind tonight. Or it is pretending to be.",
+     "sound": "afterworld:va.selene.greet_0",
+     "ticks": 115,
+     "beats": [
+      30,
+      500,
+      960,
+      1430,
+      1890,
+      2350,
+      2820,
+      3280,
+      3750,
+      4210,
+      4730
+     ]
+    }
+   ],
+   "options": [
+    {
+     "text": "What happens to a fallen star?",
+     "go": "lore"
+    },
+    {
+     "text": "Can I help?",
+     "go": "stars_offer",
+     "if": [
+      "!side:stars:started"
+     ]
+    },
+    {
+     "text": "May I trade?",
+     "go": "#shop"
+    },
+    {
+     "text": "Farewell.",
+     "go": "#end"
+    }
+   ]
+  },
+  "lore": {
+   "lines": [
+    {
+     "text": "Light remembers. A fallen star is a memory the sky let go of.",
+     "sound": "afterworld:va.selene.lore_0",
+     "ticks": 129,
+     "beats": [
+      10,
+      530,
+      1040,
+      1550,
+      2090,
+      2600,
+      3120,
+      3630,
+      4140,
+      4650,
+      5250
+     ]
+    },
+    {
+     "text": "The Bureau keeps some of them in jars, I'm told. I hope they whisper to them. Stars get lonely.",
+     "sound": "afterworld:va.selene.lore_1",
+     "ticks": 156,
+     "cue": "sadly",
+     "beats": [
+      20,
+      640,
+      1250,
+      1860,
+      2470,
+      3240,
+      3860,
+      4470,
+      5330,
+      5940,
+      6610
+     ]
+    }
+   ],
+   "options": [
+    {
+     "text": "May I trade?",
+     "go": "#shop"
+    },
+    {
+     "text": "Farewell.",
+     "go": "#end"
+    }
+   ]
+  },
+  "stars_offer": {
+   "lines": [
+    {
+     "text": "There was a constellation here once. The Lost Moth. Its stars fell one by one, and with them went the gazebo's song.",
+     "sound": "afterworld:va.selene.stars_offer_0",
+     "ticks": 200,
+     "beats": [
+      30,
+      820,
+      1600,
+      2700,
+      3480,
+      4550,
+      5340,
+      6120,
+      6910,
+      7690,
+      8580
+     ]
+    },
+    {
+     "text": "The old star chart was torn into three. One piece lies in the crystal observatory in the Shardfields. One at the aurora shrine in the Glimmerfrost. And one in the crater where a star once fell, out on the Ember Steppe.",
+     "sound": "afterworld:va.selene.stars_offer_1",
+     "ticks": 301,
+     "beats": [
+      20,
+      1220,
+      2800,
+      4000,
+      5190,
+      6810,
+      8010,
+      9550,
+      10750,
+      11950,
+      13320
+     ]
+    },
+    {
+     "text": "Bring the pieces to me, and we will put the Moth back in the sky.",
+     "sound": "afterworld:va.selene.stars_offer_2",
+     "ticks": 107,
+     "beats": [
+      10,
+      430,
+      850,
+      1260,
+      1680,
+      2090,
+      2510,
+      2930,
+      3340,
+      3760,
+      4210
+     ]
+    }
+   ],
+   "options": [
+    {
+     "text": "I'll find them.",
+     "go": "#end",
+     "do": [
+      "side:stars:start"
+     ]
+    },
+    {
+     "text": "Not now.",
+     "go": "#end"
+    }
+   ]
+  },
+  "stars_progress": {
+   "lines": [
+    {
+     "text": "Three pieces. The observatory, the aurora shrine, the crater. The sky can wait. It is very patient.",
+     "sound": "afterworld:va.selene.stars_progress_0",
+     "ticks": 192,
+     "beats": [
+      0,
+      790,
+      1670,
+      2450,
+      3230,
+      4010,
+      4790,
+      5620,
+      6410,
+      7290,
+      8140
+     ]
+    }
+   ],
+   "options": [
+    {
+     "text": "May I trade?",
+     "go": "#shop"
+    },
+    {
+     "text": "Farewell.",
+     "go": "#end"
+    }
+   ]
+  },
+  "stars_assemble": {
+   "lines": [
+    {
+     "text": "You found them. All three. Let me... yes. There. The Lost Moth.",
+     "sound": "afterworld:va.selene.stars_assemble_0",
+     "ticks": 156,
+     "cue": "breathless",
+     "beats": [
+      10,
+      630,
+      1250,
+      1870,
+      2490,
+      3110,
+      3730,
+      4520,
+      5180,
+      5800,
+      6480
+     ]
+    },
+    {
+     "text": "Now the hard part. The dials on the gazebo's floor turn the old stars. Turn them until the sky above matches the chart. But only at night. The stars are shy.",
+     "sound": "afterworld:va.selene.stars_assemble_1",
+     "ticks": 245,
+     "beats": [
+      30,
+      940,
+      2250,
+      3160,
+      4060,
+      5370,
+      6280,
+      7180,
+      8490,
+      9670,
+      10660
+     ]
+    }
+   ],
+   "do": [
+    "take:afterworld:star_chart_fragment*3",
+    "side:stars:advance"
+   ],
+   "options": [
+    {
+     "text": "I'll wait for nightfall.",
+     "go": "#end"
+    }
+   ]
+  },
+  "stars_wait": {
+   "lines": [
+    {
+     "text": "Wait for the night. Then turn the dials. I will keep watch with you.",
+     "sound": "afterworld:va.selene.stars_wait_0",
+     "ticks": 122,
+     "cue": "softly",
+     "beats": [
+      20,
+      510,
+      1000,
+      1490,
+      1980,
+      2460,
+      2950,
+      3440,
+      3930,
+      4420,
+      4960
+     ]
+    }
+   ],
+   "options": [
+    {
+     "text": "Farewell.",
+     "go": "#end"
+    }
+   ]
+  },
+  "stars_dials": {
+   "lines": [
+    {
+     "text": "The dials are waiting. Turn each one until its star sits where the chart says. You will feel it settle.",
+     "sound": "afterworld:va.selene.stars_dials_0",
+     "ticks": 166,
+     "beats": [
+      30,
+      710,
+      1390,
+      2070,
+      2750,
+      3430,
+      4110,
+      4790,
+      5580,
+      6260,
+      6960
+     ]
+    }
+   ],
+   "options": [
+    {
+     "text": "Begin.",
+     "go": "#end",
+     "do": [
+      "minigame:stars"
+     ]
+    },
+    {
+     "text": "Farewell.",
+     "go": "#end"
+    }
+   ]
+  },
+  "stars_done": {
+   "lines": [
+    {
+     "text": "Do you hear it? The gazebo is singing again. The Moth is home.",
+     "sound": "afterworld:va.selene.stars_done_0",
+     "ticks": 121,
+     "cue": "softly",
+     "beats": [
+      20,
+      490,
+      1250,
+      1710,
+      2170,
+      2630,
+      3100,
+      3570,
+      4030,
+      4490,
+      5030
+     ]
+    },
+    {
+     "text": "These were made from the last of the fallen starlight. Featherstep boots. Jump, and then jump again, as if the air were a stair.",
+     "sound": "afterworld:va.selene.stars_done_1",
+     "ticks": 204,
+     "beats": [
+      30,
+      860,
+      1680,
+      2510,
+      3600,
+      4420,
+      5380,
+      6200,
+      7050,
+      7870,
+      8770
+     ]
+    }
+   ],
+   "do": [
+    "side:stars:finish",
+    "give:afterworld:featherstep_boots",
+    "give:afterworld:moonsilver_ingot*4"
+   ],
+   "options": [
+    {
+     "text": "Thank you, Selene.",
+     "go": "#end"
+    }
+   ]
+  }
+ }
+}

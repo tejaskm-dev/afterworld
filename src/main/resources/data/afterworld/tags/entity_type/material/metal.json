@@ -1,0 +1,15 @@
+{
+  "values": [
+    "afterworld:rust_golemite",
+    "afterworld:clockwork_sentry",
+    "afterworld:gearhound",
+    "afterworld:ashen_shogun",
+    "afterworld:gilded_warden",
+    "afterworld:king_of_seconds",
+    "afterworld:bell_ringer",
+    {
+      "id": "minecraft:iron_golem",
+      "required": false
+    }
+  ]
+}

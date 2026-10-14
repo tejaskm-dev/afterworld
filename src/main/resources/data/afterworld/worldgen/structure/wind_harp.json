@@ -1,0 +1,10 @@
+{
+  "type": "afterworld:wonder",
+  "wonder": "wind_harp",
+  "sink": 3,
+  "max_relief": 10,
+  "biomes": "#afterworld:has_structure/wind_harp",
+  "step": "top_layer_modification",
+  "terrain_adaptation": "beard_box",
+  "spawn_overrides": {}
+}

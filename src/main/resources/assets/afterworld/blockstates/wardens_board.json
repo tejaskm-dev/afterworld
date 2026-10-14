@@ -1,0 +1,76 @@
+{
+  "variants": {
+    "facing=north,panel=false": {
+      "model": "afterworld:block/wardens_board",
+      "y": 0
+    },
+    "facing=north,panel=true": [
+      {
+        "model": "afterworld:block/wardens_board_panel_1",
+        "y": 0
+      },
+      {
+        "model": "afterworld:block/wardens_board_panel_2",
+        "y": 0
+      },
+      {
+        "model": "afterworld:block/wardens_board_panel_3",
+        "y": 0
+      }
+    ],
+    "facing=east,panel=false": {
+      "model": "afterworld:block/wardens_board",
+      "y": 90
+    },
+    "facing=east,panel=true": [
+      {
+        "model": "afterworld:block/wardens_board_panel_1",
+        "y": 90
+      },
+      {
+        "model": "afterworld:block/wardens_board_panel_2",
+        "y": 90
+      },
+      {
+        "model": "afterworld:block/wardens_board_panel_3",
+        "y": 90
+      }
+    ],
+    "facing=south,panel=false": {
+      "model": "afterworld:block/wardens_board",
+      "y": 180
+    },
+    "facing=south,panel=true": [
+      {
+        "model": "afterworld:block/wardens_board_panel_1",
+        "y": 180
+      },
+      {
+        "model": "afterworld:block/wardens_board_panel_2",
+        "y": 180
+      },
+      {
+        "model": "afterworld:block/wardens_board_panel_3",
+        "y": 180
+      }
+    ],
+    "facing=west,panel=false": {
+      "model": "afterworld:block/wardens_board",
+      "y": 270
+    },
+    "facing=west,panel=true": [
+      {
+        "model": "afterworld:block/wardens_board_panel_1",
+        "y": 270
+      },
+      {
+        "model": "afterworld:block/wardens_board_panel_2",
+        "y": 270
+      },
+      {
+        "model": "afterworld:block/wardens_board_panel_3",
+        "y": 270
+      }
+    ]
+  }
+}

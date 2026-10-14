@@ -1,0 +1,14 @@
+{
+  "layers": {
+    "humanoid": [
+      {
+        "texture": "afterworld:rimeguard"
+      }
+    ],
+    "humanoid_leggings": [
+      {
+        "texture": "afterworld:rimeguard"
+      }
+    ]
+  }
+}

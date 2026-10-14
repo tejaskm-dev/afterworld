@@ -1,0 +1,603 @@
+{
+ "npc": "marta",
+ "entry": [
+  {
+   "go": "training",
+   "if": [
+    "obj=meet_marta"
+   ]
+  },
+  {
+   "go": "training",
+   "if": [
+    "done:meet_isolde",
+    "!done:meet_marta"
+   ]
+  },
+  {
+   "go": "hint_dodge",
+   "if": [
+    "obj=dodge"
+   ]
+  },
+  {
+   "go": "hint_parry",
+   "if": [
+    "obj=parry"
+   ]
+  },
+  {
+   "go": "forge_smith",
+   "if": [
+    "side:forge=0",
+    "weapon:ready"
+   ]
+  },
+  {
+   "go": "forge_progress",
+   "if": [
+    "side:forge=0"
+   ]
+  },
+  {
+   "go": "forge_done",
+   "if": [
+    "side:forge=1"
+   ]
+  },
+  {
+   "go": "meet",
+   "if": [
+    "!flag:met:marta"
+   ]
+  },
+  {
+   "go": "greet"
+  }
+ ],
+ "nodes": {
+  "training": {
+   "lines": [
+    {
+     "text": "So Isolde sent me another one. Good. Mind the sparks. Marta Ironvein, smith to the Wardens.",
+     "sound": "afterworld:va.marta.training_0",
+     "ticks": 148,
+     "beats": [
+      30,
+      600,
+      1160,
+      1720,
+      2670,
+      3540,
+      4550,
+      5110,
+      5760,
+      6360,
+      6920
+     ]
+    },
+    {
+     "text": "Out there, things hit hard and they don't take turns. So you'll learn two things before you leave my yard.",
+     "sound": "afterworld:va.marta.training_1",
+     "ticks": 141,
+     "beats": [
+      30,
+      610,
+      1250,
+      1830,
+      2740,
+      3370,
+      4270,
+      4850,
+      5430,
+      6010,
+      6580
+     ]
+    },
+    {
+     "text": "First, the roll. Tap the dodge key, Left Alt unless you've changed it, and you'll roll clear. For a breath, nothing can touch you.",
+     "sound": "afterworld:va.marta.training_2",
+     "ticks": 180,
+     "beats": [
+      0,
+      880,
+      1970,
+      2660,
+      3540,
+      4230,
+      5070,
+      5770,
+      6870,
+      7800,
+      8490
+     ]
+    },
+    {
+     "text": "Second, the parry. Raise a shield, or your blade, the instant before a blow lands, and it'll bounce right back at them.",
+     "sound": "afterworld:va.marta.training_3",
+     "ticks": 156,
+     "beats": [
+      30,
+      770,
+      1820,
+      2400,
+      3130,
+      4010,
+      4600,
+      5190,
+      5960,
+      6570,
+      7280
+     ]
+    },
+    {
+     "text": "The dummy in the yard swings slow and honest. Roll under one swing, then parry the next. Go on.",
+     "sound": "afterworld:va.marta.training_4",
+     "ticks": 130,
+     "cue": "impatient",
+     "beats": [
+      20,
+      550,
+      1070,
+      1600,
+      2120,
+      2980,
+      3500,
+      4030,
+      4660,
+      5590,
+      6110
+     ]
+    }
+   ],
+   "do": [
+    "complete:meet_marta"
+   ],
+   "options": [
+    {
+     "text": "Right.",
+     "go": "#end"
+    }
+   ]
+  },
+  "hint_dodge": {
+   "lines": [
+    {
+     "text": "Roll. When the dummy swings, tap dodge and get out from under it. Don't think. Roll.",
+     "sound": "afterworld:va.marta.hint_dodge_0",
+     "ticks": 128,
+     "beats": [
+      30,
+      540,
+      1360,
+      1860,
+      2480,
+      2980,
+      3480,
+      4310,
+      4830,
+      5450,
+      5950
+     ]
+    }
+   ],
+   "options": [
+    {
+     "text": "Farewell.",
+     "go": "#end"
+    }
+   ]
+  },
+  "hint_parry": {
+   "lines": [
+    {
+     "text": "Now the parry. Block the instant before it hits. Too early and you're just holding a shield. Too late and you're holding your nose.",
+     "sound": "afterworld:va.marta.hint_parry_0",
+     "ticks": 159,
+     "cue": "dryly",
+     "beats": [
+      30,
+      660,
+      1660,
+      2290,
+      3250,
+      3880,
+      4510,
+      5520,
+      6150,
+      6840,
+      7460
+     ]
+    }
+   ],
+   "options": [
+    {
+     "text": "Farewell.",
+     "go": "#end"
+    }
+   ]
+  },
+  "meet": {
+   "lines": [
+    {
+     "text": "Mind the sparks. Marta Ironvein, smith to the Wardens.",
+     "sound": "afterworld:va.marta.meet_0",
+     "ticks": 82,
+     "beats": [
+      20,
+      350,
+      670,
+      1010,
+      1610,
+      1930,
+      2260,
+      2640,
+      2970,
+      3290,
+      3610
+     ]
+    },
+    {
+     "text": "The beasts out here grow strange parts. Bring them to me with a few Marks, and I'll make you something worth swinging.",
+     "sound": "afterworld:va.marta.meet_1",
+     "ticks": 132,
+     "beats": [
+      30,
+      620,
+      1160,
+      1700,
+      2330,
+      3310,
+      3870,
+      4430,
+      4970,
+      5520,
+      6090
+     ]
+    }
+   ],
+   "options": [
+    {
+     "text": "Show me what you make.",
+     "go": "#shop"
+    },
+    {
+     "text": "What can those parts become?",
+     "go": "parts"
+    },
+    {
+     "text": "Farewell.",
+     "go": "#end"
+    }
+   ]
+  },
+  "greet": {
+   "lines": [
+    {
+     "text": "Back for steel? Good. Steel's always the answer. Usually.",
+     "sound": "afterworld:va.marta.greet_0",
+     "ticks": 96,
+     "cue": "beat",
+     "beats": [
+      20,
+      390,
+      750,
+      1350,
+      1850,
+      2210,
+      2580,
+      2940,
+      3300,
+      4030,
+      4390
+     ]
+    }
+   ],
+   "options": [
+    {
+     "text": "Show me what you make.",
+     "go": "#shop"
+    },
+    {
+     "text": "What can those parts become?",
+     "go": "parts"
+    },
+    {
+     "text": "Can a weapon grow stronger?",
+     "go": "forge_offer",
+     "if": [
+      "!side:forge:started",
+      "chapter>=1"
+     ]
+    },
+    {
+     "text": "Farewell.",
+     "go": "#end"
+    }
+   ]
+  },
+  "parts": {
+   "lines": [
+    {
+     "text": "Ember cores from the ashen husks make a blade that burns. Crystal from the shardlings sings when you swing it.",
+     "sound": "afterworld:va.marta.parts_0",
+     "ticks": 132,
+     "beats": [
+      30,
+      590,
+      1130,
+      1680,
+      2310,
+      3020,
+      3930,
+      4470,
+      5020,
+      5560,
+      6180
+     ]
+    },
+    {
+     "text": "Lurker fangs make a hook that drags, gear springs a maul that kicks, rime cores a spear that bites cold. Bring me the pieces.",
+     "sound": "afterworld:va.marta.parts_1",
+     "ticks": 179,
+     "beats": [
+      30,
+      750,
+      1500,
+      2360,
+      3240,
+      4030,
+      5070,
+      5830,
+      6720,
+      7790,
+      8470
+     ]
+    }
+   ],
+   "options": [
+    {
+     "text": "Show me what you make.",
+     "go": "#shop"
+    },
+    {
+     "text": "Farewell.",
+     "go": "#end"
+    }
+   ]
+  },
+  "forge_offer": {
+   "lines": [
+    {
+     "text": "That blade of yours has some miles on it. Weapons remember, out here. Every fight. Every kill. Some of them start to want more.",
+     "sound": "afterworld:va.marta.forge_offer_0",
+     "ticks": 170,
+     "beats": [
+      20,
+      720,
+      1400,
+      2480,
+      3160,
+      4040,
+      4730,
+      5630,
+      6700,
+      7380,
+      8060
+     ]
+    },
+    {
+     "text": "Bring me a weapon that's ready to wake, and the parts it asks for, and we'll see what it wants to become. You'll swing the hammer, mind. I don't do all the work.",
+     "sound": "afterworld:va.marta.forge_offer_1",
+     "ticks": 177,
+     "beats": [
+      30,
+      760,
+      1490,
+      2360,
+      3140,
+      4140,
+      4870,
+      6010,
+      6740,
+      7640,
+      8390
+     ]
+    }
+   ],
+   "options": [
+    {
+     "text": "How will I know it's ready?",
+     "go": "forge_ready",
+     "do": [
+      "side:forge:start"
+     ]
+    },
+    {
+     "text": "I'll be back.",
+     "go": "#end",
+     "do": [
+      "side:forge:start"
+     ]
+    }
+   ]
+  },
+  "forge_ready": {
+   "lines": [
+    {
+     "text": "When it's ready, it hums. You'll see it in the journal, and on the blade. Then bring it here with what it asks for.",
+     "sound": "afterworld:va.marta.forge_ready_0",
+     "ticks": 136,
+     "beats": [
+      30,
+      570,
+      1240,
+      2080,
+      2610,
+      3140,
+      3710,
+      4650,
+      5180,
+      5730,
+      6310
+     ]
+    }
+   ],
+   "options": [
+    {
+     "text": "Farewell.",
+     "go": "#end"
+    }
+   ]
+  },
+  "forge_progress": {
+   "lines": [
+    {
+     "text": "No hum yet. Keep fighting. Weapons are like people. They grow when they're used.",
+     "sound": "afterworld:va.marta.forge_progress_0",
+     "ticks": 110,
+     "beats": [
+      10,
+      440,
+      870,
+      1470,
+      2230,
+      2650,
+      3080,
+      3760,
+      4190,
+      4620,
+      5040
+     ]
+    }
+   ],
+   "options": [
+    {
+     "text": "Show me what you make.",
+     "go": "#shop"
+    },
+    {
+     "text": "Farewell.",
+     "go": "#end"
+    }
+   ]
+  },
+  "forge_smith": {
+   "lines": [
+    {
+     "text": "It's humming. I can hear it from here. To the anvil, then.",
+     "sound": "afterworld:va.marta.forge_smith_0",
+     "ticks": 73,
+     "beats": [
+      20,
+      310,
+      600,
+      970,
+      1260,
+      1540,
+      1830,
+      2400,
+      2690,
+      2980,
+      3260
+     ]
+    },
+    {
+     "text": "Strike when the metal glows gold. Not before. Not after. And keep your fingers where I can see them.",
+     "sound": "afterworld:va.marta.forge_smith_1",
+     "ticks": 133,
+     "cue": "grins",
+     "beats": [
+      20,
+      570,
+      1120,
+      1690,
+      2440,
+      3100,
+      3670,
+      4520,
+      5070,
+      5620,
+      6160
+     ]
+    }
+   ],
+   "options": [
+    {
+     "text": "To the anvil.",
+     "go": "#end",
+     "do": [
+      "minigame:smithing"
+     ]
+    },
+    {
+     "text": "Not yet.",
+     "go": "#end"
+    }
+   ]
+  },
+  "forge_done": {
+   "lines": [
+    {
+     "text": "There. Feel the weight change? That's not the steel. That's the weapon deciding it likes you.",
+     "sound": "afterworld:va.marta.forge_done_0",
+     "ticks": 119,
+     "beats": [
+      30,
+      730,
+      1190,
+      1650,
+      2390,
+      2850,
+      3640,
+      4100,
+      4560,
+      5020,
+      5480
+     ]
+    },
+    {
+     "text": "Bring me any weapon that hums, any time. The anvil's yours.",
+     "sound": "afterworld:va.marta.forge_done_1",
+     "ticks": 88,
+     "beats": [
+      20,
+      380,
+      740,
+      1100,
+      1460,
+      1930,
+      2290,
+      2650,
+      3250,
+      3610,
+      3970
+     ]
+    }
+   ],
+   "do": [
+    "side:forge:finish"
+   ],
+   "options": [
+    {
+     "text": "Wake another weapon.",
+     "go": "#end",
+     "if": [
+      "weapon:ready"
+     ],
+     "do": [
+      "minigame:smithing"
+     ]
+    },
+    {
+     "text": "Show me what you make.",
+     "go": "#shop"
+    },
+    {
+     "text": "Farewell.",
+     "go": "#end"
+    }
+   ]
+  }
+ }
+}

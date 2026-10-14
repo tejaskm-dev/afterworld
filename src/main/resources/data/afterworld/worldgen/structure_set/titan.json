@@ -1,0 +1,14 @@
+{
+  "placement": {
+    "type": "minecraft:random_spread",
+    "salt": 7101,
+    "separation": 30,
+    "spacing": 72
+  },
+  "structures": [
+    {
+      "structure": "afterworld:titan",
+      "weight": 1
+    }
+  ]
+}

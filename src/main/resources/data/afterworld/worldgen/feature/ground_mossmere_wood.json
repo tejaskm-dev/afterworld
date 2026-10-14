@@ -1,0 +1,63 @@
+{
+  "type": "afterworld:ground",
+  "biome": "afterworld:mossmere_wood",
+  "surface": [
+    {
+      "state": "minecraft:moss_block",
+      "noise": 0,
+      "min": 0.7,
+      "max": 1.01
+    },
+    {
+      "state": "minecraft:podzol",
+      "noise": 0,
+      "min": 0.0,
+      "max": 0.2
+    },
+    {
+      "state": "minecraft:coarse_dirt",
+      "noise": 1,
+      "min": 0.93,
+      "max": 1.01
+    }
+  ],
+  "plants": [
+    {
+      "state": "minecraft:fern",
+      "chance": 0.08
+    },
+    {
+      "state": "minecraft:short_grass",
+      "chance": 0.12
+    },
+    {
+      "state": "minecraft:moss_carpet",
+      "chance": 0.05
+    },
+    {
+      "state": "minecraft:leaf_litter",
+      "chance": 0.06
+    },
+    {
+      "state": "minecraft:brown_mushroom",
+      "chance": 0.006
+    },
+    {
+      "state": "minecraft:red_mushroom",
+      "chance": 0.004
+    },
+    {
+      "state": {
+        "id": "minecraft:large_fern",
+        "properties": {
+          "half": "lower"
+        }
+      },
+      "chance": 0.015
+    },
+    {
+      "state": "minecraft:firefly_bush",
+      "chance": 0.003
+    }
+  ]
+}

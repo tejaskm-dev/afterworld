@@ -1,0 +1,11 @@
+{
+  "type": "afterworld:tree",
+  "log": "minecraft:stripped_acacia_log",
+  "leaves": {
+    "id": "minecraft:acacia_leaves"
+  },
+  "shape": "dead",
+  "min_height": 5,
+  "max_height": 9,
+  "snow": false
+}

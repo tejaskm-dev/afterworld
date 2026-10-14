@@ -1,0 +1,34 @@
+{
+	"schemaVersion": 1,
+	"id": "afterworld",
+	"version": "${version}",
+	"name": "Afterworld",
+	"description": "The world that plays back.",
+	"authors": [
+		"Afterworld"
+	],
+	"license": "MIT",
+	"icon": "assets/afterworld/icon.png",
+	"environment": "*",
+	"entrypoints": {
+		"main": [
+			"dev.afterworld.Afterworld"
+		],
+		"client": [
+			"dev.afterworld.client.AfterworldClient"
+		]
+	},
+	"depends": {
+		"fabricloader": ">=0.19.5",
+		"minecraft": "~26.3",
+		"java": ">=25",
+		"fabric-api": "*"
+	},
+	"mixins": [
+		"afterworld.mixins.json",
+		{
+			"config": "afterworld.client.mixins.json",
+			"environment": "client"
+		}
+	]
+}

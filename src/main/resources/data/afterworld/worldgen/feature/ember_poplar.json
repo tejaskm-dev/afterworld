@@ -1,0 +1,25 @@
+{
+  "type": "afterworld:tree",
+  "log": "minecraft:poplar_log",
+  "leaves": {
+    "type": "minecraft:weighted",
+    "entries": [
+      {
+        "data": "minecraft:orange_poplar_leaves",
+        "weight": 3
+      },
+      {
+        "data": "minecraft:red_poplar_leaves",
+        "weight": 1
+      },
+      {
+        "data": "minecraft:yellow_poplar_leaves",
+        "weight": 1
+      }
+    ]
+  },
+  "shape": "column",
+  "min_height": 7,
+  "max_height": 11,
+  "snow": false
+}

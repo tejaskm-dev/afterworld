@@ -1,0 +1,26 @@
+{
+  "type": "afterworld:giant_mushroom",
+  "stem": "minecraft:mushroom_stem",
+  "cap": {
+    "type": "minecraft:weighted",
+    "entries": [
+      {
+        "data": "minecraft:amethyst_block",
+        "weight": 5
+      },
+      {
+        "data": "minecraft:purple_terracotta",
+        "weight": 1
+      }
+    ]
+  },
+  "shape": "bell",
+  "min_height": 7,
+  "max_height": 14,
+  "min_cap": 3,
+  "max_cap": 6,
+  "spot_chance": 0.1,
+  "spots": {
+    "id": "minecraft:pearlescent_froglight"
+  }
+}

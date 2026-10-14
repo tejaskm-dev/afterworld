@@ -1,0 +1,11 @@
+{
+  "values": [
+    "afterworld:vine_strangler",
+    "afterworld:rootling_sentinel",
+    "afterworld:training_dummy",
+    {
+      "id": "minecraft:creaking",
+      "required": false
+    }
+  ]
+}

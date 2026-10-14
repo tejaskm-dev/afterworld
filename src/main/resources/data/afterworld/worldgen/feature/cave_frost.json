@@ -1,0 +1,62 @@
+{
+  "type": "afterworld:cave_decor",
+  "tries": 3,
+  "min_y": -48,
+  "max_y": 50,
+  "radius": 4,
+  "floor_chance": 0.4,
+  "ceiling_chance": 0.0,
+  "floor_paint": {
+    "type": "minecraft:weighted",
+    "entries": [
+      {
+        "data": "minecraft:packed_ice",
+        "weight": 3
+      },
+      {
+        "data": "minecraft:snow_block",
+        "weight": 2
+      },
+      {
+        "data": "minecraft:blue_ice",
+        "weight": 1
+      }
+    ]
+  },
+  "floor": {
+    "type": "minecraft:weighted",
+    "entries": [
+      {
+        "data": {
+          "id": "minecraft:snow",
+          "properties": {
+            "layers": "1"
+          }
+        },
+        "weight": 3
+      },
+      {
+        "data": {
+          "id": "minecraft:snow",
+          "properties": {
+            "layers": "2"
+          }
+        },
+        "weight": 1
+      }
+    ]
+  },
+  "ceiling_paint": {
+    "type": "minecraft:weighted",
+    "entries": [
+      {
+        "data": "minecraft:packed_ice",
+        "weight": 2
+      },
+      {
+        "data": "minecraft:ice",
+        "weight": 1
+      }
+    ]
+  }
+}

@@ -1,0 +1,11 @@
+{
+  "type": "afterworld:tree",
+  "log": "minecraft:stripped_birch_log",
+  "leaves": {
+    "id": "minecraft:oak_leaves"
+  },
+  "shape": "dead",
+  "min_height": 3,
+  "max_height": 5,
+  "snow": false
+}

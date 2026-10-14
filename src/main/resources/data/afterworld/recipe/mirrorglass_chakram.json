@@ -1,0 +1,17 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "equipment",
+  "pattern": [
+    " C ",
+    "CIC",
+    " C "
+  ],
+  "key": {
+    "C": "afterworld:crab_shell",
+    "I": "minecraft:iron_ingot"
+  },
+  "result": {
+    "id": "afterworld:mirrorglass_chakram",
+    "count": 1
+  }
+}

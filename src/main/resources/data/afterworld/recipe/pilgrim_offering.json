@@ -1,0 +1,13 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "category": "misc",
+  "ingredients": [
+    "minecraft:candle",
+    "#minecraft:small_flowers",
+    "minecraft:cobblestone"
+  ],
+  "result": {
+    "id": "afterworld:pilgrim_offering",
+    "count": 2
+  }
+}

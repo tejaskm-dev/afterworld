@@ -1,0 +1,22 @@
+{
+  "type": "afterworld:ground",
+  "biome": "afterworld:sporeveil",
+  "surface": [
+    {
+      "state": "minecraft:moss_block",
+      "noise": 0,
+      "min": 0.8,
+      "max": 1.01
+    }
+  ],
+  "plants": [
+    {
+      "state": "minecraft:red_mushroom",
+      "chance": 0.02
+    },
+    {
+      "state": "minecraft:brown_mushroom",
+      "chance": 0.02
+    }
+  ]
+}

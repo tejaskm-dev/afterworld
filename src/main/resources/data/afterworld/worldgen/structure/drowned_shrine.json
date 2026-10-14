@@ -1,0 +1,11 @@
+{
+  "type": "afterworld:wonder",
+  "wonder": "drowned_shrine",
+  "sink": 3,
+  "max_relief": 10,
+  "biomes": "#afterworld:has_structure/drowned_shrine",
+  "step": "top_layer_modification",
+  "terrain_adaptation": "beard_box",
+  "spawn_overrides": {},
+  "shore": true
+}

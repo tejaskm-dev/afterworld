@@ -1,0 +1,32 @@
+{
+  "type": "afterworld:spire",
+  "body": {
+    "type": "minecraft:weighted",
+    "entries": [
+      {
+        "data": "minecraft:blue_ice",
+        "weight": 3
+      },
+      {
+        "data": "minecraft:packed_ice",
+        "weight": 2
+      },
+      {
+        "data": "minecraft:light_blue_stained_glass",
+        "weight": 1
+      }
+    ]
+  },
+  "style": "shard",
+  "min_height": 5,
+  "max_height": 12,
+  "min_radius": 1.0,
+  "max_radius": 2.2,
+  "glow_chance": 0.1,
+  "tip": {
+    "id": "minecraft:sea_lantern"
+  },
+  "glow": {
+    "id": "minecraft:sea_lantern"
+  }
+}

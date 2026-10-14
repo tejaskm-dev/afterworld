@@ -1,0 +1,445 @@
+{
+ "npc": "torvald",
+ "entry": [
+  {
+   "go": "meet",
+   "if": [
+    "!flag:met:torvald"
+   ]
+  },
+  {
+   "go": "hunt_progress",
+   "if": [
+    "side:hunt=0"
+   ]
+  },
+  {
+   "go": "hunt_killed",
+   "if": [
+    "side:hunt=1"
+   ]
+  },
+  {
+   "go": "hunt_contest",
+   "if": [
+    "side:hunt=2"
+   ]
+  },
+  {
+   "go": "hunt_done",
+   "if": [
+    "side:hunt=3"
+   ]
+  },
+  {
+   "go": "greet"
+  }
+ ],
+ "nodes": {
+  "meet": {
+   "lines": [
+    {
+     "text": "Stranger. Sit by the fire if you like. Torvald. I hunt what hunts the valley.",
+     "sound": "afterworld:va.torvald.meet_0",
+     "ticks": 135,
+     "beats": [
+      0,
+      510,
+      1370,
+      1880,
+      2390,
+      3420,
+      3930,
+      4810,
+      5320,
+      5830,
+      6380
+     ]
+    },
+    {
+     "text": "The rimehorns are restless this year. And something walks the frozen peaks. Taller than the trees.",
+     "sound": "afterworld:va.torvald.meet_1",
+     "ticks": 154,
+     "beats": [
+      20,
+      600,
+      1180,
+      1760,
+      2870,
+      3440,
+      4020,
+      4620,
+      6090,
+      6670,
+      7240
+     ]
+    }
+   ],
+   "options": [
+    {
+     "text": "Something taller than trees?",
+     "go": "big"
+    },
+    {
+     "text": "Need a hunter?",
+     "go": "hunt_offer",
+     "if": [
+      "!side:hunt:started"
+     ]
+    },
+    {
+     "text": "Can we trade?",
+     "go": "#shop"
+    },
+    {
+     "text": "Farewell.",
+     "go": "#end"
+    }
+   ]
+  },
+  "greet": {
+   "lines": [
+    {
+     "text": "The fire's warm. The meat's fresh. Sit.",
+     "sound": "afterworld:va.torvald.greet_0",
+     "ticks": 79,
+     "beats": [
+      20,
+      280,
+      540,
+      800,
+      1060,
+      1670,
+      1930,
+      2190,
+      2450,
+      3240,
+      3510
+     ]
+    }
+   ],
+   "options": [
+    {
+     "text": "Something taller than trees?",
+     "go": "big"
+    },
+    {
+     "text": "Need a hunter?",
+     "go": "hunt_offer",
+     "if": [
+      "!side:hunt:started"
+     ]
+    },
+    {
+     "text": "Can we trade?",
+     "go": "#shop"
+    },
+    {
+     "text": "Farewell.",
+     "go": "#end"
+    }
+   ]
+  },
+  "big": {
+   "lines": [
+    {
+     "text": "Ice and white fur, and horns like a cathedral's ribs. The old songs call it the Rimeback.",
+     "sound": "afterworld:va.torvald.big_0",
+     "ticks": 161,
+     "beats": [
+      20,
+      630,
+      1230,
+      2270,
+      2880,
+      3480,
+      4150,
+      5540,
+      6150,
+      6870,
+      7540
+     ]
+    },
+    {
+     "text": "If you ever see the snow stand up, run. Then run some more.",
+     "sound": "afterworld:va.torvald.big_1",
+     "ticks": 107,
+     "cue": "beat",
+     "beats": [
+      20,
+      370,
+      710,
+      1050,
+      1400,
+      1740,
+      2700,
+      3860,
+      4200,
+      4540,
+      4880
+     ]
+    }
+   ],
+   "options": [
+    {
+     "text": "Can we trade?",
+     "go": "#shop"
+    },
+    {
+     "text": "Farewell.",
+     "go": "#end"
+    }
+   ]
+  },
+  "hunt_offer": {
+   "lines": [
+    {
+     "text": "The rimehorn alpha has been taking the young ones from the valley. I am old, and my knees are older. You are neither.",
+     "sound": "afterworld:va.torvald.hunt_offer_0",
+     "ticks": 168,
+     "beats": [
+      30,
+      670,
+      1310,
+      1940,
+      2570,
+      3820,
+      4460,
+      5320,
+      5950,
+      7320,
+      7950
+     ]
+    },
+    {
+     "text": "Follow its tracks from the lodge. They're deep and wide, and the snow fills them fast. Lose them, and you lose it.",
+     "sound": "afterworld:va.torvald.hunt_offer_1",
+     "ticks": 158,
+     "beats": [
+      0,
+      670,
+      1280,
+      2220,
+      2890,
+      3570,
+      4180,
+      4780,
+      5900,
+      6680,
+      7410
+     ]
+    }
+   ],
+   "options": [
+    {
+     "text": "I'll hunt it.",
+     "go": "#end",
+     "do": [
+      "side:hunt:start",
+      "minigame:tracking"
+     ]
+    },
+    {
+     "text": "Not now.",
+     "go": "#end"
+    }
+   ]
+  },
+  "hunt_progress": {
+   "lines": [
+    {
+     "text": "Its tracks start at the lodge. Watch the snow. The fresh ones still have their edges.",
+     "sound": "afterworld:va.torvald.hunt_progress_0",
+     "ticks": 111,
+     "beats": [
+      10,
+      430,
+      860,
+      1280,
+      2130,
+      2550,
+      3400,
+      3820,
+      4240,
+      4660,
+      5070
+     ]
+    }
+   ],
+   "options": [
+    {
+     "text": "Show me the trail again.",
+     "go": "#end",
+     "do": [
+      "minigame:tracking"
+     ]
+    },
+    {
+     "text": "Farewell.",
+     "go": "#end"
+    }
+   ]
+  },
+  "hunt_killed": {
+   "lines": [
+    {
+     "text": "You brought down the alpha? Then you've earned a contest.",
+     "sound": "afterworld:va.torvald.hunt_killed_0",
+     "ticks": 82,
+     "cue": "laughs",
+     "beats": [
+      30,
+      370,
+      700,
+      1040,
+      1620,
+      1970,
+      2310,
+      2640,
+      2980,
+      3310,
+      3640
+     ]
+    },
+    {
+     "text": "Every hunter at this lodge has shot the targets. Hit six of eight, and I'll call you hunter too.",
+     "sound": "afterworld:va.torvald.hunt_killed_1",
+     "ticks": 120,
+     "beats": [
+      30,
+      510,
+      980,
+      1450,
+      1970,
+      2930,
+      3400,
+      4100,
+      4570,
+      5040,
+      5520
+     ]
+    }
+   ],
+   "do": [
+    "side:hunt:advance"
+   ],
+   "options": [
+    {
+     "text": "Let's shoot.",
+     "go": "#end",
+     "do": [
+      "minigame:archery"
+     ]
+    },
+    {
+     "text": "Later.",
+     "go": "#end"
+    }
+   ]
+  },
+  "hunt_contest": {
+   "lines": [
+    {
+     "text": "The targets are set. Six of eight. Breathe out before you loose.",
+     "sound": "afterworld:va.torvald.hunt_contest_0",
+     "ticks": 101,
+     "beats": [
+      20,
+      380,
+      730,
+      1360,
+      1710,
+      2130,
+      3110,
+      3470,
+      3860,
+      4210,
+      4560
+     ]
+    }
+   ],
+   "options": [
+    {
+     "text": "Let's shoot.",
+     "go": "#end",
+     "do": [
+      "minigame:archery"
+     ]
+    },
+    {
+     "text": "Farewell.",
+     "go": "#end"
+    }
+   ]
+  },
+  "hunt_done": {
+   "lines": [
+    {
+     "text": "Six of eight. Good. Better than I did, my first winter.",
+     "sound": "afterworld:va.torvald.hunt_done_0",
+     "ticks": 94,
+     "beats": [
+      10,
+      350,
+      720,
+      1100,
+      1960,
+      2400,
+      2920,
+      3250,
+      3580,
+      3910,
+      4240
+     ]
+    },
+    {
+     "text": "Take these claws. They'll let you climb where the rimehorns climb. And the stag, he's taken a liking to you. Whistle, and he'll come.",
+     "sound": "afterworld:va.torvald.hunt_done_1",
+     "ticks": 169,
+     "beats": [
+      20,
+      650,
+      1610,
+      2230,
+      2860,
+      4110,
+      4750,
+      5630,
+      6250,
+      7320,
+      8040
+     ]
+    },
+    {
+     "text": "One more thing. The big tracks, the ones as wide as a cart. Those aren't rimehorn. If you ever follow them, go well armed.",
+     "sound": "afterworld:va.torvald.hunt_done_2",
+     "ticks": 204,
+     "beats": [
+      20,
+      780,
+      1970,
+      2980,
+      3730,
+      5100,
+      5860,
+      7190,
+      7950,
+      9070,
+      9820
+     ]
+    }
+   ],
+   "do": [
+    "side:hunt:finish",
+    "give:afterworld:climbing_claws",
+    "give:afterworld:wayfarers_whistle"
+   ],
+   "options": [
+    {
+     "text": "I will.",
+     "go": "#end"
+    }
+   ]
+  }
+ }
+}

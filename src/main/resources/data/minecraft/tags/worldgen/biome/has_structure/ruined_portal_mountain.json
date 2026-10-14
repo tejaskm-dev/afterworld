@@ -1,0 +1,12 @@
+{
+  "replace": false,
+  "values": [
+    "afterworld:breakstone_shore",
+    "afterworld:ember_steppe",
+    "afterworld:petalfall",
+    "afterworld:rustscar_canyons",
+    "afterworld:shardfields",
+    "afterworld:skyspire_peaks",
+    "afterworld:windworn_highlands"
+  ]
+}

@@ -1,0 +1,57 @@
+{
+  "type": "afterworld:cave_decor",
+  "tries": 3,
+  "min_y": -48,
+  "max_y": 50,
+  "radius": 4,
+  "floor_chance": 0.35,
+  "ceiling_chance": 0.2,
+  "floor_paint": {
+    "type": "minecraft:weighted",
+    "entries": [
+      {
+        "data": "minecraft:mycelium",
+        "weight": 2
+      },
+      {
+        "data": "minecraft:moss_block",
+        "weight": 1
+      }
+    ]
+  },
+  "floor": {
+    "type": "minecraft:weighted",
+    "entries": [
+      {
+        "data": "minecraft:red_mushroom",
+        "weight": 2
+      },
+      {
+        "data": "minecraft:brown_mushroom",
+        "weight": 2
+      }
+    ]
+  },
+  "ceiling_paint": {
+    "type": "minecraft:weighted",
+    "entries": [
+      {
+        "data": "minecraft:moss_block",
+        "weight": 3
+      },
+      {
+        "data": "minecraft:shroomlight",
+        "weight": 1
+      }
+    ]
+  },
+  "ceiling": {
+    "type": "minecraft:weighted",
+    "entries": [
+      {
+        "data": "minecraft:hanging_roots",
+        "weight": 1
+      }
+    ]
+  }
+}

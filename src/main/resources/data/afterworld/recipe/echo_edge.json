@@ -1,0 +1,14 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "category": "misc",
+  "ingredients": [
+    "minecraft:diamond_sword",
+    "afterworld:echo_essence",
+    "afterworld:echo_essence",
+    "minecraft:ender_pearl"
+  ],
+  "result": {
+    "id": "afterworld:echo_edge",
+    "count": 1
+  }
+}

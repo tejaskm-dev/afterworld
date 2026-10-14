@@ -1,0 +1,52 @@
+{
+  "type": "afterworld:ground",
+  "biome": "afterworld:frostmere_pines",
+  "surface": [
+    {
+      "state": "minecraft:podzol",
+      "noise": 0,
+      "min": 0.0,
+      "max": 0.3
+    },
+    {
+      "state": "minecraft:coarse_dirt",
+      "noise": 1,
+      "min": 0.9,
+      "max": 1.01
+    },
+    {
+      "state": "minecraft:snow_block",
+      "noise": 0,
+      "min": 0.85,
+      "max": 1.01
+    }
+  ],
+  "plants": [
+    {
+      "state": "minecraft:fern",
+      "chance": 0.08
+    },
+    {
+      "state": {
+        "id": "minecraft:large_fern",
+        "properties": {
+          "half": "lower"
+        }
+      },
+      "chance": 0.02
+    },
+    {
+      "state": {
+        "id": "minecraft:sweet_berry_bush",
+        "properties": {
+          "age": "3"
+        }
+      },
+      "chance": 0.01
+    },
+    {
+      "state": "minecraft:short_grass",
+      "chance": 0.05
+    }
+  ]
+}

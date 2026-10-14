@@ -1,0 +1,8 @@
+{
+  "parent": "minecraft:block/cube_bottom_top",
+  "textures": {
+    "top": "afterworld:block/ladder_up_top",
+    "side": "afterworld:block/ladder_side",
+    "bottom": "afterworld:block/ladder_side"
+  }
+}

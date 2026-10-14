@@ -1,0 +1,13 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "category": "misc",
+  "ingredients": [
+    "afterworld:toad_oil",
+    "minecraft:sugar",
+    "minecraft:glow_berries"
+  ],
+  "result": {
+    "id": "afterworld:elixir_of_stamina",
+    "count": 1
+  }
+}

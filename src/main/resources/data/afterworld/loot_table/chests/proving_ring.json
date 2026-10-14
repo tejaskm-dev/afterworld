@@ -1,0 +1,235 @@
+{
+  "type": "minecraft:chest",
+  "pools": [
+    {
+      "rolls": {
+        "type": "minecraft:uniform",
+        "min": 2,
+        "max": 3
+      },
+      "entries": [
+        {
+          "type": "minecraft:item",
+          "name": "afterworld:silver_mark",
+          "weight": 6,
+          "modifier": [
+            {
+              "type": "minecraft:set_count",
+              "count": {
+                "type": "minecraft:uniform",
+                "min": 3,
+                "max": 6
+              }
+            }
+          ]
+        },
+        {
+          "type": "minecraft:item",
+          "name": "afterworld:gold_crown",
+          "weight": 2,
+          "modifier": [
+            {
+              "type": "minecraft:set_count",
+              "count": {
+                "type": "minecraft:uniform",
+                "min": 1,
+                "max": 2
+              }
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "rolls": {
+        "type": "minecraft:uniform",
+        "min": 1,
+        "max": 2
+      },
+      "entries": [
+        {
+          "type": "minecraft:item",
+          "name": "afterworld:elixir_of_stamina",
+          "weight": 3
+        },
+        {
+          "type": "minecraft:item",
+          "name": "afterworld:phial_of_second_wind",
+          "weight": 3
+        },
+        {
+          "type": "minecraft:item",
+          "name": "minecraft:golden_apple",
+          "weight": 1
+        },
+        {
+          "type": "minecraft:item",
+          "name": "minecraft:cooked_beef",
+          "weight": 4,
+          "modifier": [
+            {
+              "type": "minecraft:set_count",
+              "count": {
+                "type": "minecraft:uniform",
+                "min": 2,
+                "max": 4
+              }
+            }
+          ]
+        },
+        {
+          "type": "minecraft:item",
+          "name": "afterworld:thunder_bomb",
+          "weight": 2,
+          "modifier": [
+            {
+              "type": "minecraft:set_count",
+              "count": {
+                "type": "minecraft:uniform",
+                "min": 1,
+                "max": 2
+              }
+            }
+          ]
+        },
+        {
+          "type": "minecraft:item",
+          "name": "afterworld:frost_bomb",
+          "weight": 2,
+          "modifier": [
+            {
+              "type": "minecraft:set_count",
+              "count": {
+                "type": "minecraft:uniform",
+                "min": 1,
+                "max": 2
+              }
+            }
+          ]
+        },
+        {
+          "type": "minecraft:item",
+          "name": "afterworld:smoke_bomb",
+          "weight": 2,
+          "modifier": [
+            {
+              "type": "minecraft:set_count",
+              "count": {
+                "type": "minecraft:uniform",
+                "min": 1,
+                "max": 2
+              }
+            }
+          ]
+        },
+        {
+          "type": "minecraft:item",
+          "name": "minecraft:arrow",
+          "weight": 3,
+          "modifier": [
+            {
+              "type": "minecraft:set_count",
+              "count": {
+                "type": "minecraft:uniform",
+                "min": 8,
+                "max": 16
+              }
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "rolls": 1,
+      "entries": [
+        {
+          "type": "minecraft:item",
+          "name": "afterworld:moonsilver_rapier",
+          "weight": 1
+        },
+        {
+          "type": "minecraft:item",
+          "name": "afterworld:duskpine_longbow",
+          "weight": 1
+        },
+        {
+          "type": "minecraft:item",
+          "name": "afterworld:wayfarers_fang",
+          "weight": 1
+        },
+        {
+          "type": "minecraft:item",
+          "name": "afterworld:emberbrand",
+          "weight": 1
+        },
+        {
+          "type": "minecraft:item",
+          "name": "afterworld:ashen_warbanner",
+          "weight": 1
+        },
+        {
+          "type": "minecraft:item",
+          "name": "afterworld:echo_edge",
+          "weight": 1
+        }
+      ],
+      "condition": {
+        "type": "minecraft:random_chance",
+        "chance": 0.3
+      }
+    },
+    {
+      "rolls": 1,
+      "entries": [
+        {
+          "type": "minecraft:item",
+          "name": "afterworld:amulet_of_quiet_steps",
+          "weight": 1
+        },
+        {
+          "type": "minecraft:item",
+          "name": "afterworld:mothlantern_locket",
+          "weight": 1
+        },
+        {
+          "type": "minecraft:item",
+          "name": "afterworld:emberheart_pendant",
+          "weight": 1
+        },
+        {
+          "type": "minecraft:item",
+          "name": "afterworld:rimecore_charm",
+          "weight": 1
+        },
+        {
+          "type": "minecraft:item",
+          "name": "afterworld:gearsprung_anklet",
+          "weight": 1
+        },
+        {
+          "type": "minecraft:item",
+          "name": "afterworld:warden_glyph_ring",
+          "weight": 1
+        }
+      ],
+      "condition": {
+        "type": "minecraft:random_chance",
+        "chance": 0.06
+      }
+    },
+    {
+      "rolls": 1,
+      "entries": [
+        {
+          "type": "minecraft:item",
+          "name": "afterworld:edict_shard",
+          "weight": 1
+        }
+      ],
+      "condition": {
+        "type": "minecraft:random_chance",
+        "chance": 0.2
+      }
+    }
+  ]
+}

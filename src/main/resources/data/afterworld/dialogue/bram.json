@@ -1,0 +1,572 @@
+{
+ "npc": "bram",
+ "entry": [
+  {
+   "go": "meet",
+   "if": [
+    "obj=meet_bram"
+   ]
+  },
+  {
+   "go": "hint_trade",
+   "if": [
+    "obj=trade"
+   ]
+  },
+  {
+   "go": "meet",
+   "if": [
+    "done:meet_isolde",
+    "!done:meet_bram"
+   ]
+  },
+  {
+   "go": "meet_early",
+   "if": [
+    "!done:meet_isolde",
+    "!flag:met:bram"
+   ]
+  },
+  {
+   "go": "meal_cook",
+   "if": [
+    "side:meal=0",
+    "has:minecraft:beef*2",
+    "has:minecraft:carrot*3",
+    "has:minecraft:potato*2",
+    "has:afterworld:ember_core"
+   ]
+  },
+  {
+   "go": "meal_progress",
+   "if": [
+    "side:meal=0"
+   ]
+  },
+  {
+   "go": "meal_cook_again",
+   "if": [
+    "side:meal=1"
+   ]
+  },
+  {
+   "go": "meal_deliver",
+   "if": [
+    "side:meal=2"
+   ]
+  },
+  {
+   "go": "meal_done",
+   "if": [
+    "side:meal=3"
+   ]
+  },
+  {
+   "go": "greet"
+  }
+ ],
+ "nodes": {
+  "meet": {
+   "lines": [
+    {
+     "text": "Isolde sent you? Then you're welcome at my stall. Name's Bram. I keep this camp fed, lit and stitched together.",
+     "sound": "afterworld:va.bram.meet_0",
+     "ticks": 172,
+     "beats": [
+      20,
+      730,
+      1830,
+      2540,
+      3250,
+      4290,
+      5350,
+      6060,
+      6770,
+      7490,
+      8200
+     ]
+    },
+    {
+     "text": "Here's twenty-five Marks to start you off. Nobody walks out of my camp with an empty purse. That's not charity, mind. It's an investment.",
+     "sound": "afterworld:va.bram.meet_1",
+     "ticks": 175,
+     "cue": "gruff",
+     "beats": [
+      10,
+      750,
+      1490,
+      2590,
+      3330,
+      4060,
+      4800,
+      5930,
+      6670,
+      7630,
+      8380
+     ]
+    },
+    {
+     "text": "Now. Prices out here move like weather. Sell me the same thing ten times and I'll pay you less each time. Bring me something rare from far away and I'll pay you more.",
+     "sound": "afterworld:va.bram.meet_2",
+     "ticks": 219,
+     "beats": [
+      20,
+      1200,
+      2110,
+      3420,
+      4330,
+      5360,
+      6270,
+      7580,
+      8490,
+      9610,
+      10520
+     ]
+    },
+    {
+     "text": "Go on, sell me something. Anything. Then buy something you need. That's the whole trick of it.",
+     "sound": "afterworld:va.bram.meet_3",
+     "ticks": 120,
+     "beats": [
+      20,
+      470,
+      1080,
+      1760,
+      2210,
+      3020,
+      3470,
+      3920,
+      4720,
+      5170,
+      5620
+     ]
+    }
+   ],
+   "do": [
+    "complete:meet_bram",
+    "wallet:25"
+   ],
+   "options": [
+    {
+     "text": "Show me your wares.",
+     "go": "#shop"
+    },
+    {
+     "text": "Thanks, Bram.",
+     "go": "#end"
+    }
+   ]
+  },
+  "hint_trade": {
+   "lines": [
+    {
+     "text": "Sell me something, then buy something. Open my stall and have a look. Go on.",
+     "sound": "afterworld:va.bram.hint_trade_0",
+     "ticks": 107,
+     "beats": [
+      10,
+      430,
+      840,
+      1390,
+      1800,
+      2210,
+      2980,
+      3390,
+      3810,
+      4580,
+      4990
+     ]
+    }
+   ],
+   "options": [
+    {
+     "text": "Show me your wares.",
+     "go": "#shop"
+    },
+    {
+     "text": "Farewell.",
+     "go": "#end"
+    }
+   ]
+  },
+  "meet_early": {
+   "lines": [
+    {
+     "text": "A new face. Name's Bram. Quartermaster. Isolde will want to see you first, mind. She's by the waystone.",
+     "sound": "afterworld:va.bram.meet_early_0",
+     "ticks": 151,
+     "beats": [
+      10,
+      600,
+      1500,
+      2390,
+      2980,
+      3970,
+      4550,
+      5140,
+      5990,
+      6570,
+      7150
+     ]
+    }
+   ],
+   "options": [
+    {
+     "text": "Show me your wares.",
+     "go": "#shop"
+    },
+    {
+     "text": "Farewell.",
+     "go": "#end"
+    }
+   ]
+  },
+  "greet": {
+   "lines": [
+    {
+     "text": "Back again? Good. Let's see what you need.",
+     "sound": "afterworld:va.bram.greet_0",
+     "ticks": 62,
+     "beats": [
+      20,
+      240,
+      460,
+      680,
+      1140,
+      1350,
+      1850,
+      2070,
+      2290,
+      2510,
+      2720
+     ]
+    }
+   ],
+   "options": [
+    {
+     "text": "Show me your wares.",
+     "go": "#shop"
+    },
+    {
+     "text": "How do prices work?",
+     "go": "prices"
+    },
+    {
+     "text": "Got any work?",
+     "go": "meal_offer",
+     "if": [
+      "!side:meal:started"
+     ]
+    },
+    {
+     "text": "Farewell.",
+     "go": "#end"
+    }
+   ]
+  },
+  "prices": {
+   "lines": [
+    {
+     "text": "Every merchant pays more for what's scarce where they stand. Ember glass is cheap where it's made, and dear in the snow.",
+     "sound": "afterworld:va.bram.prices_0",
+     "ticks": 148,
+     "beats": [
+      20,
+      640,
+      1260,
+      1880,
+      2540,
+      3180,
+      4220,
+      4910,
+      5540,
+      6350,
+      6970
+     ]
+    },
+    {
+     "text": "Carry goods between the keepers and you'll make a fortune. Or lose your boots to a lurker. That's trade.",
+     "sound": "afterworld:va.bram.prices_1",
+     "ticks": 147,
+     "cue": "chuckles",
+     "beats": [
+      20,
+      620,
+      1230,
+      1970,
+      2570,
+      3550,
+      4150,
+      4750,
+      5600,
+      6280,
+      6870
+     ]
+    },
+    {
+     "text": "And don't sell all your fangs to one stall in one day. I'll stop wanting them. So will everyone.",
+     "sound": "afterworld:va.bram.prices_2",
+     "ticks": 126,
+     "beats": [
+      30,
+      550,
+      1070,
+      1590,
+      2110,
+      2630,
+      3150,
+      3960,
+      4480,
+      5360,
+      5880
+     ]
+    }
+   ],
+   "options": [
+    {
+     "text": "Show me your wares.",
+     "go": "#shop"
+    },
+    {
+     "text": "Farewell.",
+     "go": "#end"
+    }
+   ]
+  },
+  "meal_offer": {
+   "lines": [
+    {
+     "text": "You know what this camp's missing? A proper meal. Not jerky. Not bread. A stew that remembers its grandmother.",
+     "sound": "afterworld:va.bram.meal_offer_0",
+     "ticks": 166,
+     "beats": [
+      20,
+      690,
+      1350,
+      2390,
+      3400,
+      4060,
+      4890,
+      5900,
+      6560,
+      7220,
+      7880
+     ]
+    },
+    {
+     "text": "Bring me two raw beef, three carrots, two potatoes, and an ember core for the warmth. I'll teach you to cook it yourself.",
+     "sound": "afterworld:va.bram.meal_offer_1",
+     "ticks": 146,
+     "beats": [
+      20,
+      640,
+      1250,
+      2010,
+      2780,
+      3510,
+      4120,
+      4740,
+      5680,
+      6290,
+      6900
+     ]
+    }
+   ],
+   "options": [
+    {
+     "text": "I'll bring them.",
+     "go": "#end",
+     "do": [
+      "side:meal:start"
+     ]
+    },
+    {
+     "text": "Not now.",
+     "go": "#end"
+    }
+   ]
+  },
+  "meal_progress": {
+   "lines": [
+    {
+     "text": "Two beef, three carrots, two potatoes and an ember core. Mind you don't eat them on the way.",
+     "sound": "afterworld:va.bram.meal_progress_0",
+     "ticks": 124,
+     "cue": "gruff",
+     "beats": [
+      20,
+      520,
+      1190,
+      1830,
+      2330,
+      2920,
+      3420,
+      4290,
+      4790,
+      5290,
+      5780
+     ]
+    }
+   ],
+   "options": [
+    {
+     "text": "Show me your wares.",
+     "go": "#shop"
+    },
+    {
+     "text": "Farewell.",
+     "go": "#end"
+    }
+   ]
+  },
+  "meal_cook": {
+   "lines": [
+    {
+     "text": "You've got it all? Good. To the pot.",
+     "sound": "afterworld:va.bram.meal_cook_0",
+     "ticks": 59,
+     "beats": [
+      20,
+      230,
+      440,
+      650,
+      850,
+      1310,
+      1520,
+      1920,
+      2130,
+      2340,
+      2540
+     ]
+    },
+    {
+     "text": "Add each thing when the broth tells you, and keep it stirring. A stew's like a camp. Neglect it and it burns.",
+     "sound": "afterworld:va.bram.meal_cook_1",
+     "ticks": 145,
+     "beats": [
+      20,
+      610,
+      1200,
+      1790,
+      2470,
+      3060,
+      3990,
+      4570,
+      5470,
+      6200,
+      6800
+     ]
+    }
+   ],
+   "options": [
+    {
+     "text": "Let's cook.",
+     "go": "#end",
+     "do": [
+      "minigame:cooking"
+     ]
+    },
+    {
+     "text": "In a moment.",
+     "go": "#end"
+    }
+   ]
+  },
+  "meal_cook_again": {
+   "lines": [
+    {
+     "text": "The pot's still warm. Give it another go.",
+     "sound": "afterworld:va.bram.meal_cook_again_0",
+     "ticks": 52,
+     "beats": [
+      20,
+      230,
+      430,
+      630,
+      830,
+      1030,
+      1450,
+      1650,
+      1850,
+      2050,
+      2250
+     ]
+    }
+   ],
+   "options": [
+    {
+     "text": "Let's cook.",
+     "go": "#end",
+     "do": [
+      "minigame:cooking"
+     ]
+    },
+    {
+     "text": "Farewell.",
+     "go": "#end"
+    }
+   ]
+  },
+  "meal_deliver": {
+   "lines": [
+    {
+     "text": "Now take a bowl to Isolde. She forgets to eat when she's worrying, and she's always worrying.",
+     "sound": "afterworld:va.bram.meal_deliver_0",
+     "ticks": 124,
+     "beats": [
+      20,
+      710,
+      1210,
+      1710,
+      2470,
+      2970,
+      3470,
+      3960,
+      4780,
+      5280,
+      5770
+     ]
+    }
+   ],
+   "options": [
+    {
+     "text": "Farewell.",
+     "go": "#end"
+    }
+   ]
+  },
+  "meal_done": {
+   "lines": [
+    {
+     "text": "She ate it? All of it? Ha! Here. Take this purse knot. Coins like it. They stay.",
+     "sound": "afterworld:va.bram.meal_done_0",
+     "ticks": 137,
+     "cue": "laughs",
+     "beats": [
+      10,
+      530,
+      1330,
+      2090,
+      2600,
+      3350,
+      3870,
+      4720,
+      5230,
+      5960,
+      6470
+     ]
+    }
+   ],
+   "do": [
+    "side:meal:finish",
+    "give:afterworld:bram_purse_knot"
+   ],
+   "options": [
+    {
+     "text": "Thanks, Bram.",
+     "go": "#end"
+    }
+   ]
+  }
+ }
+}

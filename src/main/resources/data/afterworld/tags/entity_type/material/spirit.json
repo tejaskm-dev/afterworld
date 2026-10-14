@@ -1,0 +1,31 @@
+{
+  "values": [
+    "afterworld:rule_wraith",
+    "afterworld:wisp",
+    "afterworld:mourning_shade",
+    "afterworld:petal_sprite",
+    "afterworld:echo_stalker",
+    "afterworld:lantern_moth",
+    "afterworld:rime_moth",
+    {
+      "id": "minecraft:vex",
+      "required": false
+    },
+    {
+      "id": "minecraft:allay",
+      "required": false
+    },
+    {
+      "id": "minecraft:ghast",
+      "required": false
+    },
+    {
+      "id": "minecraft:breeze",
+      "required": false
+    },
+    {
+      "id": "minecraft:blaze",
+      "required": false
+    }
+  ]
+}

@@ -1,0 +1,1046 @@
+{
+ "creature.angler.ambient": {
+  "sounds": [
+   {
+    "name": "afterworld:creature/angler/ambient1",
+    "volume": 0.8
+   },
+   {
+    "name": "afterworld:creature/angler/ambient2",
+    "volume": 0.8
+   }
+  ],
+  "subtitle": "subtitles.afterworld.creature.angler.ambient"
+ },
+ "creature.angler.death": {
+  "sounds": [
+   {
+    "name": "afterworld:creature/angler/death1"
+   }
+  ],
+  "subtitle": "subtitles.afterworld.creature.angler.death"
+ },
+ "creature.angler.hurt": {
+  "sounds": [
+   {
+    "name": "afterworld:creature/angler/hurt1",
+    "volume": 0.9
+   },
+   {
+    "name": "afterworld:creature/angler/hurt2",
+    "volume": 0.9
+   }
+  ],
+  "subtitle": "subtitles.afterworld.creature.angler.hurt"
+ },
+ "creature.brute.ambient": {
+  "sounds": [
+   {
+    "name": "afterworld:creature/brute/ambient1",
+    "volume": 0.8
+   },
+   {
+    "name": "afterworld:creature/brute/ambient2",
+    "volume": 0.8
+   }
+  ],
+  "subtitle": "subtitles.afterworld.creature.brute.ambient"
+ },
+ "creature.brute.death": {
+  "sounds": [
+   {
+    "name": "afterworld:creature/brute/death1"
+   }
+  ],
+  "subtitle": "subtitles.afterworld.creature.brute.death"
+ },
+ "creature.brute.hurt": {
+  "sounds": [
+   {
+    "name": "afterworld:creature/brute/hurt1",
+    "volume": 0.9
+   },
+   {
+    "name": "afterworld:creature/brute/hurt2",
+    "volume": 0.9
+   }
+  ],
+  "subtitle": "subtitles.afterworld.creature.brute.hurt"
+ },
+ "creature.chitter.ambient": {
+  "sounds": [
+   {
+    "name": "afterworld:creature/chitter/ambient1",
+    "volume": 0.6
+   },
+   {
+    "name": "afterworld:creature/chitter/ambient2",
+    "volume": 0.6
+   }
+  ],
+  "subtitle": "subtitles.afterworld.creature.chitter.ambient"
+ },
+ "creature.chitter.death": {
+  "sounds": [
+   {
+    "name": "afterworld:creature/chitter/death1",
+    "volume": 0.9
+   }
+  ],
+  "subtitle": "subtitles.afterworld.creature.chitter.death"
+ },
+ "creature.chitter.hurt": {
+  "sounds": [
+   {
+    "name": "afterworld:creature/chitter/hurt1",
+    "volume": 0.8
+   },
+   {
+    "name": "afterworld:creature/chitter/hurt2",
+    "volume": 0.8
+   }
+  ],
+  "subtitle": "subtitles.afterworld.creature.chitter.hurt"
+ },
+ "creature.fungal.ambient": {
+  "sounds": [
+   {
+    "name": "afterworld:creature/fungal/ambient1",
+    "volume": 0.8
+   },
+   {
+    "name": "afterworld:creature/fungal/ambient2",
+    "volume": 0.8
+   }
+  ],
+  "subtitle": "subtitles.afterworld.creature.fungal.ambient"
+ },
+ "creature.fungal.death": {
+  "sounds": [
+   {
+    "name": "afterworld:creature/fungal/death1"
+   }
+  ],
+  "subtitle": "subtitles.afterworld.creature.fungal.death"
+ },
+ "creature.fungal.hurt": {
+  "sounds": [
+   {
+    "name": "afterworld:creature/fungal/hurt1",
+    "volume": 0.9
+   },
+   {
+    "name": "afterworld:creature/fungal/hurt2",
+    "volume": 0.9
+   }
+  ],
+  "subtitle": "subtitles.afterworld.creature.fungal.hurt"
+ },
+ "creature.hound.ambient": {
+  "sounds": [
+   {
+    "name": "afterworld:mob/hound",
+    "volume": 0.8
+   }
+  ],
+  "subtitle": "subtitles.afterworld.creature.hound.ambient"
+ },
+ "creature.hound.death": {
+  "sounds": [
+   {
+    "name": "afterworld:creature/hound/death1"
+   }
+  ],
+  "subtitle": "subtitles.afterworld.creature.hound.death"
+ },
+ "creature.hound.hurt": {
+  "sounds": [
+   {
+    "name": "afterworld:creature/hound/hurt1",
+    "volume": 0.9
+   },
+   {
+    "name": "afterworld:creature/hound/hurt2",
+    "volume": 0.9
+   }
+  ],
+  "subtitle": "subtitles.afterworld.creature.hound.hurt"
+ },
+ "creature.husk.ambient": {
+  "sounds": [
+   {
+    "name": "afterworld:creature/husk/ambient1",
+    "volume": 0.8
+   },
+   {
+    "name": "afterworld:creature/husk/ambient2",
+    "volume": 0.8
+   }
+  ],
+  "subtitle": "subtitles.afterworld.creature.husk.ambient"
+ },
+ "creature.husk.death": {
+  "sounds": [
+   {
+    "name": "afterworld:creature/husk/death1"
+   }
+  ],
+  "subtitle": "subtitles.afterworld.creature.husk.death"
+ },
+ "creature.husk.hurt": {
+  "sounds": [
+   {
+    "name": "afterworld:creature/husk/hurt1",
+    "volume": 0.9
+   },
+   {
+    "name": "afterworld:creature/husk/hurt2",
+    "volume": 0.9
+   }
+  ],
+  "subtitle": "subtitles.afterworld.creature.husk.hurt"
+ },
+ "creature.lurker.ambient": {
+  "sounds": [
+   {
+    "name": "afterworld:creature/lurker/ambient1",
+    "volume": 0.8
+   },
+   {
+    "name": "afterworld:creature/lurker/ambient2",
+    "volume": 0.8
+   }
+  ],
+  "subtitle": "subtitles.afterworld.creature.lurker.ambient"
+ },
+ "creature.lurker.death": {
+  "sounds": [
+   {
+    "name": "afterworld:creature/lurker/death1"
+   }
+  ],
+  "subtitle": "subtitles.afterworld.creature.lurker.death"
+ },
+ "creature.lurker.hurt": {
+  "sounds": [
+   {
+    "name": "afterworld:creature/lurker/hurt1",
+    "volume": 0.9
+   },
+   {
+    "name": "afterworld:creature/lurker/hurt2",
+    "volume": 0.9
+   }
+  ],
+  "subtitle": "subtitles.afterworld.creature.lurker.hurt"
+ },
+ "creature.moth.ambient": {
+  "sounds": [
+   {
+    "name": "afterworld:mob/moth1",
+    "volume": 0.5
+   },
+   {
+    "name": "afterworld:mob/moth2",
+    "volume": 0.5
+   }
+  ],
+  "subtitle": "subtitles.afterworld.creature.moth.ambient"
+ },
+ "creature.moth.death": {
+  "sounds": [
+   {
+    "name": "afterworld:creature/moth/death1",
+    "volume": 0.7
+   }
+  ],
+  "subtitle": "subtitles.afterworld.creature.moth.death"
+ },
+ "creature.moth.hurt": {
+  "sounds": [
+   {
+    "name": "afterworld:creature/moth/hurt1",
+    "volume": 0.6
+   },
+   {
+    "name": "afterworld:creature/moth/hurt2",
+    "volume": 0.6
+   }
+  ],
+  "subtitle": "subtitles.afterworld.creature.moth.hurt"
+ },
+ "creature.shade.ambient": {
+  "sounds": [
+   {
+    "name": "afterworld:creature/shade/ambient1",
+    "volume": 0.7
+   },
+   {
+    "name": "afterworld:creature/shade/ambient2",
+    "volume": 0.7
+   }
+  ],
+  "subtitle": "subtitles.afterworld.creature.shade.ambient"
+ },
+ "creature.shade.death": {
+  "sounds": [
+   {
+    "name": "afterworld:creature/shade/death1"
+   }
+  ],
+  "subtitle": "subtitles.afterworld.creature.shade.death"
+ },
+ "creature.shade.hurt": {
+  "sounds": [
+   {
+    "name": "afterworld:creature/shade/hurt1",
+    "volume": 0.85
+   },
+   {
+    "name": "afterworld:creature/shade/hurt2",
+    "volume": 0.85
+   }
+  ],
+  "subtitle": "subtitles.afterworld.creature.shade.hurt"
+ },
+ "creature.shambler.ambient": {
+  "sounds": [
+   {
+    "name": "afterworld:creature/shambler/ambient1",
+    "volume": 0.8
+   },
+   {
+    "name": "afterworld:creature/shambler/ambient2",
+    "volume": 0.8
+   }
+  ],
+  "subtitle": "subtitles.afterworld.creature.shambler.ambient"
+ },
+ "creature.shambler.death": {
+  "sounds": [
+   {
+    "name": "afterworld:creature/shambler/death1"
+   }
+  ],
+  "subtitle": "subtitles.afterworld.creature.shambler.death"
+ },
+ "creature.shambler.hurt": {
+  "sounds": [
+   {
+    "name": "afterworld:creature/shambler/hurt1",
+    "volume": 0.9
+   },
+   {
+    "name": "afterworld:creature/shambler/hurt2",
+    "volume": 0.9
+   }
+  ],
+  "subtitle": "subtitles.afterworld.creature.shambler.hurt"
+ },
+ "creature.sporeling.ambient": {
+  "sounds": [
+   {
+    "name": "afterworld:creature/sporeling/ambient1",
+    "volume": 0.5
+   },
+   {
+    "name": "afterworld:creature/sporeling/ambient2",
+    "volume": 0.5
+   }
+  ],
+  "subtitle": "subtitles.afterworld.creature.sporeling.ambient"
+ },
+ "creature.sporeling.death": {
+  "sounds": [
+   {
+    "name": "afterworld:creature/sporeling/death1",
+    "volume": 0.8
+   }
+  ],
+  "subtitle": "subtitles.afterworld.creature.sporeling.death"
+ },
+ "creature.sporeling.hurt": {
+  "sounds": [
+   {
+    "name": "afterworld:creature/sporeling/hurt1",
+    "volume": 0.7
+   },
+   {
+    "name": "afterworld:creature/sporeling/hurt2",
+    "volume": 0.7
+   }
+  ],
+  "subtitle": "subtitles.afterworld.creature.sporeling.hurt"
+ },
+ "creature.sprite.ambient": {
+  "sounds": [
+   {
+    "name": "afterworld:creature/sprite/ambient1",
+    "volume": 0.45
+   },
+   {
+    "name": "afterworld:creature/sprite/ambient2",
+    "volume": 0.45
+   }
+  ],
+  "subtitle": "subtitles.afterworld.creature.sprite.ambient"
+ },
+ "creature.sprite.death": {
+  "sounds": [
+   {
+    "name": "afterworld:creature/sprite/death1",
+    "volume": 0.7
+   }
+  ],
+  "subtitle": "subtitles.afterworld.creature.sprite.death"
+ },
+ "creature.sprite.hurt": {
+  "sounds": [
+   {
+    "name": "afterworld:creature/sprite/hurt1",
+    "volume": 0.6
+   },
+   {
+    "name": "afterworld:creature/sprite/hurt2",
+    "volume": 0.6
+   }
+  ],
+  "subtitle": "subtitles.afterworld.creature.sprite.hurt"
+ },
+ "creature.stalker.ambient": {
+  "sounds": [
+   {
+    "name": "afterworld:creature/stalker/ambient1",
+    "volume": 0.8
+   },
+   {
+    "name": "afterworld:creature/stalker/ambient2",
+    "volume": 0.8
+   }
+  ],
+  "subtitle": "subtitles.afterworld.creature.stalker.ambient"
+ },
+ "creature.stalker.death": {
+  "sounds": [
+   {
+    "name": "afterworld:creature/stalker/death1"
+   }
+  ],
+  "subtitle": "subtitles.afterworld.creature.stalker.death"
+ },
+ "creature.stalker.hurt": {
+  "sounds": [
+   {
+    "name": "afterworld:creature/stalker/hurt1",
+    "volume": 0.9
+   },
+   {
+    "name": "afterworld:creature/stalker/hurt2",
+    "volume": 0.9
+   }
+  ],
+  "subtitle": "subtitles.afterworld.creature.stalker.hurt"
+ },
+ "creature.treant.ambient": {
+  "sounds": [
+   {
+    "name": "afterworld:creature/treant/ambient1",
+    "volume": 0.8
+   },
+   {
+    "name": "afterworld:creature/treant/ambient2",
+    "volume": 0.8
+   }
+  ],
+  "subtitle": "subtitles.afterworld.creature.treant.ambient"
+ },
+ "creature.treant.death": {
+  "sounds": [
+   {
+    "name": "afterworld:creature/treant/death1"
+   }
+  ],
+  "subtitle": "subtitles.afterworld.creature.treant.death"
+ },
+ "creature.treant.hurt": {
+  "sounds": [
+   {
+    "name": "afterworld:creature/treant/hurt1",
+    "volume": 0.9
+   },
+   {
+    "name": "afterworld:creature/treant/hurt2",
+    "volume": 0.9
+   }
+  ],
+  "subtitle": "subtitles.afterworld.creature.treant.hurt"
+ },
+ "creature.weaver.ambient": {
+  "sounds": [
+   {
+    "name": "afterworld:creature/weaver/ambient1",
+    "volume": 0.8
+   },
+   {
+    "name": "afterworld:creature/weaver/ambient2",
+    "volume": 0.8
+   }
+  ],
+  "subtitle": "subtitles.afterworld.creature.weaver.ambient"
+ },
+ "creature.weaver.death": {
+  "sounds": [
+   {
+    "name": "afterworld:creature/weaver/death1"
+   }
+  ],
+  "subtitle": "subtitles.afterworld.creature.weaver.death"
+ },
+ "creature.weaver.hurt": {
+  "sounds": [
+   {
+    "name": "afterworld:creature/weaver/hurt1",
+    "volume": 0.9
+   },
+   {
+    "name": "afterworld:creature/weaver/hurt2",
+    "volume": 0.9
+   }
+  ],
+  "subtitle": "subtitles.afterworld.creature.weaver.hurt"
+ },
+ "creature.whale.ambient": {
+  "sounds": [
+   {
+    "name": "afterworld:mob/whale1"
+   },
+   {
+    "name": "afterworld:mob/whale2"
+   }
+  ],
+  "subtitle": "subtitles.afterworld.creature.whale.ambient"
+ },
+ "creature.whale.death": {
+  "sounds": [
+   {
+    "name": "afterworld:creature/whale/death1"
+   }
+  ],
+  "subtitle": "subtitles.afterworld.creature.whale.death"
+ },
+ "creature.whale.hurt": {
+  "sounds": [
+   {
+    "name": "afterworld:creature/whale/hurt1"
+   },
+   {
+    "name": "afterworld:creature/whale/hurt2"
+   }
+  ],
+  "subtitle": "subtitles.afterworld.creature.whale.hurt"
+ },
+ "creature.wight.ambient": {
+  "sounds": [
+   {
+    "name": "afterworld:creature/wight/ambient1",
+    "volume": 0.8
+   },
+   {
+    "name": "afterworld:creature/wight/ambient2",
+    "volume": 0.8
+   }
+  ],
+  "subtitle": "subtitles.afterworld.creature.wight.ambient"
+ },
+ "creature.wight.death": {
+  "sounds": [
+   {
+    "name": "afterworld:creature/wight/death1"
+   }
+  ],
+  "subtitle": "subtitles.afterworld.creature.wight.death"
+ },
+ "creature.wight.hurt": {
+  "sounds": [
+   {
+    "name": "afterworld:creature/wight/hurt1",
+    "volume": 0.9
+   },
+   {
+    "name": "afterworld:creature/wight/hurt2",
+    "volume": 0.9
+   }
+  ],
+  "subtitle": "subtitles.afterworld.creature.wight.hurt"
+ },
+ "creature.wyrmling.ambient": {
+  "sounds": [
+   {
+    "name": "afterworld:creature/wyrmling/ambient1",
+    "volume": 0.8
+   },
+   {
+    "name": "afterworld:creature/wyrmling/ambient2",
+    "volume": 0.8
+   }
+  ],
+  "subtitle": "subtitles.afterworld.creature.wyrmling.ambient"
+ },
+ "creature.wyrmling.death": {
+  "sounds": [
+   {
+    "name": "afterworld:creature/wyrmling/death1"
+   }
+  ],
+  "subtitle": "subtitles.afterworld.creature.wyrmling.death"
+ },
+ "creature.wyrmling.hurt": {
+  "sounds": [
+   {
+    "name": "afterworld:creature/wyrmling/hurt1",
+    "volume": 0.9
+   },
+   {
+    "name": "afterworld:creature/wyrmling/hurt2",
+    "volume": 0.9
+   }
+  ],
+  "subtitle": "subtitles.afterworld.creature.wyrmling.hurt"
+ },
+ "impact.bone": {
+  "sounds": [
+   {
+    "name": "afterworld:impact/bone1",
+    "volume": 0.8
+   },
+   {
+    "name": "afterworld:impact/bone2",
+    "volume": 0.8
+   },
+   {
+    "name": "afterworld:impact/bone3",
+    "volume": 0.8
+   },
+   {
+    "name": "afterworld:impact/bone4",
+    "volume": 0.8
+   }
+  ]
+ },
+ "impact.chitin": {
+  "sounds": [
+   {
+    "name": "afterworld:impact/chitin1",
+    "volume": 0.75
+   },
+   {
+    "name": "afterworld:impact/chitin2",
+    "volume": 0.75
+   },
+   {
+    "name": "afterworld:impact/chitin3",
+    "volume": 0.75
+   },
+   {
+    "name": "afterworld:impact/chitin4",
+    "volume": 0.75
+   }
+  ]
+ },
+ "impact.crit": {
+  "sounds": [
+   {
+    "name": "afterworld:impact/crit1",
+    "volume": 0.6
+   },
+   {
+    "name": "afterworld:impact/crit2",
+    "volume": 0.6
+   },
+   {
+    "name": "afterworld:impact/crit3",
+    "volume": 0.6
+   }
+  ]
+ },
+ "impact.crystal": {
+  "sounds": [
+   {
+    "name": "afterworld:impact/crystal1",
+    "volume": 0.75
+   },
+   {
+    "name": "afterworld:impact/crystal2",
+    "volume": 0.75
+   },
+   {
+    "name": "afterworld:impact/crystal3",
+    "volume": 0.75
+   },
+   {
+    "name": "afterworld:impact/crystal4",
+    "volume": 0.75
+   }
+  ]
+ },
+ "impact.flesh": {
+  "sounds": [
+   {
+    "name": "afterworld:impact/flesh1",
+    "volume": 0.85
+   },
+   {
+    "name": "afterworld:impact/flesh2",
+    "volume": 0.85
+   },
+   {
+    "name": "afterworld:impact/flesh3",
+    "volume": 0.85
+   },
+   {
+    "name": "afterworld:impact/flesh4",
+    "volume": 0.85
+   }
+  ]
+ },
+ "impact.guard": {
+  "sounds": [
+   {
+    "name": "afterworld:impact/guard1",
+    "volume": 0.8
+   },
+   {
+    "name": "afterworld:impact/guard2",
+    "volume": 0.8
+   },
+   {
+    "name": "afterworld:impact/guard3",
+    "volume": 0.8
+   }
+  ]
+ },
+ "impact.hide": {
+  "sounds": [
+   {
+    "name": "afterworld:impact/hide1",
+    "volume": 0.85
+   },
+   {
+    "name": "afterworld:impact/hide2",
+    "volume": 0.85
+   },
+   {
+    "name": "afterworld:impact/hide3",
+    "volume": 0.85
+   },
+   {
+    "name": "afterworld:impact/hide4",
+    "volume": 0.85
+   }
+  ]
+ },
+ "impact.ice": {
+  "sounds": [
+   {
+    "name": "afterworld:impact/ice1",
+    "volume": 0.8
+   },
+   {
+    "name": "afterworld:impact/ice2",
+    "volume": 0.8
+   },
+   {
+    "name": "afterworld:impact/ice3",
+    "volume": 0.8
+   },
+   {
+    "name": "afterworld:impact/ice4",
+    "volume": 0.8
+   }
+  ]
+ },
+ "impact.kill": {
+  "sounds": [
+   {
+    "name": "afterworld:impact/kill1",
+    "volume": 0.55
+   },
+   {
+    "name": "afterworld:impact/kill2",
+    "volume": 0.55
+   },
+   {
+    "name": "afterworld:impact/kill3",
+    "volume": 0.55
+   }
+  ]
+ },
+ "impact.metal": {
+  "sounds": [
+   {
+    "name": "afterworld:impact/metal1",
+    "volume": 0.8
+   },
+   {
+    "name": "afterworld:impact/metal2",
+    "volume": 0.8
+   },
+   {
+    "name": "afterworld:impact/metal3",
+    "volume": 0.8
+   },
+   {
+    "name": "afterworld:impact/metal4",
+    "volume": 0.8
+   }
+  ]
+ },
+ "impact.scale": {
+  "sounds": [
+   {
+    "name": "afterworld:impact/scale1",
+    "volume": 0.8
+   },
+   {
+    "name": "afterworld:impact/scale2",
+    "volume": 0.8
+   },
+   {
+    "name": "afterworld:impact/scale3",
+    "volume": 0.8
+   },
+   {
+    "name": "afterworld:impact/scale4",
+    "volume": 0.8
+   }
+  ]
+ },
+ "impact.slime": {
+  "sounds": [
+   {
+    "name": "afterworld:impact/slime1",
+    "volume": 0.8
+   },
+   {
+    "name": "afterworld:impact/slime2",
+    "volume": 0.8
+   },
+   {
+    "name": "afterworld:impact/slime3",
+    "volume": 0.8
+   },
+   {
+    "name": "afterworld:impact/slime4",
+    "volume": 0.8
+   }
+  ]
+ },
+ "impact.spirit": {
+  "sounds": [
+   {
+    "name": "afterworld:impact/spirit1",
+    "volume": 0.7
+   },
+   {
+    "name": "afterworld:impact/spirit2",
+    "volume": 0.7
+   },
+   {
+    "name": "afterworld:impact/spirit3",
+    "volume": 0.7
+   },
+   {
+    "name": "afterworld:impact/spirit4",
+    "volume": 0.7
+   }
+  ]
+ },
+ "impact.stone": {
+  "sounds": [
+   {
+    "name": "afterworld:impact/stone1",
+    "volume": 0.9
+   },
+   {
+    "name": "afterworld:impact/stone2",
+    "volume": 0.9
+   },
+   {
+    "name": "afterworld:impact/stone3",
+    "volume": 0.9
+   },
+   {
+    "name": "afterworld:impact/stone4",
+    "volume": 0.9
+   }
+  ]
+ },
+ "impact.wood": {
+  "sounds": [
+   {
+    "name": "afterworld:impact/wood1",
+    "volume": 0.85
+   },
+   {
+    "name": "afterworld:impact/wood2",
+    "volume": 0.85
+   },
+   {
+    "name": "afterworld:impact/wood3",
+    "volume": 0.85
+   },
+   {
+    "name": "afterworld:impact/wood4",
+    "volume": 0.85
+   }
+  ]
+ },
+ "ui.choose": {
+  "sounds": [
+   {
+    "name": "afterworld:ui2/choose1",
+    "volume": 0.5
+   },
+   {
+    "name": "afterworld:ui2/choose2",
+    "volume": 0.5
+   }
+  ]
+ },
+ "ui.close": {
+  "sounds": [
+   {
+    "name": "afterworld:ui2/close1",
+    "volume": 0.55
+   },
+   {
+    "name": "afterworld:ui2/close2",
+    "volume": 0.55
+   }
+  ]
+ },
+ "ui.coin": {
+  "sounds": [
+   {
+    "name": "afterworld:ui2/coin1",
+    "volume": 0.5
+   },
+   {
+    "name": "afterworld:ui2/coin2",
+    "volume": 0.5
+   }
+  ]
+ },
+ "ui.equip": {
+  "sounds": [
+   {
+    "name": "afterworld:ui2/equip1",
+    "volume": 0.6
+   },
+   {
+    "name": "afterworld:ui2/equip2",
+    "volume": 0.6
+   },
+   {
+    "name": "afterworld:ui2/equip3",
+    "volume": 0.6
+   }
+  ]
+ },
+ "ui.error": {
+  "sounds": [
+   {
+    "name": "afterworld:ui2/error1",
+    "volume": 0.45
+   },
+   {
+    "name": "afterworld:ui2/error2",
+    "volume": 0.45
+   }
+  ]
+ },
+ "ui.hover": {
+  "sounds": [
+   {
+    "name": "afterworld:ui2/hover1",
+    "volume": 0.22
+   },
+   {
+    "name": "afterworld:ui2/hover2",
+    "volume": 0.22
+   }
+  ]
+ },
+ "ui.move": {
+  "sounds": [
+   {
+    "name": "afterworld:ui2/move1",
+    "volume": 0.4
+   },
+   {
+    "name": "afterworld:ui2/move2",
+    "volume": 0.4
+   }
+  ]
+ },
+ "ui.open": {
+  "sounds": [
+   {
+    "name": "afterworld:ui2/open1",
+    "volume": 0.6
+   },
+   {
+    "name": "afterworld:ui2/open2",
+    "volume": 0.6
+   }
+  ]
+ },
+ "ui.page": {
+  "sounds": [
+   {
+    "name": "afterworld:ui2/page1",
+    "volume": 0.55
+   },
+   {
+    "name": "afterworld:ui2/page2",
+    "volume": 0.55
+   },
+   {
+    "name": "afterworld:ui2/page3",
+    "volume": 0.55
+   }
+  ]
+ },
+ "ui.purchase": {
+  "sounds": [
+   {
+    "name": "afterworld:ui2/purchase1",
+    "volume": 0.6
+   }
+  ]
+ },
+ "ui.select": {
+  "sounds": [
+   {
+    "name": "afterworld:ui2/select1",
+    "volume": 0.45
+   },
+   {
+    "name": "afterworld:ui2/select2",
+    "volume": 0.45
+   }
+  ]
+ },
+ "ui.tab": {
+  "sounds": [
+   {
+    "name": "afterworld:ui2/tab1",
+    "volume": 0.45
+   },
+   {
+    "name": "afterworld:ui2/tab2",
+    "volume": 0.45
+   }
+  ]
+ }
+}

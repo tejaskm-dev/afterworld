@@ -1,0 +1,55 @@
+{
+  "type": "afterworld:ruin",
+  "wall": {
+    "type": "minecraft:weighted",
+    "entries": [
+      {
+        "data": "minecraft:stone_bricks",
+        "weight": 4
+      },
+      {
+        "data": "minecraft:mossy_stone_bricks",
+        "weight": 3
+      },
+      {
+        "data": "minecraft:cracked_stone_bricks",
+        "weight": 2
+      },
+      {
+        "data": "minecraft:cobblestone",
+        "weight": 1
+      }
+    ]
+  },
+  "floor": {
+    "type": "minecraft:weighted",
+    "entries": [
+      {
+        "data": "minecraft:stone_bricks",
+        "weight": 3
+      },
+      {
+        "data": "minecraft:cobblestone",
+        "weight": 2
+      },
+      {
+        "data": "minecraft:gravel",
+        "weight": 1
+      },
+      {
+        "data": "minecraft:mossy_cobblestone",
+        "weight": 1
+      }
+    ]
+  },
+  "style": "walls",
+  "loot_chance": 0.4,
+  "underwater": false,
+  "accent": {
+    "id": "minecraft:lantern",
+    "properties": {
+      "hanging": "false"
+    }
+  },
+  "loot": "afterworld:chests/ruin_cache"
+}

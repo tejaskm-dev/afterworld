@@ -1,0 +1,14 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "category": "misc",
+  "ingredients": [
+    "minecraft:iron_sword",
+    "afterworld:living_crystal",
+    "afterworld:living_crystal",
+    "minecraft:amethyst_shard"
+  ],
+  "result": {
+    "id": "afterworld:shardsong_glaive",
+    "count": 1
+  }
+}

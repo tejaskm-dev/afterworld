@@ -1,0 +1,54 @@
+# gradle
+
+.gradle/
+build/
+out/
+classes/
+
+# eclipse
+
+*.launch
+
+# idea
+
+.idea/
+*.iml
+*.ipr
+*.iws
+
+# vscode
+
+.settings/
+.vscode/
+bin/
+.classpath
+.project
+
+# macos
+
+*.DS_Store
+
+# fabric
+
+run/
+
+# java
+
+hs_err_*.log
+replay_*.log
+*.hprof
+*.jfr
+
+# afterworld: built files go out as GitHub release assets, not into the repository
+dist/*.jar
+dist/*.mrpack
+dist/old/
+
+# afterworld: raw voice takes and their splits (the game's own copies are in
+# src/main/resources/assets/afterworld/sounds/va)
+voice/incoming/
+voice/split/
+
+# python
+__pycache__/
+*.pyc

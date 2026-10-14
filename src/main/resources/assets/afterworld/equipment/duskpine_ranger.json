@@ -1,0 +1,14 @@
+{
+  "layers": {
+    "humanoid": [
+      {
+        "texture": "afterworld:duskpine_ranger"
+      }
+    ],
+    "humanoid_leggings": [
+      {
+        "texture": "afterworld:duskpine_ranger"
+      }
+    ]
+  }
+}

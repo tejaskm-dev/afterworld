@@ -1,0 +1,14 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "category": "misc",
+  "ingredients": [
+    "minecraft:diamond_sword",
+    "afterworld:rime_core",
+    "afterworld:rime_core",
+    "minecraft:packed_ice"
+  ],
+  "result": {
+    "id": "afterworld:rimefang_spear",
+    "count": 1
+  }
+}

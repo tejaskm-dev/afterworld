@@ -1,0 +1,14 @@
+{
+  "layers": {
+    "humanoid": [
+      {
+        "texture": "afterworld:wardens_regalia"
+      }
+    ],
+    "humanoid_leggings": [
+      {
+        "texture": "afterworld:wardens_regalia"
+      }
+    ]
+  }
+}

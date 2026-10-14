@@ -1,0 +1,29 @@
+{
+  "type": "afterworld:spire",
+  "body": {
+    "type": "minecraft:weighted",
+    "entries": [
+      {
+        "data": "minecraft:packed_ice",
+        "weight": 4
+      },
+      {
+        "data": "minecraft:blue_ice",
+        "weight": 1
+      },
+      {
+        "data": "minecraft:ice",
+        "weight": 1
+      }
+    ]
+  },
+  "style": "shard",
+  "min_height": 10,
+  "max_height": 24,
+  "min_radius": 1.6,
+  "max_radius": 3.0,
+  "glow_chance": 0.0,
+  "tip": {
+    "id": "minecraft:snow_block"
+  }
+}

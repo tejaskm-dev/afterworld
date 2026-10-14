@@ -1,0 +1,21 @@
+{
+  "type": "afterworld:spire",
+  "body": {
+    "type": "minecraft:weighted",
+    "entries": [
+      {
+        "data": "minecraft:mushroom_stem",
+        "weight": 1
+      }
+    ]
+  },
+  "style": "taper",
+  "min_height": 3,
+  "max_height": 6,
+  "min_radius": 0.4,
+  "max_radius": 0.6,
+  "glow_chance": 0.0,
+  "tip": {
+    "id": "minecraft:shroomlight"
+  }
+}

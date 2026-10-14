@@ -1,0 +1,31 @@
+{
+  "type": "afterworld:outcrop",
+  "body": {
+    "type": "minecraft:weighted",
+    "entries": [
+      {
+        "data": "minecraft:cobblestone",
+        "weight": 3
+      },
+      {
+        "data": "minecraft:mossy_cobblestone",
+        "weight": 3
+      },
+      {
+        "data": "minecraft:andesite",
+        "weight": 2
+      },
+      {
+        "data": "minecraft:stone",
+        "weight": 2
+      }
+    ]
+  },
+  "cap_chance": 0.85,
+  "min_size": 1.6,
+  "max_size": 3.2,
+  "lumps": 3,
+  "cap": {
+    "id": "minecraft:moss_block"
+  }
+}

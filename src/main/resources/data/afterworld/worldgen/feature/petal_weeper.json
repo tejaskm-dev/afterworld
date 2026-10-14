@@ -1,0 +1,11 @@
+{
+  "type": "afterworld:tree",
+  "log": "minecraft:cherry_log",
+  "leaves": {
+    "id": "minecraft:cherry_leaves"
+  },
+  "shape": "droop",
+  "min_height": 6,
+  "max_height": 9,
+  "snow": false
+}

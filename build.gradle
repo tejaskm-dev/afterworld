@@ -1,0 +1,114 @@
+plugins {
+	id 'net.fabricmc.fabric-loom' version "${loom_version}"
+}
+
+version = project.mod_version
+group = project.maven_group
+
+base {
+	archivesName = project.archives_base_name
+}
+
+loom {
+	splitEnvironmentSourceSets()
+
+	mods {
+		"afterworld" {
+			sourceSet sourceSets.main
+			sourceSet sourceSets.client
+		}
+	}
+}
+
+fabricApi {
+	configureTests {
+		createSourceSet = true
+		modId = "afterworld-test"
+		enableGameTests = false
+		enableClientGameTests = true
+		eula = true
+	}
+}
+
+dependencies {
+	minecraft "com.mojang:minecraft:${project.minecraft_version}"
+	implementation "net.fabricmc:fabric-loader:${project.loader_version}"
+	implementation "net.fabricmc.fabric-api:fabric-api:${project.fabric_api_version}"
+	// Bundle Fabric API inside the mod jar so players only need Fabric Loader plus this one file.
+	// If Fabric API is also installed separately, Fabric Loader simply uses the newer copy.
+	include "net.fabricmc.fabric-api:fabric-api:${project.fabric_api_version}"
+}
+
+processResources {
+	def version = project.version
+	inputs.property "version", version
+
+	filesMatching("fabric.mod.json") {
+		expand "version": version
+	}
+}
+
+tasks.withType(JavaCompile).configureEach {
+	it.options.release = 25
+	it.options.encoding = "UTF-8"
+	it.options.compilerArgs += ["-Xlint:deprecation"]
+}
+
+java {
+	sourceCompatibility = JavaVersion.VERSION_25
+	targetCompatibility = JavaVersion.VERSION_25
+}
+
+tasks.named("runServer") {
+	standardInput = System.in
+}
+
+// A production-style server: the built jar (with its bundled Fabric API) on a plain Fabric server.
+tasks.register("prodServerTest", net.fabricmc.loom.task.prod.ServerProductionRunTask) {
+	mods.from(tasks.named("jar"))
+	runDir = file("build/run/prodServer")
+	jvmArgs.add("-Dafterworld.selftest=true")
+	doFirst {
+		def dir = file("build/run/prodServer")
+		dir.mkdirs()
+		new File(dir, "eula.txt").text = "eula=true\n"
+		new File(dir, "server.properties").text = "online-mode=false\nview-distance=4\nsimulation-distance=4\nmax-tick-time=-1\n"
+	}
+}
+
+// Optional: run the client tests alongside a modpack's mods (-PpackTest=<dir with mods/ and overrides/>).
+if (project.hasProperty("packTest")) {
+	def packDir = file(project.property("packTest"))
+	dependencies {
+		runtimeOnly fileTree(dir: new File(packDir, "mods"), include: "*.jar")
+	}
+	tasks.named("runClientGameTest") {
+		doFirst {
+			copy {
+				from new File(packDir, "overrides")
+				into file("build/run/clientGameTest")
+			}
+		}
+	}
+}
+
+// Optional: run only some parts of the lands test (-Plands=sites,bosses,trials).
+if (project.hasProperty("lands")) {
+	tasks.named("runClientGameTest") {
+		jvmArgs "-Dafterworld.lands=${project.property('lands')}"
+	}
+}
+
+// Optional: switch off Afterworld's structure siting rules, to compare (-Psitingoff).
+if (project.hasProperty("sitingoff")) {
+	tasks.named("runClientGameTest") {
+		jvmArgs "-Dafterworld.siting.off=true"
+	}
+}
+
+// Optional: record a Java Flight Recorder profile of the client tests (-Pjfr=<file.jfr>).
+if (project.hasProperty("jfr")) {
+	tasks.named("runClientGameTest") {
+		jvmArgs "-XX:StartFlightRecording=filename=${project.property('jfr')},settings=profile,dumponexit=true"
+	}
+}

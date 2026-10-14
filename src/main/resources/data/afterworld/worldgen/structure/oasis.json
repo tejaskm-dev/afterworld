@@ -1,0 +1,10 @@
+{
+  "type": "afterworld:wonder",
+  "wonder": "oasis",
+  "sink": 4,
+  "max_relief": 6,
+  "biomes": "#afterworld:has_structure/oasis",
+  "step": "surface_structures",
+  "terrain_adaptation": "beard_box",
+  "spawn_overrides": {}
+}

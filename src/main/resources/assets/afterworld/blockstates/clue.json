@@ -1,0 +1,94 @@
+{
+  "variants": {
+    "kind=wagon": [
+      {
+        "model": "afterworld:block/clue_wagon",
+        "y": 0
+      },
+      {
+        "model": "afterworld:block/clue_wagon",
+        "y": 90
+      },
+      {
+        "model": "afterworld:block/clue_wagon",
+        "y": 180
+      },
+      {
+        "model": "afterworld:block/clue_wagon",
+        "y": 270
+      }
+    ],
+    "kind=manifest": [
+      {
+        "model": "afterworld:block/clue_manifest",
+        "y": 0
+      },
+      {
+        "model": "afterworld:block/clue_manifest",
+        "y": 90
+      },
+      {
+        "model": "afterworld:block/clue_manifest",
+        "y": 180
+      },
+      {
+        "model": "afterworld:block/clue_manifest",
+        "y": 270
+      }
+    ],
+    "kind=tracks": [
+      {
+        "model": "afterworld:block/clue_tracks",
+        "y": 0
+      },
+      {
+        "model": "afterworld:block/clue_tracks",
+        "y": 90
+      },
+      {
+        "model": "afterworld:block/clue_tracks",
+        "y": 180
+      },
+      {
+        "model": "afterworld:block/clue_tracks",
+        "y": 270
+      }
+    ],
+    "kind=glyph": [
+      {
+        "model": "afterworld:block/clue_glyph",
+        "y": 0
+      },
+      {
+        "model": "afterworld:block/clue_glyph",
+        "y": 90
+      },
+      {
+        "model": "afterworld:block/clue_glyph",
+        "y": 180
+      },
+      {
+        "model": "afterworld:block/clue_glyph",
+        "y": 270
+      }
+    ],
+    "kind=note": [
+      {
+        "model": "afterworld:block/clue_note",
+        "y": 0
+      },
+      {
+        "model": "afterworld:block/clue_note",
+        "y": 90
+      },
+      {
+        "model": "afterworld:block/clue_note",
+        "y": 180
+      },
+      {
+        "model": "afterworld:block/clue_note",
+        "y": 270
+      }
+    ]
+  }
+}

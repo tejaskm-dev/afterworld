@@ -1,0 +1,14 @@
+{
+  "placement": {
+    "type": "minecraft:random_spread",
+    "salt": 7104,
+    "separation": 28,
+    "spacing": 64
+  },
+  "structures": [
+    {
+      "structure": "afterworld:mill",
+      "weight": 1
+    }
+  ]
+}

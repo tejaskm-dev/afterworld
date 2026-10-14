@@ -1,0 +1,68 @@
+{
+  "type": "afterworld:ground",
+  "biome": "afterworld:vesper_downs",
+  "surface": [
+    {
+      "state": "minecraft:coarse_dirt",
+      "noise": 0,
+      "min": 0.8,
+      "max": 1.01
+    },
+    {
+      "state": "minecraft:moss_block",
+      "noise": 1,
+      "min": 0.0,
+      "max": 0.07
+    },
+    {
+      "state": "minecraft:gravel",
+      "noise": 1,
+      "min": 0.94,
+      "max": 1.01
+    }
+  ],
+  "plants": [
+    {
+      "state": "minecraft:short_grass",
+      "chance": 0.26
+    },
+    {
+      "state": {
+        "id": "minecraft:tall_grass",
+        "properties": {
+          "half": "lower"
+        }
+      },
+      "chance": 0.04
+    },
+    {
+      "state": "minecraft:wildflowers",
+      "chance": 0.03
+    },
+    {
+      "state": {
+        "id": "minecraft:lilac",
+        "properties": {
+          "half": "lower"
+        }
+      },
+      "chance": 0.006
+    },
+    {
+      "state": "minecraft:cornflower",
+      "chance": 0.007
+    },
+    {
+      "state": "minecraft:oxeye_daisy",
+      "chance": 0.006
+    },
+    {
+      "state": "minecraft:bush",
+      "chance": 0.012
+    },
+    {
+      "state": "minecraft:firefly_bush",
+      "chance": 0.003
+    }
+  ]
+}

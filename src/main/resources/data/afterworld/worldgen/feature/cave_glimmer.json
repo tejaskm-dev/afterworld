@@ -1,0 +1,94 @@
+{
+  "type": "afterworld:cave_decor",
+  "tries": 3,
+  "min_y": -48,
+  "max_y": 50,
+  "radius": 4,
+  "floor_chance": 0.22,
+  "ceiling_chance": 0.12,
+  "floor_paint": {
+    "type": "minecraft:weighted",
+    "entries": [
+      {
+        "data": "minecraft:calcite",
+        "weight": 3
+      },
+      {
+        "data": "minecraft:tuff",
+        "weight": 2
+      },
+      {
+        "data": "minecraft:smooth_basalt",
+        "weight": 1
+      }
+    ]
+  },
+  "floor": {
+    "type": "minecraft:weighted",
+    "entries": [
+      {
+        "data": {
+          "id": "minecraft:small_amethyst_bud",
+          "properties": {
+            "facing": "up"
+          }
+        },
+        "weight": 3
+      },
+      {
+        "data": {
+          "id": "minecraft:medium_amethyst_bud",
+          "properties": {
+            "facing": "up"
+          }
+        },
+        "weight": 2
+      },
+      {
+        "data": {
+          "id": "minecraft:amethyst_cluster",
+          "properties": {
+            "facing": "up"
+          }
+        },
+        "weight": 1
+      }
+    ]
+  },
+  "ceiling_paint": {
+    "type": "minecraft:weighted",
+    "entries": [
+      {
+        "data": "minecraft:calcite",
+        "weight": 2
+      },
+      {
+        "data": "minecraft:tuff",
+        "weight": 1
+      }
+    ]
+  },
+  "ceiling": {
+    "type": "minecraft:weighted",
+    "entries": [
+      {
+        "data": {
+          "id": "minecraft:amethyst_cluster",
+          "properties": {
+            "facing": "down"
+          }
+        },
+        "weight": 1
+      },
+      {
+        "data": {
+          "id": "minecraft:large_amethyst_bud",
+          "properties": {
+            "facing": "down"
+          }
+        },
+        "weight": 2
+      }
+    ]
+  }
+}

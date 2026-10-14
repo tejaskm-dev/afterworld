@@ -1,0 +1,3417 @@
+{
+  "music.title": {
+    "sounds": [
+      {
+        "name": "afterworld:music/title",
+        "stream": true,
+        "volume": 0.7
+      }
+    ]
+  },
+  "music.wilds": {
+    "sounds": [
+      {
+        "name": "afterworld:music/wilds",
+        "stream": true,
+        "volume": 0.55
+      }
+    ]
+  },
+  "music.boss": {
+    "sounds": [
+      {
+        "name": "afterworld:music/boss",
+        "stream": true,
+        "volume": 0.7
+      }
+    ]
+  },
+  "ui.page": {
+    "sounds": [
+      {
+        "name": "afterworld:ui2/page1",
+        "volume": 0.55
+      },
+      {
+        "name": "afterworld:ui2/page2",
+        "volume": 0.55
+      },
+      {
+        "name": "afterworld:ui2/page3",
+        "volume": 0.55
+      }
+    ]
+  },
+  "ui.select": {
+    "sounds": [
+      {
+        "name": "afterworld:ui2/select1",
+        "volume": 0.45
+      },
+      {
+        "name": "afterworld:ui2/select2",
+        "volume": 0.45
+      }
+    ]
+  },
+  "ui.open": {
+    "sounds": [
+      {
+        "name": "afterworld:ui2/open1",
+        "volume": 0.6
+      },
+      {
+        "name": "afterworld:ui2/open2",
+        "volume": 0.6
+      }
+    ]
+  },
+  "ui.discovery": {
+    "sounds": [
+      {
+        "name": "afterworld:ui/discovery",
+        "volume": 0.6
+      }
+    ],
+    "subtitle": "subtitles.afterworld.ui.discovery"
+  },
+  "ui.rumour": {
+    "sounds": [
+      {
+        "name": "afterworld:ui/rumour",
+        "volume": 0.6
+      }
+    ],
+    "subtitle": "subtitles.afterworld.ui.rumour"
+  },
+  "ui.chronicle": {
+    "sounds": [
+      {
+        "name": "afterworld:ui/chronicle",
+        "volume": 0.6
+      }
+    ],
+    "subtitle": "subtitles.afterworld.ui.chronicle"
+  },
+  "ui.area": {
+    "sounds": [
+      {
+        "name": "afterworld:ui/area",
+        "volume": 0.7
+      }
+    ]
+  },
+  "ui.boss": {
+    "sounds": [
+      {
+        "name": "afterworld:ui/boss",
+        "volume": 0.8
+      }
+    ]
+  },
+  "ui.type": {
+    "sounds": [
+      {
+        "name": "afterworld:ui/type1",
+        "volume": 0.35
+      },
+      {
+        "name": "afterworld:ui/type2",
+        "volume": 0.35
+      },
+      {
+        "name": "afterworld:ui/type3",
+        "volume": 0.35
+      }
+    ]
+  },
+  "ui.move": {
+    "sounds": [
+      {
+        "name": "afterworld:ui2/move1",
+        "volume": 0.4
+      },
+      {
+        "name": "afterworld:ui2/move2",
+        "volume": 0.4
+      }
+    ]
+  },
+  "ui.choose": {
+    "sounds": [
+      {
+        "name": "afterworld:ui2/choose1",
+        "volume": 0.5
+      },
+      {
+        "name": "afterworld:ui2/choose2",
+        "volume": 0.5
+      }
+    ]
+  },
+  "ui.step": {
+    "sounds": [
+      {
+        "name": "afterworld:ui/step",
+        "volume": 0.7
+      }
+    ]
+  },
+  "ui.awaken": {
+    "sounds": [
+      {
+        "name": "afterworld:ui/awaken",
+        "volume": 0.8
+      }
+    ]
+  },
+  "ui.coin": {
+    "sounds": [
+      {
+        "name": "afterworld:ui2/coin1",
+        "volume": 0.5
+      },
+      {
+        "name": "afterworld:ui2/coin2",
+        "volume": 0.5
+      }
+    ]
+  },
+  "ui.purchase": {
+    "sounds": [
+      {
+        "name": "afterworld:ui2/purchase1",
+        "volume": 0.6
+      }
+    ]
+  },
+  "combat.parry": {
+    "sounds": [
+      {
+        "name": "afterworld:combat/parry",
+        "volume": 0.9
+      }
+    ],
+    "subtitle": "subtitles.afterworld.combat.parry"
+  },
+  "combat.perfect": {
+    "sounds": [
+      {
+        "name": "afterworld:combat/perfect",
+        "volume": 0.7
+      }
+    ]
+  },
+  "aspect.unleash": {
+    "sounds": [
+      {
+        "name": "afterworld:aspect/unleash",
+        "volume": 1.0
+      }
+    ],
+    "subtitle": "subtitles.afterworld.aspect.unleash"
+  },
+  "mob.owl": {
+    "sounds": [
+      {
+        "name": "afterworld:mob/owl",
+        "volume": 0.8
+      }
+    ],
+    "subtitle": "subtitles.afterworld.mob.owl"
+  },
+  "mob.eagle": {
+    "sounds": [
+      {
+        "name": "afterworld:mob/eagle",
+        "volume": 0.8
+      }
+    ],
+    "subtitle": "subtitles.afterworld.mob.eagle"
+  },
+  "mob.crane": {
+    "sounds": [
+      {
+        "name": "afterworld:mob/crane",
+        "volume": 0.8
+      }
+    ],
+    "subtitle": "subtitles.afterworld.mob.crane"
+  },
+  "mob.seal": {
+    "sounds": [
+      {
+        "name": "afterworld:mob/seal",
+        "volume": 0.8
+      }
+    ],
+    "subtitle": "subtitles.afterworld.mob.seal"
+  },
+  "mob.hound": {
+    "sounds": [
+      {
+        "name": "afterworld:mob/hound",
+        "volume": 0.8
+      }
+    ],
+    "subtitle": "subtitles.afterworld.mob.hound"
+  },
+  "edict.ready": {
+    "sounds": [
+      {
+        "name": "afterworld:edict/ready"
+      }
+    ],
+    "subtitle": "subtitles.afterworld.edict.ready"
+  },
+  "edict.fail": {
+    "sounds": [
+      {
+        "name": "afterworld:edict/fail"
+      }
+    ],
+    "subtitle": "subtitles.afterworld.edict.fail"
+  },
+  "edict.return": {
+    "sounds": [
+      {
+        "name": "afterworld:edict/return"
+      }
+    ],
+    "subtitle": "subtitles.afterworld.edict.return"
+  },
+  "edict.echoes": {
+    "sounds": [
+      {
+        "name": "afterworld:edict/echoes"
+      }
+    ],
+    "subtitle": "subtitles.afterworld.edict.echoes"
+  },
+  "edict.borrowed_time": {
+    "sounds": [
+      {
+        "name": "afterworld:edict/borrowed_time"
+      }
+    ],
+    "subtitle": "subtitles.afterworld.edict.borrowed_time"
+  },
+  "edict.weightlessness": {
+    "sounds": [
+      {
+        "name": "afterworld:edict/weightlessness"
+      }
+    ],
+    "subtitle": "subtitles.afterworld.edict.weightlessness"
+  },
+  "edict.hunger": {
+    "sounds": [
+      {
+        "name": "afterworld:edict/hunger"
+      }
+    ],
+    "subtitle": "subtitles.afterworld.edict.hunger"
+  },
+  "edict.hospitality": {
+    "sounds": [
+      {
+        "name": "afterworld:edict/hospitality"
+      }
+    ],
+    "subtitle": "subtitles.afterworld.edict.hospitality"
+  },
+  "edict.trespass": {
+    "sounds": [
+      {
+        "name": "afterworld:edict/trespass"
+      }
+    ],
+    "subtitle": "subtitles.afterworld.edict.trespass"
+  },
+  "edict.stillness": {
+    "sounds": [
+      {
+        "name": "afterworld:edict/stillness"
+      }
+    ],
+    "subtitle": "subtitles.afterworld.edict.stillness"
+  },
+  "edict.witness": {
+    "sounds": [
+      {
+        "name": "afterworld:edict/witness"
+      }
+    ],
+    "subtitle": "subtitles.afterworld.edict.witness"
+  },
+  "edict.forgotten": {
+    "sounds": [
+      {
+        "name": "afterworld:edict/forgotten"
+      }
+    ],
+    "subtitle": "subtitles.afterworld.edict.forgotten"
+  },
+  "boss.bell": {
+    "sounds": [
+      {
+        "name": "afterworld:boss/bell",
+        "volume": 1.0
+      }
+    ],
+    "subtitle": "subtitles.afterworld.boss.bell"
+  },
+  "boss.stomp": {
+    "sounds": [
+      {
+        "name": "afterworld:boss/stomp"
+      }
+    ],
+    "subtitle": "subtitles.afterworld.boss.stomp"
+  },
+  "boss.tick": {
+    "sounds": [
+      {
+        "name": "afterworld:boss/tick1"
+      },
+      {
+        "name": "afterworld:boss/tick2"
+      }
+    ],
+    "subtitle": "subtitles.afterworld.boss.tick"
+  },
+  "boss.loop": {
+    "sounds": [
+      {
+        "name": "afterworld:boss/loop"
+      }
+    ],
+    "subtitle": "subtitles.afterworld.boss.loop"
+  },
+  "boss.roar": {
+    "sounds": [
+      {
+        "name": "afterworld:boss/roar"
+      }
+    ],
+    "subtitle": "subtitles.afterworld.boss.roar"
+  },
+  "world.anomaly": {
+    "sounds": [
+      {
+        "name": "afterworld:world/anomaly",
+        "volume": 0.6
+      }
+    ],
+    "subtitle": "subtitles.afterworld.world.anomaly"
+  },
+  "world.whisper": {
+    "sounds": [
+      {
+        "name": "afterworld:world/whisper",
+        "volume": 0.6
+      }
+    ],
+    "subtitle": "subtitles.afterworld.world.whisper"
+  },
+  "world.shard": {
+    "sounds": [
+      {
+        "name": "afterworld:world/shard"
+      }
+    ],
+    "subtitle": "subtitles.afterworld.world.shard"
+  },
+  "mob.moth": {
+    "sounds": [
+      {
+        "name": "afterworld:mob/moth1",
+        "volume": 0.5
+      },
+      {
+        "name": "afterworld:mob/moth2",
+        "volume": 0.5
+      }
+    ],
+    "subtitle": "subtitles.afterworld.mob.moth"
+  },
+  "mob.crow": {
+    "sounds": [
+      {
+        "name": "afterworld:mob/crow1",
+        "volume": 0.8
+      },
+      {
+        "name": "afterworld:mob/crow2",
+        "volume": 0.8
+      },
+      {
+        "name": "afterworld:mob/crow3",
+        "volume": 0.8
+      }
+    ],
+    "subtitle": "subtitles.afterworld.mob.crow"
+  },
+  "mob.sentry": {
+    "sounds": [
+      {
+        "name": "afterworld:mob/sentry"
+      }
+    ],
+    "subtitle": "subtitles.afterworld.mob.sentry"
+  },
+  "mob.wraith": {
+    "sounds": [
+      {
+        "name": "afterworld:mob/wraith",
+        "volume": 0.7
+      }
+    ],
+    "subtitle": "subtitles.afterworld.mob.wraith"
+  },
+  "mob.stag": {
+    "sounds": [
+      {
+        "name": "afterworld:mob/stag",
+        "volume": 0.7
+      }
+    ],
+    "subtitle": "subtitles.afterworld.mob.stag"
+  },
+  "mob.mossback": {
+    "sounds": [
+      {
+        "name": "afterworld:mob/mossback"
+      }
+    ],
+    "subtitle": "subtitles.afterworld.mob.mossback"
+  },
+  "mob.whale": {
+    "sounds": [
+      {
+        "name": "afterworld:mob/whale1",
+        "volume": 1.0
+      },
+      {
+        "name": "afterworld:mob/whale2",
+        "volume": 1.0
+      }
+    ],
+    "subtitle": "subtitles.afterworld.mob.whale"
+  },
+  "mob.sprite": {
+    "sounds": [
+      {
+        "name": "afterworld:mob/sprite1",
+        "volume": 0.5
+      },
+      {
+        "name": "afterworld:mob/sprite2",
+        "volume": 0.5
+      }
+    ],
+    "subtitle": "subtitles.afterworld.mob.sprite"
+  },
+  "mob.rimehorn": {
+    "sounds": [
+      {
+        "name": "afterworld:mob/rimehorn1",
+        "volume": 0.8
+      },
+      {
+        "name": "afterworld:mob/rimehorn2",
+        "volume": 0.8
+      }
+    ],
+    "subtitle": "subtitles.afterworld.mob.rimehorn"
+  },
+  "mob.emberfox": {
+    "sounds": [
+      {
+        "name": "afterworld:mob/emberfox1",
+        "volume": 0.6
+      },
+      {
+        "name": "afterworld:mob/emberfox2",
+        "volume": 0.6
+      },
+      {
+        "name": "afterworld:mob/emberfox3",
+        "volume": 0.6
+      }
+    ],
+    "subtitle": "subtitles.afterworld.mob.emberfox"
+  },
+  "va.akane.duel_rules_0": {
+    "sounds": [
+      {
+        "name": "afterworld:va/akane/duel_rules_0",
+        "stream": false
+      }
+    ]
+  },
+  "va.akane.duel_rules_1": {
+    "sounds": [
+      {
+        "name": "afterworld:va/akane/duel_rules_1",
+        "stream": false
+      }
+    ]
+  },
+  "va.akane.duel_won_0": {
+    "sounds": [
+      {
+        "name": "afterworld:va/akane/duel_won_0",
+        "stream": false
+      }
+    ]
+  },
+  "va.akane.duel_won_1": {
+    "sounds": [
+      {
+        "name": "afterworld:va/akane/duel_won_1",
+        "stream": false
+      }
+    ]
+  },
+  "va.akane.greet_0": {
+    "sounds": [
+      {
+        "name": "afterworld:va/akane/greet_0",
+        "stream": false
+      }
+    ]
+  },
+  "va.akane.master_0": {
+    "sounds": [
+      {
+        "name": "afterworld:va/akane/master_0",
+        "stream": false
+      }
+    ]
+  },
+  "va.akane.master_1": {
+    "sounds": [
+      {
+        "name": "afterworld:va/akane/master_1",
+        "stream": false
+      }
+    ]
+  },
+  "va.akane.meet_0": {
+    "sounds": [
+      {
+        "name": "afterworld:va/akane/meet_0",
+        "stream": false
+      }
+    ]
+  },
+  "va.akane.meet_1": {
+    "sounds": [
+      {
+        "name": "afterworld:va/akane/meet_1",
+        "stream": false
+      }
+    ]
+  },
+  "va.bell.defeat_0": {
+    "sounds": [
+      {
+        "name": "afterworld:va/bell/defeat_0",
+        "stream": false
+      }
+    ]
+  },
+  "va.bell.intro_0": {
+    "sounds": [
+      {
+        "name": "afterworld:va/bell/intro_0",
+        "stream": false
+      }
+    ]
+  },
+  "va.bell.name_0": {
+    "sounds": [
+      {
+        "name": "afterworld:va/bell/name_0",
+        "stream": false
+      }
+    ]
+  },
+  "va.bram.greet_0": {
+    "sounds": [
+      {
+        "name": "afterworld:va/bram/greet_0",
+        "stream": false
+      }
+    ]
+  },
+  "va.bram.hint_trade_0": {
+    "sounds": [
+      {
+        "name": "afterworld:va/bram/hint_trade_0",
+        "stream": false
+      }
+    ]
+  },
+  "va.bram.meal_cook_0": {
+    "sounds": [
+      {
+        "name": "afterworld:va/bram/meal_cook_0",
+        "stream": false
+      }
+    ]
+  },
+  "va.bram.meal_cook_1": {
+    "sounds": [
+      {
+        "name": "afterworld:va/bram/meal_cook_1",
+        "stream": false
+      }
+    ]
+  },
+  "va.bram.meal_cook_again_0": {
+    "sounds": [
+      {
+        "name": "afterworld:va/bram/meal_cook_again_0",
+        "stream": false
+      }
+    ]
+  },
+  "va.bram.meal_deliver_0": {
+    "sounds": [
+      {
+        "name": "afterworld:va/bram/meal_deliver_0",
+        "stream": false
+      }
+    ]
+  },
+  "va.bram.meal_done_0": {
+    "sounds": [
+      {
+        "name": "afterworld:va/bram/meal_done_0",
+        "stream": false
+      }
+    ]
+  },
+  "va.bram.meal_offer_0": {
+    "sounds": [
+      {
+        "name": "afterworld:va/bram/meal_offer_0",
+        "stream": false
+      }
+    ]
+  },
+  "va.bram.meal_offer_1": {
+    "sounds": [
+      {
+        "name": "afterworld:va/bram/meal_offer_1",
+        "stream": false
+      }
+    ]
+  },
+  "va.bram.meal_progress_0": {
+    "sounds": [
+      {
+        "name": "afterworld:va/bram/meal_progress_0",
+        "stream": false
+      }
+    ]
+  },
+  "va.bram.meet_0": {
+    "sounds": [
+      {
+        "name": "afterworld:va/bram/meet_0",
+        "stream": false
+      }
+    ]
+  },
+  "va.bram.meet_1": {
+    "sounds": [
+      {
+        "name": "afterworld:va/bram/meet_1",
+        "stream": false
+      }
+    ]
+  },
+  "va.bram.meet_2": {
+    "sounds": [
+      {
+        "name": "afterworld:va/bram/meet_2",
+        "stream": false
+      }
+    ]
+  },
+  "va.bram.meet_3": {
+    "sounds": [
+      {
+        "name": "afterworld:va/bram/meet_3",
+        "stream": false
+      }
+    ]
+  },
+  "va.bram.meet_early_0": {
+    "sounds": [
+      {
+        "name": "afterworld:va/bram/meet_early_0",
+        "stream": false
+      }
+    ]
+  },
+  "va.bram.prices_0": {
+    "sounds": [
+      {
+        "name": "afterworld:va/bram/prices_0",
+        "stream": false
+      }
+    ]
+  },
+  "va.bram.prices_1": {
+    "sounds": [
+      {
+        "name": "afterworld:va/bram/prices_1",
+        "stream": false
+      }
+    ]
+  },
+  "va.bram.prices_2": {
+    "sounds": [
+      {
+        "name": "afterworld:va/bram/prices_2",
+        "stream": false
+      }
+    ]
+  },
+  "va.ines.bell_done_0": {
+    "sounds": [
+      {
+        "name": "afterworld:va/ines/bell_done_0",
+        "stream": false
+      }
+    ]
+  },
+  "va.ines.bell_done_1": {
+    "sounds": [
+      {
+        "name": "afterworld:va/ines/bell_done_1",
+        "stream": false
+      }
+    ]
+  },
+  "va.ines.bell_listen_0": {
+    "sounds": [
+      {
+        "name": "afterworld:va/ines/bell_listen_0",
+        "stream": false
+      }
+    ]
+  },
+  "va.ines.bell_offer_0": {
+    "sounds": [
+      {
+        "name": "afterworld:va/ines/bell_offer_0",
+        "stream": false
+      }
+    ]
+  },
+  "va.ines.bell_offer_1": {
+    "sounds": [
+      {
+        "name": "afterworld:va/ines/bell_offer_1",
+        "stream": false
+      }
+    ]
+  },
+  "va.ines.bell_progress_0": {
+    "sounds": [
+      {
+        "name": "afterworld:va/ines/bell_progress_0",
+        "stream": false
+      }
+    ]
+  },
+  "va.ines.bell_rope_0": {
+    "sounds": [
+      {
+        "name": "afterworld:va/ines/bell_rope_0",
+        "stream": false
+      }
+    ]
+  },
+  "va.ines.bell_rope_1": {
+    "sounds": [
+      {
+        "name": "afterworld:va/ines/bell_rope_1",
+        "stream": false
+      }
+    ]
+  },
+  "va.ines.greet_0": {
+    "sounds": [
+      {
+        "name": "afterworld:va/ines/greet_0",
+        "stream": false
+      }
+    ]
+  },
+  "va.ines.heal_0": {
+    "sounds": [
+      {
+        "name": "afterworld:va/ines/heal_0",
+        "stream": false
+      }
+    ]
+  },
+  "va.ines.lich_0": {
+    "sounds": [
+      {
+        "name": "afterworld:va/ines/lich_0",
+        "stream": false
+      }
+    ]
+  },
+  "va.ines.lich_1": {
+    "sounds": [
+      {
+        "name": "afterworld:va/ines/lich_1",
+        "stream": false
+      }
+    ]
+  },
+  "va.ines.meet_0": {
+    "sounds": [
+      {
+        "name": "afterworld:va/ines/meet_0",
+        "stream": false
+      }
+    ]
+  },
+  "va.ines.meet_1": {
+    "sounds": [
+      {
+        "name": "afterworld:va/ines/meet_1",
+        "stream": false
+      }
+    ]
+  },
+  "va.isolde.after_0": {
+    "sounds": [
+      {
+        "name": "afterworld:va/isolde/after_0",
+        "stream": false
+      }
+    ]
+  },
+  "va.isolde.chapter_one_0": {
+    "sounds": [
+      {
+        "name": "afterworld:va/isolde/chapter_one_0",
+        "stream": false
+      }
+    ]
+  },
+  "va.isolde.chapter_one_1": {
+    "sounds": [
+      {
+        "name": "afterworld:va/isolde/chapter_one_1",
+        "stream": false
+      }
+    ]
+  },
+  "va.isolde.chapter_one_2": {
+    "sounds": [
+      {
+        "name": "afterworld:va/isolde/chapter_one_2",
+        "stream": false
+      }
+    ]
+  },
+  "va.isolde.chapter_one_3": {
+    "sounds": [
+      {
+        "name": "afterworld:va/isolde/chapter_one_3",
+        "stream": false
+      }
+    ]
+  },
+  "va.isolde.chapter_three_0": {
+    "sounds": [
+      {
+        "name": "afterworld:va/isolde/chapter_three_0",
+        "stream": false
+      }
+    ]
+  },
+  "va.isolde.chapter_three_1": {
+    "sounds": [
+      {
+        "name": "afterworld:va/isolde/chapter_three_1",
+        "stream": false
+      }
+    ]
+  },
+  "va.isolde.chapter_three_2": {
+    "sounds": [
+      {
+        "name": "afterworld:va/isolde/chapter_three_2",
+        "stream": false
+      }
+    ]
+  },
+  "va.isolde.chapter_three_3": {
+    "sounds": [
+      {
+        "name": "afterworld:va/isolde/chapter_three_3",
+        "stream": false
+      }
+    ]
+  },
+  "va.isolde.chapter_three_menu_0": {
+    "sounds": [
+      {
+        "name": "afterworld:va/isolde/chapter_three_menu_0",
+        "stream": false
+      }
+    ]
+  },
+  "va.isolde.chapter_two_0": {
+    "sounds": [
+      {
+        "name": "afterworld:va/isolde/chapter_two_0",
+        "stream": false
+      }
+    ]
+  },
+  "va.isolde.chapter_two_1": {
+    "sounds": [
+      {
+        "name": "afterworld:va/isolde/chapter_two_1",
+        "stream": false
+      }
+    ]
+  },
+  "va.isolde.chapter_two_2": {
+    "sounds": [
+      {
+        "name": "afterworld:va/isolde/chapter_two_2",
+        "stream": false
+      }
+    ]
+  },
+  "va.isolde.colossus_hint_0": {
+    "sounds": [
+      {
+        "name": "afterworld:va/isolde/colossus_hint_0",
+        "stream": false
+      }
+    ]
+  },
+  "va.isolde.epilogue_0": {
+    "sounds": [
+      {
+        "name": "afterworld:va/isolde/epilogue_0",
+        "stream": false
+      }
+    ]
+  },
+  "va.isolde.epilogue_1": {
+    "sounds": [
+      {
+        "name": "afterworld:va/isolde/epilogue_1",
+        "stream": false
+      }
+    ]
+  },
+  "va.isolde.epilogue_2": {
+    "sounds": [
+      {
+        "name": "afterworld:va/isolde/epilogue_2",
+        "stream": false
+      }
+    ]
+  },
+  "va.isolde.find_three_0": {
+    "sounds": [
+      {
+        "name": "afterworld:va/isolde/find_three_0",
+        "stream": false
+      }
+    ]
+  },
+  "va.isolde.find_three_1": {
+    "sounds": [
+      {
+        "name": "afterworld:va/isolde/find_three_1",
+        "stream": false
+      }
+    ]
+  },
+  "va.isolde.first_0": {
+    "sounds": [
+      {
+        "name": "afterworld:va/isolde/first_0",
+        "stream": false
+      }
+    ]
+  },
+  "va.isolde.first_1": {
+    "sounds": [
+      {
+        "name": "afterworld:va/isolde/first_1",
+        "stream": false
+      }
+    ]
+  },
+  "va.isolde.hint_attune_0": {
+    "sounds": [
+      {
+        "name": "afterworld:va/isolde/hint_attune_0",
+        "stream": false
+      }
+    ]
+  },
+  "va.isolde.hint_bram_0": {
+    "sounds": [
+      {
+        "name": "afterworld:va/isolde/hint_bram_0",
+        "stream": false
+      }
+    ]
+  },
+  "va.isolde.hint_cast_0": {
+    "sounds": [
+      {
+        "name": "afterworld:va/isolde/hint_cast_0",
+        "stream": false
+      }
+    ]
+  },
+  "va.isolde.hint_journal_0": {
+    "sounds": [
+      {
+        "name": "afterworld:va/isolde/hint_journal_0",
+        "stream": false
+      }
+    ]
+  },
+  "va.isolde.hint_listening_0": {
+    "sounds": [
+      {
+        "name": "afterworld:va/isolde/hint_listening_0",
+        "stream": false
+      }
+    ]
+  },
+  "va.isolde.hint_marta_0": {
+    "sounds": [
+      {
+        "name": "afterworld:va/isolde/hint_marta_0",
+        "stream": false
+      }
+    ]
+  },
+  "va.isolde.hint_three_0": {
+    "sounds": [
+      {
+        "name": "afterworld:va/isolde/hint_three_0",
+        "stream": false
+      }
+    ]
+  },
+  "va.isolde.hint_training_0": {
+    "sounds": [
+      {
+        "name": "afterworld:va/isolde/hint_training_0",
+        "stream": false
+      }
+    ]
+  },
+  "va.isolde.hint_wardens_0": {
+    "sounds": [
+      {
+        "name": "afterworld:va/isolde/hint_wardens_0",
+        "stream": false
+      }
+    ]
+  },
+  "va.isolde.idle_0": {
+    "sounds": [
+      {
+        "name": "afterworld:va/isolde/idle_0",
+        "stream": false
+      }
+    ]
+  },
+  "va.isolde.lich_hint_0": {
+    "sounds": [
+      {
+        "name": "afterworld:va/isolde/lich_hint_0",
+        "stream": false
+      }
+    ]
+  },
+  "va.isolde.listens_0": {
+    "sounds": [
+      {
+        "name": "afterworld:va/isolde/listens_0",
+        "stream": false
+      }
+    ]
+  },
+  "va.isolde.listens_1": {
+    "sounds": [
+      {
+        "name": "afterworld:va/isolde/listens_1",
+        "stream": false
+      }
+    ]
+  },
+  "va.isolde.sentinel_hint_0": {
+    "sounds": [
+      {
+        "name": "afterworld:va/isolde/sentinel_hint_0",
+        "stream": false
+      }
+    ]
+  },
+  "va.isolde.shogun_hint_0": {
+    "sounds": [
+      {
+        "name": "afterworld:va/isolde/shogun_hint_0",
+        "stream": false
+      }
+    ]
+  },
+  "va.isolde.stew_0": {
+    "sounds": [
+      {
+        "name": "afterworld:va/isolde/stew_0",
+        "stream": false
+      }
+    ]
+  },
+  "va.isolde.the_light_0": {
+    "sounds": [
+      {
+        "name": "afterworld:va/isolde/the_light_0",
+        "stream": false
+      }
+    ]
+  },
+  "va.isolde.the_light_1": {
+    "sounds": [
+      {
+        "name": "afterworld:va/isolde/the_light_1",
+        "stream": false
+      }
+    ]
+  },
+  "va.isolde.warden_hint_0": {
+    "sounds": [
+      {
+        "name": "afterworld:va/isolde/warden_hint_0",
+        "stream": false
+      }
+    ]
+  },
+  "va.isolde.welcome_0": {
+    "sounds": [
+      {
+        "name": "afterworld:va/isolde/welcome_0",
+        "stream": false
+      }
+    ]
+  },
+  "va.isolde.welcome_1": {
+    "sounds": [
+      {
+        "name": "afterworld:va/isolde/welcome_1",
+        "stream": false
+      }
+    ]
+  },
+  "va.isolde.welcome_2": {
+    "sounds": [
+      {
+        "name": "afterworld:va/isolde/welcome_2",
+        "stream": false
+      }
+    ]
+  },
+  "va.isolde.where_0": {
+    "sounds": [
+      {
+        "name": "afterworld:va/isolde/where_0",
+        "stream": false
+      }
+    ]
+  },
+  "va.isolde.where_1": {
+    "sounds": [
+      {
+        "name": "afterworld:va/isolde/where_1",
+        "stream": false
+      }
+    ]
+  },
+  "va.king.bargain_0": {
+    "sounds": [
+      {
+        "name": "afterworld:va/king/bargain_0",
+        "stream": false
+      }
+    ]
+  },
+  "va.king.defeat_0": {
+    "sounds": [
+      {
+        "name": "afterworld:va/king/defeat_0",
+        "stream": false
+      }
+    ]
+  },
+  "va.king.intro_0": {
+    "sounds": [
+      {
+        "name": "afterworld:va/king/intro_0",
+        "stream": false
+      }
+    ]
+  },
+  "va.lich.defeat_0": {
+    "sounds": [
+      {
+        "name": "afterworld:va/lich/defeat_0",
+        "stream": false
+      }
+    ]
+  },
+  "va.lich.defeat_1": {
+    "sounds": [
+      {
+        "name": "afterworld:va/lich/defeat_1",
+        "stream": false
+      }
+    ]
+  },
+  "va.lich.intro_0": {
+    "sounds": [
+      {
+        "name": "afterworld:va/lich/intro_0",
+        "stream": false
+      }
+    ]
+  },
+  "va.lich.intro_1": {
+    "sounds": [
+      {
+        "name": "afterworld:va/lich/intro_1",
+        "stream": false
+      }
+    ]
+  },
+  "va.lich.phase2_0": {
+    "sounds": [
+      {
+        "name": "afterworld:va/lich/phase2_0",
+        "stream": false
+      }
+    ]
+  },
+  "va.lich.phase3_0": {
+    "sounds": [
+      {
+        "name": "afterworld:va/lich/phase3_0",
+        "stream": false
+      }
+    ]
+  },
+  "va.lich.revive_0": {
+    "sounds": [
+      {
+        "name": "afterworld:va/lich/revive_0",
+        "stream": false
+      }
+    ]
+  },
+  "va.mab.advice_0": {
+    "sounds": [
+      {
+        "name": "afterworld:va/mab/advice_0",
+        "stream": false
+      }
+    ]
+  },
+  "va.mab.brew_cook_0": {
+    "sounds": [
+      {
+        "name": "afterworld:va/mab/brew_cook_0",
+        "stream": false
+      }
+    ]
+  },
+  "va.mab.brew_cook_again_0": {
+    "sounds": [
+      {
+        "name": "afterworld:va/mab/brew_cook_again_0",
+        "stream": false
+      }
+    ]
+  },
+  "va.mab.brew_done_0": {
+    "sounds": [
+      {
+        "name": "afterworld:va/mab/brew_done_0",
+        "stream": false
+      }
+    ]
+  },
+  "va.mab.brew_done_1": {
+    "sounds": [
+      {
+        "name": "afterworld:va/mab/brew_done_1",
+        "stream": false
+      }
+    ]
+  },
+  "va.mab.brew_offer_0": {
+    "sounds": [
+      {
+        "name": "afterworld:va/mab/brew_offer_0",
+        "stream": false
+      }
+    ]
+  },
+  "va.mab.brew_offer_1": {
+    "sounds": [
+      {
+        "name": "afterworld:va/mab/brew_offer_1",
+        "stream": false
+      }
+    ]
+  },
+  "va.mab.brew_progress_0": {
+    "sounds": [
+      {
+        "name": "afterworld:va/mab/brew_progress_0",
+        "stream": false
+      }
+    ]
+  },
+  "va.mab.brew_test_0": {
+    "sounds": [
+      {
+        "name": "afterworld:va/mab/brew_test_0",
+        "stream": false
+      }
+    ]
+  },
+  "va.mab.brew_test_1": {
+    "sounds": [
+      {
+        "name": "afterworld:va/mab/brew_test_1",
+        "stream": false
+      }
+    ]
+  },
+  "va.mab.greet_0": {
+    "sounds": [
+      {
+        "name": "afterworld:va/mab/greet_0",
+        "stream": false
+      }
+    ]
+  },
+  "va.mab.meet_0": {
+    "sounds": [
+      {
+        "name": "afterworld:va/mab/meet_0",
+        "stream": false
+      }
+    ]
+  },
+  "va.mab.meet_1": {
+    "sounds": [
+      {
+        "name": "afterworld:va/mab/meet_1",
+        "stream": false
+      }
+    ]
+  },
+  "va.marta.forge_done_0": {
+    "sounds": [
+      {
+        "name": "afterworld:va/marta/forge_done_0",
+        "stream": false
+      }
+    ]
+  },
+  "va.marta.forge_done_1": {
+    "sounds": [
+      {
+        "name": "afterworld:va/marta/forge_done_1",
+        "stream": false
+      }
+    ]
+  },
+  "va.marta.forge_offer_0": {
+    "sounds": [
+      {
+        "name": "afterworld:va/marta/forge_offer_0",
+        "stream": false
+      }
+    ]
+  },
+  "va.marta.forge_offer_1": {
+    "sounds": [
+      {
+        "name": "afterworld:va/marta/forge_offer_1",
+        "stream": false
+      }
+    ]
+  },
+  "va.marta.forge_progress_0": {
+    "sounds": [
+      {
+        "name": "afterworld:va/marta/forge_progress_0",
+        "stream": false
+      }
+    ]
+  },
+  "va.marta.forge_ready_0": {
+    "sounds": [
+      {
+        "name": "afterworld:va/marta/forge_ready_0",
+        "stream": false
+      }
+    ]
+  },
+  "va.marta.forge_smith_0": {
+    "sounds": [
+      {
+        "name": "afterworld:va/marta/forge_smith_0",
+        "stream": false
+      }
+    ]
+  },
+  "va.marta.forge_smith_1": {
+    "sounds": [
+      {
+        "name": "afterworld:va/marta/forge_smith_1",
+        "stream": false
+      }
+    ]
+  },
+  "va.marta.greet_0": {
+    "sounds": [
+      {
+        "name": "afterworld:va/marta/greet_0",
+        "stream": false
+      }
+    ]
+  },
+  "va.marta.hint_dodge_0": {
+    "sounds": [
+      {
+        "name": "afterworld:va/marta/hint_dodge_0",
+        "stream": false
+      }
+    ]
+  },
+  "va.marta.hint_parry_0": {
+    "sounds": [
+      {
+        "name": "afterworld:va/marta/hint_parry_0",
+        "stream": false
+      }
+    ]
+  },
+  "va.marta.meet_0": {
+    "sounds": [
+      {
+        "name": "afterworld:va/marta/meet_0",
+        "stream": false
+      }
+    ]
+  },
+  "va.marta.meet_1": {
+    "sounds": [
+      {
+        "name": "afterworld:va/marta/meet_1",
+        "stream": false
+      }
+    ]
+  },
+  "va.marta.parts_0": {
+    "sounds": [
+      {
+        "name": "afterworld:va/marta/parts_0",
+        "stream": false
+      }
+    ]
+  },
+  "va.marta.parts_1": {
+    "sounds": [
+      {
+        "name": "afterworld:va/marta/parts_1",
+        "stream": false
+      }
+    ]
+  },
+  "va.marta.training_0": {
+    "sounds": [
+      {
+        "name": "afterworld:va/marta/training_0",
+        "stream": false
+      }
+    ]
+  },
+  "va.marta.training_1": {
+    "sounds": [
+      {
+        "name": "afterworld:va/marta/training_1",
+        "stream": false
+      }
+    ]
+  },
+  "va.marta.training_2": {
+    "sounds": [
+      {
+        "name": "afterworld:va/marta/training_2",
+        "stream": false
+      }
+    ]
+  },
+  "va.marta.training_3": {
+    "sounds": [
+      {
+        "name": "afterworld:va/marta/training_3",
+        "stream": false
+      }
+    ]
+  },
+  "va.marta.training_4": {
+    "sounds": [
+      {
+        "name": "afterworld:va/marta/training_4",
+        "stream": false
+      }
+    ]
+  },
+  "va.narrator.chapter1_0": {
+    "sounds": [
+      {
+        "name": "afterworld:va/narrator/chapter1_0",
+        "stream": false
+      }
+    ]
+  },
+  "va.narrator.chapter2_0": {
+    "sounds": [
+      {
+        "name": "afterworld:va/narrator/chapter2_0",
+        "stream": false
+      }
+    ]
+  },
+  "va.narrator.chapter3_0": {
+    "sounds": [
+      {
+        "name": "afterworld:va/narrator/chapter3_0",
+        "stream": false
+      }
+    ]
+  },
+  "va.narrator.epilogue_0": {
+    "sounds": [
+      {
+        "name": "afterworld:va/narrator/epilogue_0",
+        "stream": false
+      }
+    ]
+  },
+  "va.narrator.prologue_0": {
+    "sounds": [
+      {
+        "name": "afterworld:va/narrator/prologue_0",
+        "stream": false
+      }
+    ]
+  },
+  "va.odo.charter_0": {
+    "sounds": [
+      {
+        "name": "afterworld:va/odo/charter_0",
+        "stream": false
+      }
+    ]
+  },
+  "va.odo.greet_0": {
+    "sounds": [
+      {
+        "name": "afterworld:va/odo/greet_0",
+        "stream": false
+      }
+    ]
+  },
+  "va.odo.meet_0": {
+    "sounds": [
+      {
+        "name": "afterworld:va/odo/meet_0",
+        "stream": false
+      }
+    ]
+  },
+  "va.odo.meet_1": {
+    "sounds": [
+      {
+        "name": "afterworld:va/odo/meet_1",
+        "stream": false
+      }
+    ]
+  },
+  "va.odo.sky_0": {
+    "sounds": [
+      {
+        "name": "afterworld:va/odo/sky_0",
+        "stream": false
+      }
+    ]
+  },
+  "va.odo.sky_1": {
+    "sounds": [
+      {
+        "name": "afterworld:va/odo/sky_1",
+        "stream": false
+      }
+    ]
+  },
+  "va.odo.wayfarer_done_0": {
+    "sounds": [
+      {
+        "name": "afterworld:va/odo/wayfarer_done_0",
+        "stream": false
+      }
+    ]
+  },
+  "va.odo.wayfarer_done_1": {
+    "sounds": [
+      {
+        "name": "afterworld:va/odo/wayfarer_done_1",
+        "stream": false
+      }
+    ]
+  },
+  "va.odo.wayfarer_offer_0": {
+    "sounds": [
+      {
+        "name": "afterworld:va/odo/wayfarer_offer_0",
+        "stream": false
+      }
+    ]
+  },
+  "va.odo.wayfarer_offer_1": {
+    "sounds": [
+      {
+        "name": "afterworld:va/odo/wayfarer_offer_1",
+        "stream": false
+      }
+    ]
+  },
+  "va.odo.wayfarer_parts_0": {
+    "sounds": [
+      {
+        "name": "afterworld:va/odo/wayfarer_parts_0",
+        "stream": false
+      }
+    ]
+  },
+  "va.odo.wayfarer_parts_1": {
+    "sounds": [
+      {
+        "name": "afterworld:va/odo/wayfarer_parts_1",
+        "stream": false
+      }
+    ]
+  },
+  "va.odo.wayfarer_progress_0": {
+    "sounds": [
+      {
+        "name": "afterworld:va/odo/wayfarer_progress_0",
+        "stream": false
+      }
+    ]
+  },
+  "va.odo.wayfarer_race_0": {
+    "sounds": [
+      {
+        "name": "afterworld:va/odo/wayfarer_race_0",
+        "stream": false
+      }
+    ]
+  },
+  "va.rashid.caravan_deduce_0": {
+    "sounds": [
+      {
+        "name": "afterworld:va/rashid/caravan_deduce_0",
+        "stream": false
+      }
+    ]
+  },
+  "va.rashid.caravan_done_0": {
+    "sounds": [
+      {
+        "name": "afterworld:va/rashid/caravan_done_0",
+        "stream": false
+      }
+    ]
+  },
+  "va.rashid.caravan_done_1": {
+    "sounds": [
+      {
+        "name": "afterworld:va/rashid/caravan_done_1",
+        "stream": false
+      }
+    ]
+  },
+  "va.rashid.caravan_offer_0": {
+    "sounds": [
+      {
+        "name": "afterworld:va/rashid/caravan_offer_0",
+        "stream": false
+      }
+    ]
+  },
+  "va.rashid.caravan_offer_1": {
+    "sounds": [
+      {
+        "name": "afterworld:va/rashid/caravan_offer_1",
+        "stream": false
+      }
+    ]
+  },
+  "va.rashid.caravan_progress_0": {
+    "sounds": [
+      {
+        "name": "afterworld:va/rashid/caravan_progress_0",
+        "stream": false
+      }
+    ]
+  },
+  "va.rashid.caravan_rescue_0": {
+    "sounds": [
+      {
+        "name": "afterworld:va/rashid/caravan_rescue_0",
+        "stream": false
+      }
+    ]
+  },
+  "va.rashid.caravan_right_0": {
+    "sounds": [
+      {
+        "name": "afterworld:va/rashid/caravan_right_0",
+        "stream": false
+      }
+    ]
+  },
+  "va.rashid.caravan_wrong_0": {
+    "sounds": [
+      {
+        "name": "afterworld:va/rashid/caravan_wrong_0",
+        "stream": false
+      }
+    ]
+  },
+  "va.rashid.greet_0": {
+    "sounds": [
+      {
+        "name": "afterworld:va/rashid/greet_0",
+        "stream": false
+      }
+    ]
+  },
+  "va.rashid.meet_0": {
+    "sounds": [
+      {
+        "name": "afterworld:va/rashid/meet_0",
+        "stream": false
+      }
+    ]
+  },
+  "va.rashid.obelisk_0": {
+    "sounds": [
+      {
+        "name": "afterworld:va/rashid/obelisk_0",
+        "stream": false
+      }
+    ]
+  },
+  "va.rashid.obelisk_1": {
+    "sounds": [
+      {
+        "name": "afterworld:va/rashid/obelisk_1",
+        "stream": false
+      }
+    ]
+  },
+  "va.selene.greet_0": {
+    "sounds": [
+      {
+        "name": "afterworld:va/selene/greet_0",
+        "stream": false
+      }
+    ]
+  },
+  "va.selene.lore_0": {
+    "sounds": [
+      {
+        "name": "afterworld:va/selene/lore_0",
+        "stream": false
+      }
+    ]
+  },
+  "va.selene.lore_1": {
+    "sounds": [
+      {
+        "name": "afterworld:va/selene/lore_1",
+        "stream": false
+      }
+    ]
+  },
+  "va.selene.meet_0": {
+    "sounds": [
+      {
+        "name": "afterworld:va/selene/meet_0",
+        "stream": false
+      }
+    ]
+  },
+  "va.selene.meet_1": {
+    "sounds": [
+      {
+        "name": "afterworld:va/selene/meet_1",
+        "stream": false
+      }
+    ]
+  },
+  "va.selene.stars_assemble_0": {
+    "sounds": [
+      {
+        "name": "afterworld:va/selene/stars_assemble_0",
+        "stream": false
+      }
+    ]
+  },
+  "va.selene.stars_assemble_1": {
+    "sounds": [
+      {
+        "name": "afterworld:va/selene/stars_assemble_1",
+        "stream": false
+      }
+    ]
+  },
+  "va.selene.stars_dials_0": {
+    "sounds": [
+      {
+        "name": "afterworld:va/selene/stars_dials_0",
+        "stream": false
+      }
+    ]
+  },
+  "va.selene.stars_done_0": {
+    "sounds": [
+      {
+        "name": "afterworld:va/selene/stars_done_0",
+        "stream": false
+      }
+    ]
+  },
+  "va.selene.stars_done_1": {
+    "sounds": [
+      {
+        "name": "afterworld:va/selene/stars_done_1",
+        "stream": false
+      }
+    ]
+  },
+  "va.selene.stars_offer_0": {
+    "sounds": [
+      {
+        "name": "afterworld:va/selene/stars_offer_0",
+        "stream": false
+      }
+    ]
+  },
+  "va.selene.stars_offer_1": {
+    "sounds": [
+      {
+        "name": "afterworld:va/selene/stars_offer_1",
+        "stream": false
+      }
+    ]
+  },
+  "va.selene.stars_offer_2": {
+    "sounds": [
+      {
+        "name": "afterworld:va/selene/stars_offer_2",
+        "stream": false
+      }
+    ]
+  },
+  "va.selene.stars_progress_0": {
+    "sounds": [
+      {
+        "name": "afterworld:va/selene/stars_progress_0",
+        "stream": false
+      }
+    ]
+  },
+  "va.selene.stars_wait_0": {
+    "sounds": [
+      {
+        "name": "afterworld:va/selene/stars_wait_0",
+        "stream": false
+      }
+    ]
+  },
+  "va.sentinel.defeat_0": {
+    "sounds": [
+      {
+        "name": "afterworld:va/sentinel/defeat_0",
+        "stream": false
+      }
+    ]
+  },
+  "va.sentinel.intro_0": {
+    "sounds": [
+      {
+        "name": "afterworld:va/sentinel/intro_0",
+        "stream": false
+      }
+    ]
+  },
+  "va.shogun.defeat_0": {
+    "sounds": [
+      {
+        "name": "afterworld:va/shogun/defeat_0",
+        "stream": false
+      }
+    ]
+  },
+  "va.shogun.defeat_1": {
+    "sounds": [
+      {
+        "name": "afterworld:va/shogun/defeat_1",
+        "stream": false
+      }
+    ]
+  },
+  "va.shogun.intro_0": {
+    "sounds": [
+      {
+        "name": "afterworld:va/shogun/intro_0",
+        "stream": false
+      }
+    ]
+  },
+  "va.shogun.intro_1": {
+    "sounds": [
+      {
+        "name": "afterworld:va/shogun/intro_1",
+        "stream": false
+      }
+    ]
+  },
+  "va.shogun.phase2_0": {
+    "sounds": [
+      {
+        "name": "afterworld:va/shogun/phase2_0",
+        "stream": false
+      }
+    ]
+  },
+  "va.shogun.phase3_0": {
+    "sounds": [
+      {
+        "name": "afterworld:va/shogun/phase3_0",
+        "stream": false
+      }
+    ]
+  },
+  "va.torvald.big_0": {
+    "sounds": [
+      {
+        "name": "afterworld:va/torvald/big_0",
+        "stream": false
+      }
+    ]
+  },
+  "va.torvald.big_1": {
+    "sounds": [
+      {
+        "name": "afterworld:va/torvald/big_1",
+        "stream": false
+      }
+    ]
+  },
+  "va.torvald.greet_0": {
+    "sounds": [
+      {
+        "name": "afterworld:va/torvald/greet_0",
+        "stream": false
+      }
+    ]
+  },
+  "va.torvald.hunt_contest_0": {
+    "sounds": [
+      {
+        "name": "afterworld:va/torvald/hunt_contest_0",
+        "stream": false
+      }
+    ]
+  },
+  "va.torvald.hunt_done_0": {
+    "sounds": [
+      {
+        "name": "afterworld:va/torvald/hunt_done_0",
+        "stream": false
+      }
+    ]
+  },
+  "va.torvald.hunt_done_1": {
+    "sounds": [
+      {
+        "name": "afterworld:va/torvald/hunt_done_1",
+        "stream": false
+      }
+    ]
+  },
+  "va.torvald.hunt_done_2": {
+    "sounds": [
+      {
+        "name": "afterworld:va/torvald/hunt_done_2",
+        "stream": false
+      }
+    ]
+  },
+  "va.torvald.hunt_killed_0": {
+    "sounds": [
+      {
+        "name": "afterworld:va/torvald/hunt_killed_0",
+        "stream": false
+      }
+    ]
+  },
+  "va.torvald.hunt_killed_1": {
+    "sounds": [
+      {
+        "name": "afterworld:va/torvald/hunt_killed_1",
+        "stream": false
+      }
+    ]
+  },
+  "va.torvald.hunt_offer_0": {
+    "sounds": [
+      {
+        "name": "afterworld:va/torvald/hunt_offer_0",
+        "stream": false
+      }
+    ]
+  },
+  "va.torvald.hunt_offer_1": {
+    "sounds": [
+      {
+        "name": "afterworld:va/torvald/hunt_offer_1",
+        "stream": false
+      }
+    ]
+  },
+  "va.torvald.hunt_progress_0": {
+    "sounds": [
+      {
+        "name": "afterworld:va/torvald/hunt_progress_0",
+        "stream": false
+      }
+    ]
+  },
+  "va.torvald.meet_0": {
+    "sounds": [
+      {
+        "name": "afterworld:va/torvald/meet_0",
+        "stream": false
+      }
+    ]
+  },
+  "va.torvald.meet_1": {
+    "sounds": [
+      {
+        "name": "afterworld:va/torvald/meet_1",
+        "stream": false
+      }
+    ]
+  },
+  "va.warden.defeat_0": {
+    "sounds": [
+      {
+        "name": "afterworld:va/warden/defeat_0",
+        "stream": false
+      }
+    ]
+  },
+  "va.warden.intro_0": {
+    "sounds": [
+      {
+        "name": "afterworld:va/warden/intro_0",
+        "stream": false
+      }
+    ]
+  },
+  "va.warden.intro_1": {
+    "sounds": [
+      {
+        "name": "afterworld:va/warden/intro_1",
+        "stream": false
+      }
+    ]
+  },
+  "va.warden.phase2_0": {
+    "sounds": [
+      {
+        "name": "afterworld:va/warden/phase2_0",
+        "stream": false
+      }
+    ]
+  },
+  "va.warden.phase3_0": {
+    "sounds": [
+      {
+        "name": "afterworld:va/warden/phase3_0",
+        "stream": false
+      }
+    ]
+  },
+  "va.wren.edges_done_0": {
+    "sounds": [
+      {
+        "name": "afterworld:va/wren/edges_done_0",
+        "stream": false
+      }
+    ]
+  },
+  "va.wren.edges_done_1": {
+    "sounds": [
+      {
+        "name": "afterworld:va/wren/edges_done_1",
+        "stream": false
+      }
+    ]
+  },
+  "va.wren.edges_offer_0": {
+    "sounds": [
+      {
+        "name": "afterworld:va/wren/edges_offer_0",
+        "stream": false
+      }
+    ]
+  },
+  "va.wren.edges_offer_1": {
+    "sounds": [
+      {
+        "name": "afterworld:va/wren/edges_offer_1",
+        "stream": false
+      }
+    ]
+  },
+  "va.wren.edges_offer_2": {
+    "sounds": [
+      {
+        "name": "afterworld:va/wren/edges_offer_2",
+        "stream": false
+      }
+    ]
+  },
+  "va.wren.edges_progress_0": {
+    "sounds": [
+      {
+        "name": "afterworld:va/wren/edges_progress_0",
+        "stream": false
+      }
+    ]
+  },
+  "va.wren.greet_0": {
+    "sounds": [
+      {
+        "name": "afterworld:va/wren/greet_0",
+        "stream": false
+      }
+    ]
+  },
+  "va.wren.landmarks_0": {
+    "sounds": [
+      {
+        "name": "afterworld:va/wren/landmarks_0",
+        "stream": false
+      }
+    ]
+  },
+  "va.wren.landmarks_1": {
+    "sounds": [
+      {
+        "name": "afterworld:va/wren/landmarks_1",
+        "stream": false
+      }
+    ]
+  },
+  "va.wren.marked_0": {
+    "sounds": [
+      {
+        "name": "afterworld:va/wren/marked_0",
+        "stream": false
+      }
+    ]
+  },
+  "va.wren.marks_0": {
+    "sounds": [
+      {
+        "name": "afterworld:va/wren/marks_0",
+        "stream": false
+      }
+    ]
+  },
+  "va.wren.meet_0": {
+    "sounds": [
+      {
+        "name": "afterworld:va/wren/meet_0",
+        "stream": false
+      }
+    ]
+  },
+  "va.wren.meet_1": {
+    "sounds": [
+      {
+        "name": "afterworld:va/wren/meet_1",
+        "stream": false
+      }
+    ]
+  },
+  "va.wren.tablets_0": {
+    "sounds": [
+      {
+        "name": "afterworld:va/wren/tablets_0",
+        "stream": false
+      }
+    ]
+  },
+  "va.wren.tablets_1": {
+    "sounds": [
+      {
+        "name": "afterworld:va/wren/tablets_1",
+        "stream": false
+      }
+    ]
+  },
+  "creature.angler.ambient": {
+    "sounds": [
+      {
+        "name": "afterworld:creature/angler/ambient1",
+        "volume": 0.8
+      },
+      {
+        "name": "afterworld:creature/angler/ambient2",
+        "volume": 0.8
+      }
+    ],
+    "subtitle": "subtitles.afterworld.creature.angler.ambient"
+  },
+  "creature.angler.death": {
+    "sounds": [
+      {
+        "name": "afterworld:creature/angler/death1"
+      }
+    ],
+    "subtitle": "subtitles.afterworld.creature.angler.death"
+  },
+  "creature.angler.hurt": {
+    "sounds": [
+      {
+        "name": "afterworld:creature/angler/hurt1",
+        "volume": 0.9
+      },
+      {
+        "name": "afterworld:creature/angler/hurt2",
+        "volume": 0.9
+      }
+    ],
+    "subtitle": "subtitles.afterworld.creature.angler.hurt"
+  },
+  "creature.brute.ambient": {
+    "sounds": [
+      {
+        "name": "afterworld:creature/brute/ambient1",
+        "volume": 0.8
+      },
+      {
+        "name": "afterworld:creature/brute/ambient2",
+        "volume": 0.8
+      }
+    ],
+    "subtitle": "subtitles.afterworld.creature.brute.ambient"
+  },
+  "creature.brute.death": {
+    "sounds": [
+      {
+        "name": "afterworld:creature/brute/death1"
+      }
+    ],
+    "subtitle": "subtitles.afterworld.creature.brute.death"
+  },
+  "creature.brute.hurt": {
+    "sounds": [
+      {
+        "name": "afterworld:creature/brute/hurt1",
+        "volume": 0.9
+      },
+      {
+        "name": "afterworld:creature/brute/hurt2",
+        "volume": 0.9
+      }
+    ],
+    "subtitle": "subtitles.afterworld.creature.brute.hurt"
+  },
+  "creature.chitter.ambient": {
+    "sounds": [
+      {
+        "name": "afterworld:creature/chitter/ambient1",
+        "volume": 0.6
+      },
+      {
+        "name": "afterworld:creature/chitter/ambient2",
+        "volume": 0.6
+      }
+    ],
+    "subtitle": "subtitles.afterworld.creature.chitter.ambient"
+  },
+  "creature.chitter.death": {
+    "sounds": [
+      {
+        "name": "afterworld:creature/chitter/death1",
+        "volume": 0.9
+      }
+    ],
+    "subtitle": "subtitles.afterworld.creature.chitter.death"
+  },
+  "creature.chitter.hurt": {
+    "sounds": [
+      {
+        "name": "afterworld:creature/chitter/hurt1",
+        "volume": 0.8
+      },
+      {
+        "name": "afterworld:creature/chitter/hurt2",
+        "volume": 0.8
+      }
+    ],
+    "subtitle": "subtitles.afterworld.creature.chitter.hurt"
+  },
+  "creature.fungal.ambient": {
+    "sounds": [
+      {
+        "name": "afterworld:creature/fungal/ambient1",
+        "volume": 0.8
+      },
+      {
+        "name": "afterworld:creature/fungal/ambient2",
+        "volume": 0.8
+      }
+    ],
+    "subtitle": "subtitles.afterworld.creature.fungal.ambient"
+  },
+  "creature.fungal.death": {
+    "sounds": [
+      {
+        "name": "afterworld:creature/fungal/death1"
+      }
+    ],
+    "subtitle": "subtitles.afterworld.creature.fungal.death"
+  },
+  "creature.fungal.hurt": {
+    "sounds": [
+      {
+        "name": "afterworld:creature/fungal/hurt1",
+        "volume": 0.9
+      },
+      {
+        "name": "afterworld:creature/fungal/hurt2",
+        "volume": 0.9
+      }
+    ],
+    "subtitle": "subtitles.afterworld.creature.fungal.hurt"
+  },
+  "creature.hound.ambient": {
+    "sounds": [
+      {
+        "name": "afterworld:mob/hound",
+        "volume": 0.8
+      }
+    ],
+    "subtitle": "subtitles.afterworld.creature.hound.ambient"
+  },
+  "creature.hound.death": {
+    "sounds": [
+      {
+        "name": "afterworld:creature/hound/death1"
+      }
+    ],
+    "subtitle": "subtitles.afterworld.creature.hound.death"
+  },
+  "creature.hound.hurt": {
+    "sounds": [
+      {
+        "name": "afterworld:creature/hound/hurt1",
+        "volume": 0.9
+      },
+      {
+        "name": "afterworld:creature/hound/hurt2",
+        "volume": 0.9
+      }
+    ],
+    "subtitle": "subtitles.afterworld.creature.hound.hurt"
+  },
+  "creature.husk.ambient": {
+    "sounds": [
+      {
+        "name": "afterworld:creature/husk/ambient1",
+        "volume": 0.8
+      },
+      {
+        "name": "afterworld:creature/husk/ambient2",
+        "volume": 0.8
+      }
+    ],
+    "subtitle": "subtitles.afterworld.creature.husk.ambient"
+  },
+  "creature.husk.death": {
+    "sounds": [
+      {
+        "name": "afterworld:creature/husk/death1"
+      }
+    ],
+    "subtitle": "subtitles.afterworld.creature.husk.death"
+  },
+  "creature.husk.hurt": {
+    "sounds": [
+      {
+        "name": "afterworld:creature/husk/hurt1",
+        "volume": 0.9
+      },
+      {
+        "name": "afterworld:creature/husk/hurt2",
+        "volume": 0.9
+      }
+    ],
+    "subtitle": "subtitles.afterworld.creature.husk.hurt"
+  },
+  "creature.lurker.ambient": {
+    "sounds": [
+      {
+        "name": "afterworld:creature/lurker/ambient1",
+        "volume": 0.8
+      },
+      {
+        "name": "afterworld:creature/lurker/ambient2",
+        "volume": 0.8
+      }
+    ],
+    "subtitle": "subtitles.afterworld.creature.lurker.ambient"
+  },
+  "creature.lurker.death": {
+    "sounds": [
+      {
+        "name": "afterworld:creature/lurker/death1"
+      }
+    ],
+    "subtitle": "subtitles.afterworld.creature.lurker.death"
+  },
+  "creature.lurker.hurt": {
+    "sounds": [
+      {
+        "name": "afterworld:creature/lurker/hurt1",
+        "volume": 0.9
+      },
+      {
+        "name": "afterworld:creature/lurker/hurt2",
+        "volume": 0.9
+      }
+    ],
+    "subtitle": "subtitles.afterworld.creature.lurker.hurt"
+  },
+  "creature.moth.ambient": {
+    "sounds": [
+      {
+        "name": "afterworld:mob/moth1",
+        "volume": 0.5
+      },
+      {
+        "name": "afterworld:mob/moth2",
+        "volume": 0.5
+      }
+    ],
+    "subtitle": "subtitles.afterworld.creature.moth.ambient"
+  },
+  "creature.moth.death": {
+    "sounds": [
+      {
+        "name": "afterworld:creature/moth/death1",
+        "volume": 0.7
+      }
+    ],
+    "subtitle": "subtitles.afterworld.creature.moth.death"
+  },
+  "creature.moth.hurt": {
+    "sounds": [
+      {
+        "name": "afterworld:creature/moth/hurt1",
+        "volume": 0.6
+      },
+      {
+        "name": "afterworld:creature/moth/hurt2",
+        "volume": 0.6
+      }
+    ],
+    "subtitle": "subtitles.afterworld.creature.moth.hurt"
+  },
+  "creature.shade.ambient": {
+    "sounds": [
+      {
+        "name": "afterworld:creature/shade/ambient1",
+        "volume": 0.7
+      },
+      {
+        "name": "afterworld:creature/shade/ambient2",
+        "volume": 0.7
+      }
+    ],
+    "subtitle": "subtitles.afterworld.creature.shade.ambient"
+  },
+  "creature.shade.death": {
+    "sounds": [
+      {
+        "name": "afterworld:creature/shade/death1"
+      }
+    ],
+    "subtitle": "subtitles.afterworld.creature.shade.death"
+  },
+  "creature.shade.hurt": {
+    "sounds": [
+      {
+        "name": "afterworld:creature/shade/hurt1",
+        "volume": 0.85
+      },
+      {
+        "name": "afterworld:creature/shade/hurt2",
+        "volume": 0.85
+      }
+    ],
+    "subtitle": "subtitles.afterworld.creature.shade.hurt"
+  },
+  "creature.shambler.ambient": {
+    "sounds": [
+      {
+        "name": "afterworld:creature/shambler/ambient1",
+        "volume": 0.8
+      },
+      {
+        "name": "afterworld:creature/shambler/ambient2",
+        "volume": 0.8
+      }
+    ],
+    "subtitle": "subtitles.afterworld.creature.shambler.ambient"
+  },
+  "creature.shambler.death": {
+    "sounds": [
+      {
+        "name": "afterworld:creature/shambler/death1"
+      }
+    ],
+    "subtitle": "subtitles.afterworld.creature.shambler.death"
+  },
+  "creature.shambler.hurt": {
+    "sounds": [
+      {
+        "name": "afterworld:creature/shambler/hurt1",
+        "volume": 0.9
+      },
+      {
+        "name": "afterworld:creature/shambler/hurt2",
+        "volume": 0.9
+      }
+    ],
+    "subtitle": "subtitles.afterworld.creature.shambler.hurt"
+  },
+  "creature.sporeling.ambient": {
+    "sounds": [
+      {
+        "name": "afterworld:creature/sporeling/ambient1",
+        "volume": 0.5
+      },
+      {
+        "name": "afterworld:creature/sporeling/ambient2",
+        "volume": 0.5
+      }
+    ],
+    "subtitle": "subtitles.afterworld.creature.sporeling.ambient"
+  },
+  "creature.sporeling.death": {
+    "sounds": [
+      {
+        "name": "afterworld:creature/sporeling/death1",
+        "volume": 0.8
+      }
+    ],
+    "subtitle": "subtitles.afterworld.creature.sporeling.death"
+  },
+  "creature.sporeling.hurt": {
+    "sounds": [
+      {
+        "name": "afterworld:creature/sporeling/hurt1",
+        "volume": 0.7
+      },
+      {
+        "name": "afterworld:creature/sporeling/hurt2",
+        "volume": 0.7
+      }
+    ],
+    "subtitle": "subtitles.afterworld.creature.sporeling.hurt"
+  },
+  "creature.sprite.ambient": {
+    "sounds": [
+      {
+        "name": "afterworld:creature/sprite/ambient1",
+        "volume": 0.45
+      },
+      {
+        "name": "afterworld:creature/sprite/ambient2",
+        "volume": 0.45
+      }
+    ],
+    "subtitle": "subtitles.afterworld.creature.sprite.ambient"
+  },
+  "creature.sprite.death": {
+    "sounds": [
+      {
+        "name": "afterworld:creature/sprite/death1",
+        "volume": 0.7
+      }
+    ],
+    "subtitle": "subtitles.afterworld.creature.sprite.death"
+  },
+  "creature.sprite.hurt": {
+    "sounds": [
+      {
+        "name": "afterworld:creature/sprite/hurt1",
+        "volume": 0.6
+      },
+      {
+        "name": "afterworld:creature/sprite/hurt2",
+        "volume": 0.6
+      }
+    ],
+    "subtitle": "subtitles.afterworld.creature.sprite.hurt"
+  },
+  "creature.stalker.ambient": {
+    "sounds": [
+      {
+        "name": "afterworld:creature/stalker/ambient1",
+        "volume": 0.8
+      },
+      {
+        "name": "afterworld:creature/stalker/ambient2",
+        "volume": 0.8
+      }
+    ],
+    "subtitle": "subtitles.afterworld.creature.stalker.ambient"
+  },
+  "creature.stalker.death": {
+    "sounds": [
+      {
+        "name": "afterworld:creature/stalker/death1"
+      }
+    ],
+    "subtitle": "subtitles.afterworld.creature.stalker.death"
+  },
+  "creature.stalker.hurt": {
+    "sounds": [
+      {
+        "name": "afterworld:creature/stalker/hurt1",
+        "volume": 0.9
+      },
+      {
+        "name": "afterworld:creature/stalker/hurt2",
+        "volume": 0.9
+      }
+    ],
+    "subtitle": "subtitles.afterworld.creature.stalker.hurt"
+  },
+  "creature.treant.ambient": {
+    "sounds": [
+      {
+        "name": "afterworld:creature/treant/ambient1",
+        "volume": 0.8
+      },
+      {
+        "name": "afterworld:creature/treant/ambient2",
+        "volume": 0.8
+      }
+    ],
+    "subtitle": "subtitles.afterworld.creature.treant.ambient"
+  },
+  "creature.treant.death": {
+    "sounds": [
+      {
+        "name": "afterworld:creature/treant/death1"
+      }
+    ],
+    "subtitle": "subtitles.afterworld.creature.treant.death"
+  },
+  "creature.treant.hurt": {
+    "sounds": [
+      {
+        "name": "afterworld:creature/treant/hurt1",
+        "volume": 0.9
+      },
+      {
+        "name": "afterworld:creature/treant/hurt2",
+        "volume": 0.9
+      }
+    ],
+    "subtitle": "subtitles.afterworld.creature.treant.hurt"
+  },
+  "creature.weaver.ambient": {
+    "sounds": [
+      {
+        "name": "afterworld:creature/weaver/ambient1",
+        "volume": 0.8
+      },
+      {
+        "name": "afterworld:creature/weaver/ambient2",
+        "volume": 0.8
+      }
+    ],
+    "subtitle": "subtitles.afterworld.creature.weaver.ambient"
+  },
+  "creature.weaver.death": {
+    "sounds": [
+      {
+        "name": "afterworld:creature/weaver/death1"
+      }
+    ],
+    "subtitle": "subtitles.afterworld.creature.weaver.death"
+  },
+  "creature.weaver.hurt": {
+    "sounds": [
+      {
+        "name": "afterworld:creature/weaver/hurt1",
+        "volume": 0.9
+      },
+      {
+        "name": "afterworld:creature/weaver/hurt2",
+        "volume": 0.9
+      }
+    ],
+    "subtitle": "subtitles.afterworld.creature.weaver.hurt"
+  },
+  "creature.whale.ambient": {
+    "sounds": [
+      {
+        "name": "afterworld:mob/whale1"
+      },
+      {
+        "name": "afterworld:mob/whale2"
+      }
+    ],
+    "subtitle": "subtitles.afterworld.creature.whale.ambient"
+  },
+  "creature.whale.death": {
+    "sounds": [
+      {
+        "name": "afterworld:creature/whale/death1"
+      }
+    ],
+    "subtitle": "subtitles.afterworld.creature.whale.death"
+  },
+  "creature.whale.hurt": {
+    "sounds": [
+      {
+        "name": "afterworld:creature/whale/hurt1"
+      },
+      {
+        "name": "afterworld:creature/whale/hurt2"
+      }
+    ],
+    "subtitle": "subtitles.afterworld.creature.whale.hurt"
+  },
+  "creature.wight.ambient": {
+    "sounds": [
+      {
+        "name": "afterworld:creature/wight/ambient1",
+        "volume": 0.8
+      },
+      {
+        "name": "afterworld:creature/wight/ambient2",
+        "volume": 0.8
+      }
+    ],
+    "subtitle": "subtitles.afterworld.creature.wight.ambient"
+  },
+  "creature.wight.death": {
+    "sounds": [
+      {
+        "name": "afterworld:creature/wight/death1"
+      }
+    ],
+    "subtitle": "subtitles.afterworld.creature.wight.death"
+  },
+  "creature.wight.hurt": {
+    "sounds": [
+      {
+        "name": "afterworld:creature/wight/hurt1",
+        "volume": 0.9
+      },
+      {
+        "name": "afterworld:creature/wight/hurt2",
+        "volume": 0.9
+      }
+    ],
+    "subtitle": "subtitles.afterworld.creature.wight.hurt"
+  },
+  "creature.wyrmling.ambient": {
+    "sounds": [
+      {
+        "name": "afterworld:creature/wyrmling/ambient1",
+        "volume": 0.8
+      },
+      {
+        "name": "afterworld:creature/wyrmling/ambient2",
+        "volume": 0.8
+      }
+    ],
+    "subtitle": "subtitles.afterworld.creature.wyrmling.ambient"
+  },
+  "creature.wyrmling.death": {
+    "sounds": [
+      {
+        "name": "afterworld:creature/wyrmling/death1"
+      }
+    ],
+    "subtitle": "subtitles.afterworld.creature.wyrmling.death"
+  },
+  "creature.wyrmling.hurt": {
+    "sounds": [
+      {
+        "name": "afterworld:creature/wyrmling/hurt1",
+        "volume": 0.9
+      },
+      {
+        "name": "afterworld:creature/wyrmling/hurt2",
+        "volume": 0.9
+      }
+    ],
+    "subtitle": "subtitles.afterworld.creature.wyrmling.hurt"
+  },
+  "impact.bone": {
+    "sounds": [
+      {
+        "name": "afterworld:impact/bone1",
+        "volume": 0.8
+      },
+      {
+        "name": "afterworld:impact/bone2",
+        "volume": 0.8
+      },
+      {
+        "name": "afterworld:impact/bone3",
+        "volume": 0.8
+      },
+      {
+        "name": "afterworld:impact/bone4",
+        "volume": 0.8
+      }
+    ]
+  },
+  "impact.chitin": {
+    "sounds": [
+      {
+        "name": "afterworld:impact/chitin1",
+        "volume": 0.75
+      },
+      {
+        "name": "afterworld:impact/chitin2",
+        "volume": 0.75
+      },
+      {
+        "name": "afterworld:impact/chitin3",
+        "volume": 0.75
+      },
+      {
+        "name": "afterworld:impact/chitin4",
+        "volume": 0.75
+      }
+    ]
+  },
+  "impact.crit": {
+    "sounds": [
+      {
+        "name": "afterworld:impact/crit1",
+        "volume": 0.6
+      },
+      {
+        "name": "afterworld:impact/crit2",
+        "volume": 0.6
+      },
+      {
+        "name": "afterworld:impact/crit3",
+        "volume": 0.6
+      }
+    ]
+  },
+  "impact.crystal": {
+    "sounds": [
+      {
+        "name": "afterworld:impact/crystal1",
+        "volume": 0.75
+      },
+      {
+        "name": "afterworld:impact/crystal2",
+        "volume": 0.75
+      },
+      {
+        "name": "afterworld:impact/crystal3",
+        "volume": 0.75
+      },
+      {
+        "name": "afterworld:impact/crystal4",
+        "volume": 0.75
+      }
+    ]
+  },
+  "impact.flesh": {
+    "sounds": [
+      {
+        "name": "afterworld:impact/flesh1",
+        "volume": 0.85
+      },
+      {
+        "name": "afterworld:impact/flesh2",
+        "volume": 0.85
+      },
+      {
+        "name": "afterworld:impact/flesh3",
+        "volume": 0.85
+      },
+      {
+        "name": "afterworld:impact/flesh4",
+        "volume": 0.85
+      }
+    ]
+  },
+  "impact.guard": {
+    "sounds": [
+      {
+        "name": "afterworld:impact/guard1",
+        "volume": 0.8
+      },
+      {
+        "name": "afterworld:impact/guard2",
+        "volume": 0.8
+      },
+      {
+        "name": "afterworld:impact/guard3",
+        "volume": 0.8
+      }
+    ]
+  },
+  "impact.hide": {
+    "sounds": [
+      {
+        "name": "afterworld:impact/hide1",
+        "volume": 0.85
+      },
+      {
+        "name": "afterworld:impact/hide2",
+        "volume": 0.85
+      },
+      {
+        "name": "afterworld:impact/hide3",
+        "volume": 0.85
+      },
+      {
+        "name": "afterworld:impact/hide4",
+        "volume": 0.85
+      }
+    ]
+  },
+  "impact.ice": {
+    "sounds": [
+      {
+        "name": "afterworld:impact/ice1",
+        "volume": 0.8
+      },
+      {
+        "name": "afterworld:impact/ice2",
+        "volume": 0.8
+      },
+      {
+        "name": "afterworld:impact/ice3",
+        "volume": 0.8
+      },
+      {
+        "name": "afterworld:impact/ice4",
+        "volume": 0.8
+      }
+    ]
+  },
+  "impact.kill": {
+    "sounds": [
+      {
+        "name": "afterworld:impact/kill1",
+        "volume": 0.55
+      },
+      {
+        "name": "afterworld:impact/kill2",
+        "volume": 0.55
+      },
+      {
+        "name": "afterworld:impact/kill3",
+        "volume": 0.55
+      }
+    ]
+  },
+  "impact.metal": {
+    "sounds": [
+      {
+        "name": "afterworld:impact/metal1",
+        "volume": 0.8
+      },
+      {
+        "name": "afterworld:impact/metal2",
+        "volume": 0.8
+      },
+      {
+        "name": "afterworld:impact/metal3",
+        "volume": 0.8
+      },
+      {
+        "name": "afterworld:impact/metal4",
+        "volume": 0.8
+      }
+    ]
+  },
+  "impact.scale": {
+    "sounds": [
+      {
+        "name": "afterworld:impact/scale1",
+        "volume": 0.8
+      },
+      {
+        "name": "afterworld:impact/scale2",
+        "volume": 0.8
+      },
+      {
+        "name": "afterworld:impact/scale3",
+        "volume": 0.8
+      },
+      {
+        "name": "afterworld:impact/scale4",
+        "volume": 0.8
+      }
+    ]
+  },
+  "impact.slime": {
+    "sounds": [
+      {
+        "name": "afterworld:impact/slime1",
+        "volume": 0.8
+      },
+      {
+        "name": "afterworld:impact/slime2",
+        "volume": 0.8
+      },
+      {
+        "name": "afterworld:impact/slime3",
+        "volume": 0.8
+      },
+      {
+        "name": "afterworld:impact/slime4",
+        "volume": 0.8
+      }
+    ]
+  },
+  "impact.spirit": {
+    "sounds": [
+      {
+        "name": "afterworld:impact/spirit1",
+        "volume": 0.7
+      },
+      {
+        "name": "afterworld:impact/spirit2",
+        "volume": 0.7
+      },
+      {
+        "name": "afterworld:impact/spirit3",
+        "volume": 0.7
+      },
+      {
+        "name": "afterworld:impact/spirit4",
+        "volume": 0.7
+      }
+    ]
+  },
+  "impact.stone": {
+    "sounds": [
+      {
+        "name": "afterworld:impact/stone1",
+        "volume": 0.9
+      },
+      {
+        "name": "afterworld:impact/stone2",
+        "volume": 0.9
+      },
+      {
+        "name": "afterworld:impact/stone3",
+        "volume": 0.9
+      },
+      {
+        "name": "afterworld:impact/stone4",
+        "volume": 0.9
+      }
+    ]
+  },
+  "impact.wood": {
+    "sounds": [
+      {
+        "name": "afterworld:impact/wood1",
+        "volume": 0.85
+      },
+      {
+        "name": "afterworld:impact/wood2",
+        "volume": 0.85
+      },
+      {
+        "name": "afterworld:impact/wood3",
+        "volume": 0.85
+      },
+      {
+        "name": "afterworld:impact/wood4",
+        "volume": 0.85
+      }
+    ]
+  },
+  "ui.close": {
+    "sounds": [
+      {
+        "name": "afterworld:ui2/close1",
+        "volume": 0.55
+      },
+      {
+        "name": "afterworld:ui2/close2",
+        "volume": 0.55
+      }
+    ]
+  },
+  "ui.equip": {
+    "sounds": [
+      {
+        "name": "afterworld:ui2/equip1",
+        "volume": 0.6
+      },
+      {
+        "name": "afterworld:ui2/equip2",
+        "volume": 0.6
+      },
+      {
+        "name": "afterworld:ui2/equip3",
+        "volume": 0.6
+      }
+    ]
+  },
+  "ui.error": {
+    "sounds": [
+      {
+        "name": "afterworld:ui2/error1",
+        "volume": 0.45
+      },
+      {
+        "name": "afterworld:ui2/error2",
+        "volume": 0.45
+      }
+    ]
+  },
+  "ui.hover": {
+    "sounds": [
+      {
+        "name": "afterworld:ui2/hover1",
+        "volume": 0.22
+      },
+      {
+        "name": "afterworld:ui2/hover2",
+        "volume": 0.22
+      }
+    ]
+  },
+  "ui.tab": {
+    "sounds": [
+      {
+        "name": "afterworld:ui2/tab1",
+        "volume": 0.45
+      },
+      {
+        "name": "afterworld:ui2/tab2",
+        "volume": 0.45
+      }
+    ]
+  },
+  "va.leyla.found_0": {
+    "sounds": [
+      {
+        "name": "afterworld:va/leyla/found_0",
+        "stream": false
+      }
+    ]
+  },
+  "va.leyla.found_1": {
+    "sounds": [
+      {
+        "name": "afterworld:va/leyla/found_1",
+        "stream": false
+      }
+    ]
+  },
+  "va.leyla.freed_0": {
+    "sounds": [
+      {
+        "name": "afterworld:va/leyla/freed_0",
+        "stream": false
+      }
+    ]
+  },
+  "va.leyla.home_0": {
+    "sounds": [
+      {
+        "name": "afterworld:va/leyla/home_0",
+        "stream": false
+      }
+    ]
+  },
+  "va.leyla.stranger_0": {
+    "sounds": [
+      {
+        "name": "afterworld:va/leyla/stranger_0",
+        "stream": false
+      }
+    ]
+  },
+  "va.leyla.stranger_1": {
+    "sounds": [
+      {
+        "name": "afterworld:va/leyla/stranger_1",
+        "stream": false
+      }
+    ]
+  },
+  "va.leyla.waiting_0": {
+    "sounds": [
+      {
+        "name": "afterworld:va/leyla/waiting_0",
+        "stream": false
+      }
+    ]
+  },
+  "va.akane.not_yet_0": {
+    "sounds": [
+      {
+        "name": "afterworld:va/akane/not_yet_0",
+        "stream": false
+      }
+    ]
+  },
+  "va.akane.not_yet_1": {
+    "sounds": [
+      {
+        "name": "afterworld:va/akane/not_yet_1",
+        "stream": false
+      }
+    ]
+  },
+  "va.rook.ahead_0": {
+    "sounds": [
+      {
+        "name": "afterworld:va/rook/ahead_0",
+        "stream": false
+      }
+    ]
+  },
+  "va.rook.ahead_1": {
+    "sounds": [
+      {
+        "name": "afterworld:va/rook/ahead_1",
+        "stream": false
+      }
+    ]
+  },
+  "va.rook.greet_0": {
+    "sounds": [
+      {
+        "name": "afterworld:va/rook/greet_0",
+        "stream": false
+      }
+    ]
+  },
+  "va.rook.meet_0": {
+    "sounds": [
+      {
+        "name": "afterworld:va/rook/meet_0",
+        "stream": false
+      }
+    ]
+  },
+  "va.rook.meet_1": {
+    "sounds": [
+      {
+        "name": "afterworld:va/rook/meet_1",
+        "stream": false
+      }
+    ]
+  },
+  "va.rook.who_0": {
+    "sounds": [
+      {
+        "name": "afterworld:va/rook/who_0",
+        "stream": false
+      }
+    ]
+  },
+  "va.rook.who_1": {
+    "sounds": [
+      {
+        "name": "afterworld:va/rook/who_1",
+        "stream": false
+      }
+    ]
+  },
+  "va.wren.ladder_0": {
+    "sounds": [
+      {
+        "name": "afterworld:va/wren/ladder_0",
+        "stream": false
+      }
+    ]
+  },
+  "va.wren.ladder_1": {
+    "sounds": [
+      {
+        "name": "afterworld:va/wren/ladder_1",
+        "stream": false
+      }
+    ]
+  }
+}

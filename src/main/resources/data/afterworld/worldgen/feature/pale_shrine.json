@@ -1,0 +1,71 @@
+{
+  "type": "afterworld:ruin",
+  "wall": {
+    "type": "minecraft:weighted",
+    "entries": [
+      {
+        "data": "minecraft:calcite",
+        "weight": 3
+      },
+      {
+        "data": "minecraft:polished_diorite",
+        "weight": 2
+      },
+      {
+        "data": "minecraft:diorite_wall",
+        "weight": 1
+      }
+    ]
+  },
+  "floor": {
+    "type": "minecraft:weighted",
+    "entries": [
+      {
+        "data": "minecraft:polished_diorite",
+        "weight": 2
+      },
+      {
+        "data": "minecraft:calcite",
+        "weight": 1
+      }
+    ]
+  },
+  "style": "shrine",
+  "loot_chance": 0.4,
+  "underwater": false,
+  "accent": {
+    "type": "minecraft:weighted",
+    "entries": [
+      {
+        "data": {
+          "id": "minecraft:white_candle",
+          "properties": {
+            "candles": "3",
+            "lit": "true"
+          }
+        },
+        "weight": 2
+      },
+      {
+        "data": {
+          "id": "minecraft:candle",
+          "properties": {
+            "candles": "2",
+            "lit": "true"
+          }
+        },
+        "weight": 1
+      },
+      {
+        "data": {
+          "id": "minecraft:lantern",
+          "properties": {
+            "hanging": "false"
+          }
+        },
+        "weight": 1
+      }
+    ]
+  },
+  "loot": "afterworld:chests/shrine_cache"
+}

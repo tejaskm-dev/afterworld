@@ -1,0 +1,26 @@
+{
+  "type": "afterworld:giant_mushroom",
+  "stem": "minecraft:mushroom_stem",
+  "cap": {
+    "type": "minecraft:weighted",
+    "entries": [
+      {
+        "data": "minecraft:warped_wart_block",
+        "weight": 4
+      },
+      {
+        "data": "minecraft:mushroom_stem",
+        "weight": 1
+      }
+    ]
+  },
+  "shape": "dome",
+  "min_height": 6,
+  "max_height": 13,
+  "min_cap": 3,
+  "max_cap": 6,
+  "spot_chance": 0.14,
+  "spots": {
+    "id": "minecraft:shroomlight"
+  }
+}

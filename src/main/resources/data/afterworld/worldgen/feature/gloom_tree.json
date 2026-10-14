@@ -1,0 +1,30 @@
+{
+  "type": "afterworld:tree",
+  "log": "minecraft:dark_oak_log",
+  "leaves": {
+    "id": "minecraft:oak_leaves"
+  },
+  "shape": "droop",
+  "min_height": 7,
+  "max_height": 11,
+  "snow": false,
+  "hang": {
+    "type": "minecraft:weighted",
+    "entries": [
+      {
+        "data": {
+          "id": "minecraft:cave_vines",
+          "properties": {
+            "berries": "true"
+          }
+        },
+        "weight": 1
+      },
+      {
+        "data": "minecraft:pale_hanging_moss",
+        "weight": 1
+      }
+    ]
+  },
+  "hang_chance": 0.07
+}

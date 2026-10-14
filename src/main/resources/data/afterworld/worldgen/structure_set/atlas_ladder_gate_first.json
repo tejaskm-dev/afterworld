@@ -1,0 +1,13 @@
+{
+  "placement": {
+    "type": "afterworld:atlas",
+    "site": "ladder_gate_first",
+    "salt": 7402
+  },
+  "structures": [
+    {
+      "structure": "afterworld:ladder_gate_first",
+      "weight": 1
+    }
+  ]
+}

@@ -1,0 +1,10 @@
+{
+  "type": "afterworld:wonder",
+  "wonder": "overgrown_ziggurat",
+  "sink": 3,
+  "max_relief": 12,
+  "biomes": "#afterworld:has_structure/overgrown_ziggurat",
+  "step": "top_layer_modification",
+  "terrain_adaptation": "beard_box",
+  "spawn_overrides": {}
+}

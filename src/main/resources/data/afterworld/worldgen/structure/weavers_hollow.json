@@ -1,0 +1,10 @@
+{
+  "type": "afterworld:wonder",
+  "wonder": "weavers_hollow",
+  "sink": 3,
+  "max_relief": 12,
+  "biomes": "#afterworld:has_structure/weavers_hollow",
+  "step": "top_layer_modification",
+  "terrain_adaptation": "beard_box",
+  "spawn_overrides": {}
+}

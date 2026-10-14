@@ -1,0 +1,10 @@
+{
+  "variants": {
+    "repaired=false": {
+      "model": "afterworld:block/shrine_stone"
+    },
+    "repaired=true": {
+      "model": "afterworld:block/shrine_stone_repaired"
+    }
+  }
+}

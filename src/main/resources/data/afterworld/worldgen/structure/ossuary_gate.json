@@ -1,0 +1,10 @@
+{
+  "type": "afterworld:wonder",
+  "wonder": "ossuary_gate",
+  "sink": 8,
+  "max_relief": 12,
+  "biomes": "#afterworld:has_structure/ossuary_gate",
+  "step": "top_layer_modification",
+  "terrain_adaptation": "beard_box",
+  "spawn_overrides": {}
+}

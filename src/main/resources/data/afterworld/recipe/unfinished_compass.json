@@ -1,0 +1,18 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "pattern": [
+    " R ",
+    "RCR",
+    " P "
+  ],
+  "key": {
+    "R": "afterworld:anomaly_residue",
+    "C": "minecraft:compass",
+    "P": "afterworld:chronicle_page"
+  },
+  "result": {
+    "id": "afterworld:unfinished_compass",
+    "count": 1
+  }
+}

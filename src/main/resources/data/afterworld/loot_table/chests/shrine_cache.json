@@ -1,0 +1,133 @@
+{
+  "type": "minecraft:chest",
+  "pools": [
+    {
+      "rolls": {
+        "type": "minecraft:uniform",
+        "min": 2,
+        "max": 4
+      },
+      "entries": [
+        {
+          "type": "minecraft:item",
+          "name": "minecraft:candle",
+          "weight": 4,
+          "modifier": {
+            "type": "minecraft:set_count",
+            "count": {
+              "type": "minecraft:uniform",
+              "min": 1,
+              "max": 3
+            }
+          }
+        },
+        {
+          "type": "minecraft:item",
+          "name": "minecraft:emerald",
+          "weight": 4,
+          "modifier": {
+            "type": "minecraft:set_count",
+            "count": {
+              "type": "minecraft:uniform",
+              "min": 1,
+              "max": 4
+            }
+          }
+        },
+        {
+          "type": "minecraft:item",
+          "name": "afterworld:pilgrim_offering",
+          "weight": 3,
+          "modifier": {
+            "type": "minecraft:set_count",
+            "count": {
+              "type": "minecraft:uniform",
+              "min": 1,
+              "max": 2
+            }
+          }
+        },
+        {
+          "type": "minecraft:item",
+          "name": "minecraft:amethyst_shard",
+          "weight": 3,
+          "modifier": {
+            "type": "minecraft:set_count",
+            "count": {
+              "type": "minecraft:uniform",
+              "min": 1,
+              "max": 4
+            }
+          }
+        },
+        {
+          "type": "minecraft:item",
+          "name": "afterworld:chronicle_page",
+          "weight": 2,
+          "modifier": {
+            "type": "minecraft:set_count",
+            "count": {
+              "type": "minecraft:uniform",
+              "min": 1,
+              "max": 2
+            }
+          }
+        },
+        {
+          "type": "minecraft:item",
+          "name": "minecraft:golden_apple",
+          "weight": 1
+        }
+      ]
+    },
+    {
+      "rolls": 1,
+      "entries": [
+        {
+          "type": "minecraft:empty",
+          "weight": 3
+        },
+        {
+          "type": "minecraft:item",
+          "name": "afterworld:edict_fragment_return",
+          "weight": 1
+        },
+        {
+          "type": "minecraft:item",
+          "name": "afterworld:edict_fragment_echoes",
+          "weight": 1
+        },
+        {
+          "type": "minecraft:item",
+          "name": "afterworld:edict_fragment_weightlessness",
+          "weight": 1
+        },
+        {
+          "type": "minecraft:item",
+          "name": "afterworld:edict_fragment_hunger",
+          "weight": 1
+        },
+        {
+          "type": "minecraft:item",
+          "name": "afterworld:edict_fragment_hospitality",
+          "weight": 1
+        },
+        {
+          "type": "minecraft:item",
+          "name": "afterworld:edict_fragment_stillness",
+          "weight": 1
+        },
+        {
+          "type": "minecraft:item",
+          "name": "afterworld:edict_fragment_witness",
+          "weight": 1
+        },
+        {
+          "type": "minecraft:item",
+          "name": "afterworld:edict_fragment_forgotten",
+          "weight": 1
+        }
+      ]
+    }
+  ]
+}

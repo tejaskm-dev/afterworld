@@ -1,0 +1,22 @@
+{
+  "type": "afterworld:spire",
+  "body": {
+    "type": "minecraft:weighted",
+    "entries": [
+      {
+        "data": "minecraft:amethyst_block",
+        "weight": 3
+      },
+      {
+        "data": "minecraft:calcite",
+        "weight": 1
+      }
+    ]
+  },
+  "style": "shard",
+  "min_height": 6,
+  "max_height": 14,
+  "min_radius": 1.0,
+  "max_radius": 2.0,
+  "glow_chance": 0.0
+}

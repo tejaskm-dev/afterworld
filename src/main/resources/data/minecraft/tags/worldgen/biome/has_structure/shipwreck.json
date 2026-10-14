@@ -1,0 +1,11 @@
+{
+  "replace": false,
+  "values": [
+    "afterworld:ember_shallows",
+    "afterworld:mirrordeep",
+    "afterworld:mirrorsea",
+    "afterworld:rimedeep",
+    "afterworld:rimefloe",
+    "afterworld:rimesea"
+  ]
+}

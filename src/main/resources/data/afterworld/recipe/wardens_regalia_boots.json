@@ -1,0 +1,16 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "equipment",
+  "pattern": [
+    "A A",
+    "B B"
+  ],
+  "key": {
+    "A": "afterworld:edict_shard",
+    "B": "afterworld:glyph_gold"
+  },
+  "result": {
+    "id": "afterworld:wardens_regalia_boots",
+    "count": 1
+  }
+}

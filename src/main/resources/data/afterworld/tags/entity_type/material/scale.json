@@ -1,0 +1,45 @@
+{
+  "values": [
+    "afterworld:ember_salamander",
+    "afterworld:ash_wyrmling",
+    "afterworld:abyssal_angler",
+    "afterworld:glimmerfin",
+    "afterworld:mirror_ray",
+    {
+      "id": "minecraft:guardian",
+      "required": false
+    },
+    {
+      "id": "minecraft:elder_guardian",
+      "required": false
+    },
+    {
+      "id": "minecraft:axolotl",
+      "required": false
+    },
+    {
+      "id": "minecraft:armadillo",
+      "required": false
+    },
+    {
+      "id": "minecraft:turtle",
+      "required": false
+    },
+    {
+      "id": "minecraft:cod",
+      "required": false
+    },
+    {
+      "id": "minecraft:salmon",
+      "required": false
+    },
+    {
+      "id": "minecraft:tropical_fish",
+      "required": false
+    },
+    {
+      "id": "minecraft:pufferfish",
+      "required": false
+    }
+  ]
+}

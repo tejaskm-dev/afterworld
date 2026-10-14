@@ -1,0 +1,25 @@
+{
+  "values": [
+    "afterworld:warded_gearwork",
+    "afterworld:escapement",
+    "afterworld:counterweight",
+    "minecraft:bedrock",
+    "minecraft:barrier",
+    "minecraft:reinforced_deepslate",
+    "minecraft:end_portal_frame",
+    "minecraft:command_block",
+    "minecraft:chain_command_block",
+    "minecraft:repeating_command_block",
+    "minecraft:structure_block",
+    "minecraft:jigsaw",
+    "minecraft:light",
+    {
+      "id": "minecraft:vault",
+      "required": false
+    },
+    {
+      "id": "minecraft:trial_spawner",
+      "required": false
+    }
+  ]
+}

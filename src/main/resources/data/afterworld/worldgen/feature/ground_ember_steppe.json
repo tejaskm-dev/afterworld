@@ -1,0 +1,44 @@
+{
+  "type": "afterworld:ground",
+  "biome": "afterworld:ember_steppe",
+  "surface": [
+    {
+      "state": "minecraft:coarse_dirt",
+      "noise": 0,
+      "min": 0.72,
+      "max": 1.01
+    },
+    {
+      "state": "minecraft:packed_mud",
+      "noise": 1,
+      "min": 0.92,
+      "max": 1.01
+    }
+  ],
+  "plants": [
+    {
+      "state": "minecraft:short_dry_grass",
+      "chance": 0.18
+    },
+    {
+      "state": "minecraft:tall_dry_grass",
+      "chance": 0.06
+    },
+    {
+      "state": "minecraft:short_grass",
+      "chance": 0.08
+    },
+    {
+      "state": "minecraft:bush",
+      "chance": 0.01
+    },
+    {
+      "state": "minecraft:dead_bush",
+      "chance": 0.005
+    },
+    {
+      "state": "minecraft:golden_dandelion",
+      "chance": 0.004
+    }
+  ]
+}

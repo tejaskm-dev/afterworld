@@ -1,0 +1,469 @@
+{
+ "npc": "odo",
+ "entry": [
+  {
+   "go": "meet",
+   "if": [
+    "!flag:met:odo"
+   ]
+  },
+  {
+   "go": "wayfarer_parts",
+   "if": [
+    "side:wayfarer=0",
+    "has:afterworld:gear_spring*6",
+    "has:afterworld:clockwork_fragment*2"
+   ]
+  },
+  {
+   "go": "wayfarer_progress",
+   "if": [
+    "side:wayfarer=0"
+   ]
+  },
+  {
+   "go": "wayfarer_race",
+   "if": [
+    "side:wayfarer=1"
+   ]
+  },
+  {
+   "go": "wayfarer_done",
+   "if": [
+    "side:wayfarer=2"
+   ]
+  },
+  {
+   "go": "greet"
+  }
+ ],
+ "nodes": {
+  "meet": {
+   "lines": [
+    {
+     "text": "Ahoy, groundling! Captain Odo Brassmere, of the Wayfarer. Best ship in the sky. Only ship in the sky, come to think of it.",
+     "sound": "afterworld:va.odo.meet_0",
+     "ticks": 190,
+     "cue": "booming",
+     "beats": [
+      20,
+      800,
+      1850,
+      2620,
+      3400,
+      4190,
+      5270,
+      6050,
+      7440,
+      8220,
+      9090
+     ]
+    },
+    {
+     "text": "She's moored for repairs. Bring me gear springs and clockwork, and I'll make it worth your while.",
+     "sound": "afterworld:va.odo.meet_1",
+     "ticks": 107,
+     "beats": [
+      20,
+      470,
+      920,
+      1780,
+      2230,
+      2690,
+      3140,
+      3590,
+      4040,
+      4490,
+      4930
+     ]
+    }
+   ],
+   "options": [
+    {
+     "text": "Tell me about the sky.",
+     "go": "sky"
+    },
+    {
+     "text": "What needs fixing?",
+     "go": "wayfarer_offer",
+     "if": [
+      "!side:wayfarer:started"
+     ]
+    },
+    {
+     "text": "Let's trade.",
+     "go": "#shop"
+    },
+    {
+     "text": "Farewell.",
+     "go": "#end"
+    }
+   ]
+  },
+  "greet": {
+   "lines": [
+    {
+     "text": "Wind's from the west today. Good sailing weather, if one had a sail.",
+     "sound": "afterworld:va.odo.greet_0",
+     "ticks": 96,
+     "beats": [
+      20,
+      400,
+      780,
+      1150,
+      1790,
+      2160,
+      2540,
+      3310,
+      3680,
+      4060,
+      4450
+     ]
+    }
+   ],
+   "options": [
+    {
+     "text": "Tell me about the sky.",
+     "go": "sky"
+    },
+    {
+     "text": "What needs fixing?",
+     "go": "wayfarer_offer",
+     "if": [
+      "!side:wayfarer:started"
+     ]
+    },
+    {
+     "text": "Fly me somewhere.",
+     "go": "charter",
+     "if": [
+      "side:wayfarer:finished"
+     ]
+    },
+    {
+     "text": "Let's trade.",
+     "go": "#shop"
+    },
+    {
+     "text": "Farewell.",
+     "go": "#end"
+    }
+   ]
+  },
+  "sky": {
+   "lines": [
+    {
+     "text": "There are whales up there, you know. Great gentle things. They sing at dawn.",
+     "sound": "afterworld:va.odo.sky_0",
+     "ticks": 102,
+     "beats": [
+      20,
+      420,
+      810,
+      1200,
+      1880,
+      2410,
+      2800,
+      3200,
+      3910,
+      4310,
+      4700
+     ]
+    },
+    {
+     "text": "Lovely creatures. Just don't let one sit on your balloon. Ask me how I know.",
+     "sound": "afterworld:va.odo.sky_1",
+     "ticks": 108,
+     "cue": "laughs",
+     "beats": [
+      20,
+      430,
+      880,
+      1820,
+      2230,
+      2640,
+      3050,
+      3690,
+      4100,
+      4520,
+      4930
+     ]
+    }
+   ],
+   "options": [
+    {
+     "text": "Let's trade.",
+     "go": "#shop"
+    },
+    {
+     "text": "Farewell.",
+     "go": "#end"
+    }
+   ]
+  },
+  "wayfarer_offer": {
+   "lines": [
+    {
+     "text": "Here's the trouble. The Wayfarer's rudder springs are shot, and her clock-heart is skipping. I need six gear springs and two clockwork fragments.",
+     "sound": "afterworld:va.odo.wayfarer_offer_0",
+     "ticks": 171,
+     "beats": [
+      20,
+      680,
+      1770,
+      2490,
+      3150,
+      3950,
+      5110,
+      5770,
+      6560,
+      7300,
+      8070
+     ]
+    },
+    {
+     "text": "Gearhounds carry springs in their bellies, poor things. Clockwork you'll find wherever the King's toys wander.",
+     "sound": "afterworld:va.odo.wayfarer_offer_1",
+     "ticks": 128,
+     "beats": [
+      30,
+      510,
+      1060,
+      1560,
+      2280,
+      3420,
+      3900,
+      4370,
+      4880,
+      5390,
+      5890
+     ]
+    }
+   ],
+   "options": [
+    {
+     "text": "I'll get them.",
+     "go": "#end",
+     "do": [
+      "side:wayfarer:start"
+     ]
+    },
+    {
+     "text": "Not now.",
+     "go": "#end"
+    }
+   ]
+  },
+  "wayfarer_progress": {
+   "lines": [
+    {
+     "text": "Six springs and two fragments, groundling. The sky won't wait forever. Actually, it will. But I won't.",
+     "sound": "afterworld:va.odo.wayfarer_progress_0",
+     "ticks": 158,
+     "cue": "beat",
+     "beats": [
+      10,
+      620,
+      1220,
+      1820,
+      2650,
+      3250,
+      3850,
+      4920,
+      5940,
+      6540,
+      7460
+     ]
+    }
+   ],
+   "options": [
+    {
+     "text": "Let's trade.",
+     "go": "#shop"
+    },
+    {
+     "text": "Farewell.",
+     "go": "#end"
+    }
+   ]
+  },
+  "wayfarer_parts": {
+   "lines": [
+    {
+     "text": "Look at that! Springs, clockwork, and not a single finger missing. Splendid.",
+     "sound": "afterworld:va.odo.wayfarer_parts_0",
+     "ticks": 113,
+     "cue": "laughs",
+     "beats": [
+      20,
+      470,
+      1140,
+      1640,
+      2160,
+      2650,
+      3090,
+      3530,
+      3970,
+      4820,
+      5270
+     ]
+    },
+    {
+     "text": "Now, before I trust her with passengers, someone has to test the wings. Climb the tower, take this practice wing, and fly through every ring before the sand runs out.",
+     "sound": "afterworld:va.odo.wayfarer_parts_1",
+     "ticks": 196,
+     "beats": [
+      30,
+      1050,
+      1870,
+      2770,
+      3660,
+      4960,
+      6020,
+      7000,
+      7830,
+      8580,
+      9340
+     ]
+    }
+   ],
+   "do": [
+    "take:afterworld:gear_spring*6",
+    "take:afterworld:clockwork_fragment*2",
+    "side:wayfarer:advance",
+    "give:afterworld:prototype_wing"
+   ],
+   "options": [
+    {
+     "text": "Start the race.",
+     "go": "#end",
+     "do": [
+      "minigame:race"
+     ]
+    },
+    {
+     "text": "In a moment.",
+     "go": "#end"
+    }
+   ]
+  },
+  "wayfarer_race": {
+   "lines": [
+    {
+     "text": "The rings, groundling! Top of the mooring tower, jump, and steer for the lights. Sixty seconds, all eight rings.",
+     "sound": "afterworld:va.odo.wayfarer_race_0",
+     "ticks": 148,
+     "beats": [
+      30,
+      580,
+      1120,
+      1990,
+      2530,
+      3360,
+      3920,
+      4820,
+      5360,
+      6200,
+      6910
+     ]
+    }
+   ],
+   "options": [
+    {
+     "text": "Start the race.",
+     "go": "#end",
+     "do": [
+      "minigame:race"
+     ]
+    },
+    {
+     "text": "Farewell.",
+     "go": "#end"
+    }
+   ]
+  },
+  "wayfarer_done": {
+   "lines": [
+    {
+     "text": "Ha! You fly like you were hatched up there! Here. My old hook. Point it at anything and it'll pull you there, or pull it to you. Don't point it at me.",
+     "sound": "afterworld:va.odo.wayfarer_done_0",
+     "ticks": 198,
+     "cue": "delighted",
+     "beats": [
+      0,
+      760,
+      1510,
+      2270,
+      3570,
+      4630,
+      5450,
+      6200,
+      7250,
+      8600,
+      9480
+     ]
+    },
+    {
+     "text": "And any time you want to go somewhere far, come and see me. For a few Marks, the Wayfarer will take you.",
+     "sound": "afterworld:va.odo.wayfarer_done_1",
+     "ticks": 117,
+     "beats": [
+      20,
+      590,
+      1050,
+      1520,
+      1980,
+      2610,
+      3470,
+      3940,
+      4450,
+      4920,
+      5400
+     ]
+    }
+   ],
+   "do": [
+    "side:wayfarer:finish",
+    "give:afterworld:wayfarers_hook"
+   ],
+   "options": [
+    {
+     "text": "Thank you, Captain.",
+     "go": "#end"
+    }
+   ]
+  },
+  "charter": {
+   "lines": [
+    {
+     "text": "Where to, groundling? Thirty Marks a leg, and I throw in the view for free.",
+     "sound": "afterworld:va.odo.charter_0",
+     "ticks": 90,
+     "beats": [
+      30,
+      400,
+      770,
+      1490,
+      1860,
+      2230,
+      2610,
+      2980,
+      3350,
+      3720,
+      4130
+     ]
+    }
+   ],
+   "options": [
+    {
+     "text": "Show me the map.",
+     "go": "#charter"
+    },
+    {
+     "text": "Farewell.",
+     "go": "#end"
+    }
+   ]
+  }
+ }
+}

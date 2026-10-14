@@ -1,0 +1,14 @@
+{
+  "type": "afterworld:ground",
+  "biome": "afterworld:rimefloe",
+  "surface": [
+    {
+      "state": "minecraft:gravel",
+      "noise": 0,
+      "min": 0.55,
+      "max": 1.01
+    }
+  ],
+  "plants": [],
+  "sand": true
+}

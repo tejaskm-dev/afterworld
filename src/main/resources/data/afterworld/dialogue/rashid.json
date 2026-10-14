@@ -1,0 +1,449 @@
+{
+ "npc": "rashid",
+ "entry": [
+  {
+   "go": "meet",
+   "if": [
+    "!flag:met:rashid"
+   ]
+  },
+  {
+   "go": "caravan_deduce",
+   "if": [
+    "side:caravan=0",
+    "flag:clue:wagon",
+    "flag:clue:manifest",
+    "flag:clue:tracks"
+   ]
+  },
+  {
+   "go": "caravan_progress",
+   "if": [
+    "side:caravan=0"
+   ]
+  },
+  {
+   "go": "caravan_rescue",
+   "if": [
+    "side:caravan=1"
+   ]
+  },
+  {
+   "go": "caravan_done",
+   "if": [
+    "side:caravan=2"
+   ]
+  },
+  {
+   "go": "greet"
+  }
+ ],
+ "nodes": {
+  "meet": {
+   "lines": [
+    {
+     "text": "Welcome to the Hourglass, friend. Rashid, master of this caravan. The water is free. Everything else, we can discuss.",
+     "sound": "afterworld:va.rashid.meet_0",
+     "ticks": 181,
+     "cue": "playful",
+     "beats": [
+      30,
+      750,
+      1460,
+      2600,
+      3570,
+      4280,
+      5400,
+      6520,
+      7230,
+      7990,
+      8700
+     ]
+    }
+   ],
+   "options": [
+    {
+     "text": "What is the obelisk for?",
+     "go": "obelisk"
+    },
+    {
+     "text": "You look worried.",
+     "go": "caravan_offer",
+     "if": [
+      "!side:caravan:started"
+     ]
+    },
+    {
+     "text": "Let's discuss.",
+     "go": "#shop"
+    },
+    {
+     "text": "Farewell.",
+     "go": "#end"
+    }
+   ]
+  },
+  "greet": {
+   "lines": [
+    {
+     "text": "Ah, my friend returns. The sand remembers you, and so do I.",
+     "sound": "afterworld:va.rashid.greet_0",
+     "ticks": 105,
+     "beats": [
+      0,
+      420,
+      870,
+      1280,
+      1700,
+      2540,
+      2950,
+      3370,
+      4020,
+      4430,
+      4840
+     ]
+    }
+   ],
+   "options": [
+    {
+     "text": "What is the obelisk for?",
+     "go": "obelisk"
+    },
+    {
+     "text": "You look worried.",
+     "go": "caravan_offer",
+     "if": [
+      "!side:caravan:started"
+     ]
+    },
+    {
+     "text": "Let's discuss.",
+     "go": "#shop"
+    },
+    {
+     "text": "Farewell.",
+     "go": "#end"
+    }
+   ]
+  },
+  "obelisk": {
+   "lines": [
+    {
+     "text": "It tells the hours with its shadow. But at noon, sometimes, it tells the wrong one.",
+     "sound": "afterworld:va.rashid.obelisk_0",
+     "ticks": 123,
+     "beats": [
+      20,
+      520,
+      1010,
+      1510,
+      2000,
+      3020,
+      3620,
+      4120,
+      4670,
+      5170,
+      5670
+     ]
+    },
+    {
+     "text": "On those days the sand remembers things it shouldn't. We pack up early.",
+     "sound": "afterworld:va.rashid.obelisk_1",
+     "ticks": 106,
+     "beats": [
+      10,
+      430,
+      840,
+      1430,
+      1840,
+      2260,
+      2690,
+      3110,
+      4040,
+      4460,
+      4870
+     ]
+    }
+   ],
+   "options": [
+    {
+     "text": "Let's discuss.",
+     "go": "#shop"
+    },
+    {
+     "text": "Farewell.",
+     "go": "#end"
+    }
+   ]
+  },
+  "caravan_offer": {
+   "lines": [
+    {
+     "text": "Three days ago my sister's caravan left for the nomad camps of the Ember Steppe. Twelve camels, eight drivers, a cargo of spice. It never arrived.",
+     "sound": "afterworld:va.rashid.caravan_offer_0",
+     "ticks": 210,
+     "beats": [
+      0,
+      850,
+      1800,
+      2650,
+      3500,
+      4340,
+      5660,
+      6770,
+      7890,
+      9310,
+      10150
+     ]
+    },
+    {
+     "text": "No sandstorm. No bandits seen. Just silence. Find out what happened to them, and you will have a friend in every market I trade in.",
+     "sound": "afterworld:va.rashid.caravan_offer_1",
+     "ticks": 189,
+     "beats": [
+      20,
+      790,
+      1750,
+      2990,
+      3960,
+      5120,
+      5890,
+      6740,
+      7500,
+      8290,
+      9050
+     ]
+    }
+   ],
+   "options": [
+    {
+     "text": "I'll find them.",
+     "go": "#end",
+     "do": [
+      "side:caravan:start",
+      "mark:caravan"
+     ]
+    },
+    {
+     "text": "Not now.",
+     "go": "#end"
+    }
+   ]
+  },
+  "caravan_progress": {
+   "lines": [
+    {
+     "text": "Start where they were last seen, the old road east of here. Look for anything out of place. Sand hides things, but it is a poor liar.",
+     "sound": "afterworld:va.rashid.caravan_progress_0",
+     "ticks": 185,
+     "beats": [
+      10,
+      770,
+      1760,
+      2520,
+      3650,
+      4440,
+      5190,
+      6340,
+      7140,
+      8050,
+      8800
+     ]
+    }
+   ],
+   "options": [
+    {
+     "text": "Mark the road for me.",
+     "go": "#end",
+     "do": [
+      "mark:caravan"
+     ]
+    },
+    {
+     "text": "Farewell.",
+     "go": "#end"
+    }
+   ]
+  },
+  "caravan_deduce": {
+   "lines": [
+    {
+     "text": "You found the wagon, the manifest, and the tracks. So. Where did they go? You saw what I did not.",
+     "sound": "afterworld:va.rashid.caravan_deduce_0",
+     "ticks": 150,
+     "beats": [
+      10,
+      580,
+      1290,
+      1850,
+      2530,
+      3500,
+      4410,
+      5350,
+      5910,
+      6470,
+      7050
+     ]
+    }
+   ],
+   "options": [
+    {
+     "text": "Into the buried obelisk, hiding from something.",
+     "go": "caravan_right",
+     "do": [
+      "side:caravan:advance",
+      "mark:obelisk"
+     ]
+    },
+    {
+     "text": "Bandits took them north.",
+     "go": "caravan_wrong"
+    },
+    {
+     "text": "They sold the cargo and ran.",
+     "go": "caravan_wrong"
+    }
+   ]
+  },
+  "caravan_wrong": {
+   "lines": [
+    {
+     "text": "Hm. That does not fit the tracks, my friend. Look at what you found again. Sand is a poor liar, remember.",
+     "sound": "afterworld:va.rashid.caravan_wrong_0",
+     "ticks": 153,
+     "cue": "doubtful",
+     "beats": [
+      0,
+      950,
+      1570,
+      2200,
+      3170,
+      3790,
+      4710,
+      5330,
+      6000,
+      6620,
+      7260
+     ]
+    }
+   ],
+   "options": [
+    {
+     "text": "Let me think again.",
+     "go": "caravan_deduce"
+    },
+    {
+     "text": "Farewell.",
+     "go": "#end"
+    }
+   ]
+  },
+  "caravan_right": {
+   "lines": [
+    {
+     "text": "The obelisk! Of course. They hid from the storm-eaters. Go, quickly. If they hid there, something chased them in.",
+     "sound": "afterworld:va.rashid.caravan_right_0",
+     "ticks": 151,
+     "beats": [
+      10,
+      620,
+      1530,
+      2270,
+      2880,
+      3480,
+      4420,
+      5320,
+      5920,
+      6550,
+      7150
+     ]
+    }
+   ],
+   "options": [
+    {
+     "text": "I'm going.",
+     "go": "#end"
+    }
+   ]
+  },
+  "caravan_rescue": {
+   "lines": [
+    {
+     "text": "The buried obelisk, east and south. Bring them home, friend.",
+     "sound": "afterworld:va.rashid.caravan_rescue_0",
+     "ticks": 85,
+     "beats": [
+      20,
+      360,
+      690,
+      1030,
+      1510,
+      1850,
+      2180,
+      2810,
+      3140,
+      3480,
+      3810
+     ]
+    }
+   ],
+   "options": [
+    {
+     "text": "Farewell.",
+     "go": "#end"
+    }
+   ]
+  },
+  "caravan_done": {
+   "lines": [
+    {
+     "text": "My sister. Alive. And most of the spice, which she says I care about more. She is wrong. Mostly.",
+     "sound": "afterworld:va.rashid.caravan_done_0",
+     "ticks": 164,
+     "cue": "laughs",
+     "beats": [
+      20,
+      680,
+      1560,
+      2500,
+      3180,
+      3870,
+      4520,
+      5460,
+      6110,
+      6760,
+      7770
+     ]
+    },
+    {
+     "text": "Take this seal. Show it to any Guild merchant, and they will treat you as family. Which means slightly less robbery.",
+     "sound": "afterworld:va.rashid.caravan_done_1",
+     "ticks": 147,
+     "beats": [
+      20,
+      650,
+      1570,
+      2200,
+      2820,
+      3440,
+      4060,
+      5030,
+      5650,
+      6270,
+      6900
+     ]
+    }
+   ],
+   "do": [
+    "side:caravan:finish",
+    "give:afterworld:caravan_seal"
+   ],
+   "options": [
+    {
+     "text": "Thank you, Rashid.",
+     "go": "#end"
+    }
+   ]
+  }
+ }
+}

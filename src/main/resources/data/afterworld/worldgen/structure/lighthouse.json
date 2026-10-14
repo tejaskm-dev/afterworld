@@ -1,0 +1,11 @@
+{
+  "type": "afterworld:wonder",
+  "wonder": "lighthouse",
+  "sink": 3,
+  "max_relief": 12,
+  "biomes": "#afterworld:has_structure/lighthouse",
+  "step": "top_layer_modification",
+  "terrain_adaptation": "beard_box",
+  "spawn_overrides": {},
+  "shore": true
+}

@@ -1,0 +1,24 @@
+{
+  "type": "afterworld:outcrop",
+  "body": {
+    "type": "minecraft:weighted",
+    "entries": [
+      {
+        "data": "minecraft:granite",
+        "weight": 2
+      },
+      {
+        "data": "minecraft:terracotta",
+        "weight": 1
+      },
+      {
+        "data": "minecraft:coarse_dirt",
+        "weight": 1
+      }
+    ]
+  },
+  "cap_chance": 0.6,
+  "min_size": 1.4,
+  "max_size": 2.6,
+  "lumps": 3
+}

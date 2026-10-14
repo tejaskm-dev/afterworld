@@ -1,0 +1,19 @@
+{
+  "type": "afterworld:ground",
+  "biome": "afterworld:rimeglass_spires",
+  "surface": [
+    {
+      "state": "minecraft:snow_block",
+      "noise": 0,
+      "min": 0.3,
+      "max": 1.01
+    },
+    {
+      "state": "minecraft:blue_ice",
+      "noise": 1,
+      "min": 0.96,
+      "max": 1.01
+    }
+  ],
+  "plants": []
+}

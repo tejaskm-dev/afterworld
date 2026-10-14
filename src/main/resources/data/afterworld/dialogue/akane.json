@@ -1,0 +1,336 @@
+{
+ "npc": "akane",
+ "entry": [
+  {
+   "go": "meet",
+   "if": [
+    "!flag:met:akane"
+   ]
+  },
+  {
+   "go": "duel_won",
+   "if": [
+    "side:duel=1"
+   ]
+  },
+  {
+   "go": "greet"
+  }
+ ],
+ "nodes": {
+  "meet": {
+   "lines": [
+    {
+     "text": "You walk into the Lantern Dojo with your boots on. Bold. I am Akane, the last disciple of this house.",
+     "sound": "afterworld:va.akane.meet_0",
+     "ticks": 163,
+     "beats": [
+      30,
+      660,
+      1290,
+      1930,
+      2690,
+      3640,
+      4740,
+      5380,
+      6190,
+      6920,
+      7540
+     ]
+    },
+    {
+     "text": "My master became the Ashen Shogun. Every lantern on these walls is a life he took. If you have come to challenge him, you must first face me.",
+     "sound": "afterworld:va.akane.meet_1",
+     "ticks": 203,
+     "beats": [
+      30,
+      830,
+      1630,
+      2910,
+      3700,
+      4500,
+      5330,
+      6990,
+      7790,
+      8920,
+      9710
+     ]
+    }
+   ],
+   "options": [
+    {
+     "text": "Then I'll face you.",
+     "go": "duel_rules",
+     "if": [
+      "chapter>=3"
+     ]
+    },
+    {
+     "text": "Then I'll face you.",
+     "go": "not_yet",
+     "if": [
+      "!chapter>=3"
+     ]
+    },
+    {
+     "text": "Tell me about your master.",
+     "go": "master"
+    },
+    {
+     "text": "Farewell.",
+     "go": "#end"
+    }
+   ]
+  },
+  "greet": {
+   "lines": [
+    {
+     "text": "The lanterns flicker when you enter. They remember you.",
+     "sound": "afterworld:va.akane.greet_0",
+     "ticks": 80,
+     "beats": [
+      20,
+      320,
+      620,
+      920,
+      1220,
+      1520,
+      1820,
+      2570,
+      2870,
+      3170,
+      3470
+     ]
+    }
+   ],
+   "options": [
+    {
+     "text": "I'll face you.",
+     "go": "duel_rules",
+     "if": [
+      "chapter>=3",
+      "!side:duel:finished"
+     ]
+    },
+    {
+     "text": "I'll face you.",
+     "go": "not_yet",
+     "if": [
+      "!chapter>=3"
+     ]
+    },
+    {
+     "text": "Tell me about your master.",
+     "go": "master"
+    },
+    {
+     "text": "Farewell.",
+     "go": "#end"
+    }
+   ]
+  },
+  "not_yet": {
+   "lines": [
+    {
+     "text": "Not yet. You still smell of the camp's woodsmoke. He has burned a hundred who were braver than you look.",
+     "sound": "afterworld:va.akane.not_yet_0",
+     "ticks": 143,
+     "cue": "quietly",
+     "beats": [
+      10,
+      600,
+      1470,
+      2010,
+      2530,
+      3210,
+      4460,
+      4950,
+      5450,
+      5940,
+      6540
+     ]
+    },
+    {
+     "text": "When the Warden of the waystones speaks to you of the five Wardens, come back. The lanterns will still be burning. They always are.",
+     "sound": "afterworld:va.akane.not_yet_1",
+     "ticks": 166,
+     "beats": [
+      30,
+      670,
+      1300,
+      2000,
+      2630,
+      3260,
+      4810,
+      5440,
+      6080,
+      7210,
+      7840
+     ]
+    }
+   ],
+   "options": [
+    {
+     "text": "Tell me about your master.",
+     "go": "master"
+    },
+    {
+     "text": "Farewell.",
+     "go": "#end"
+    }
+   ]
+  },
+  "master": {
+   "lines": [
+    {
+     "text": "He was the gentlest man I knew. He swore to guard the blossom country forever, and the world took him at his word.",
+     "sound": "afterworld:va.akane.master_0",
+     "ticks": 164,
+     "beats": [
+      20,
+      680,
+      1340,
+      1960,
+      3300,
+      3910,
+      4530,
+      5150,
+      6350,
+      6990,
+      7640
+     ]
+    },
+    {
+     "text": "Forever is too long for a promise. It burned him to ash, and left the oath walking.",
+     "sound": "afterworld:va.akane.master_1",
+     "ticks": 132,
+     "beats": [
+      30,
+      580,
+      1120,
+      1660,
+      2200,
+      3170,
+      3710,
+      4250,
+      4970,
+      5510,
+      6050
+     ]
+    }
+   ],
+   "options": [
+    {
+     "text": "Farewell.",
+     "go": "#end"
+    }
+   ]
+  },
+  "duel_rules": {
+   "lines": [
+    {
+     "text": "The Duel of Lanterns has one rule. Only a perfect parry may strike. Any other blow, and the lanterns go dark.",
+     "sound": "afterworld:va.akane.duel_rules_0",
+     "ticks": 165,
+     "beats": [
+      30,
+      670,
+      1310,
+      1950,
+      3030,
+      3710,
+      4350,
+      5630,
+      6350,
+      6990,
+      7720
+     ]
+    },
+    {
+     "text": "Turn my blade aside five times, and I will give you his challenge lantern. And perhaps, peace.",
+     "sound": "afterworld:va.akane.duel_rules_1",
+     "ticks": 141,
+     "cue": "quietly",
+     "beats": [
+      30,
+      590,
+      1150,
+      1710,
+      2370,
+      2920,
+      3480,
+      4040,
+      5080,
+      5660,
+      6590
+     ]
+    }
+   ],
+   "options": [
+    {
+     "text": "Begin.",
+     "go": "#end",
+     "do": [
+      "side:duel:start",
+      "minigame:duel"
+     ]
+    },
+    {
+     "text": "Not yet.",
+     "go": "#end"
+    }
+   ]
+  },
+  "duel_won": {
+   "lines": [
+    {
+     "text": "Five. You turned my blade five times. Take the lantern.",
+     "sound": "afterworld:va.akane.duel_won_0",
+     "ticks": 118,
+     "cue": "breathing hard",
+     "beats": [
+      0,
+      530,
+      1100,
+      1570,
+      2160,
+      2630,
+      3110,
+      3580,
+      4520,
+      4990,
+      5460
+     ]
+    },
+    {
+     "text": "Light it at the dojo's heart, and he will come. Do not let him reach the hundredth lantern.",
+     "sound": "afterworld:va.akane.duel_won_1",
+     "ticks": 117,
+     "beats": [
+      20,
+      520,
+      1010,
+      1500,
+      2060,
+      2990,
+      3480,
+      3970,
+      4460,
+      4950,
+      5440
+     ]
+    }
+   ],
+   "do": [
+    "side:duel:finish",
+    "give:afterworld:challenge_lantern"
+   ],
+   "options": [
+    {
+     "text": "I won't.",
+     "go": "#end"
+    }
+   ]
+  }
+ }
+}

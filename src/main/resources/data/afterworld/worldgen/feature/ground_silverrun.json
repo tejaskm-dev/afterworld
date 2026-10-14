@@ -1,0 +1,20 @@
+{
+  "type": "afterworld:ground",
+  "biome": "afterworld:silverrun",
+  "surface": [
+    {
+      "state": "minecraft:gravel",
+      "noise": 0,
+      "min": 0.6,
+      "max": 1.01
+    },
+    {
+      "state": "minecraft:clay",
+      "noise": 1,
+      "min": 0.9,
+      "max": 1.01
+    }
+  ],
+  "plants": [],
+  "sand": true
+}

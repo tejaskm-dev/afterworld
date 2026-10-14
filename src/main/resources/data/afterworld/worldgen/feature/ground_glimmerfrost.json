@@ -1,0 +1,30 @@
+{
+  "type": "afterworld:ground",
+  "biome": "afterworld:glimmerfrost",
+  "surface": [
+    {
+      "state": "minecraft:snow_block",
+      "noise": 0,
+      "min": 0.55,
+      "max": 1.01
+    },
+    {
+      "state": "minecraft:packed_ice",
+      "noise": 1,
+      "min": 0.9,
+      "max": 1.01
+    },
+    {
+      "state": "minecraft:blue_ice",
+      "noise": 2,
+      "min": 0.97,
+      "max": 1.01
+    }
+  ],
+  "plants": [
+    {
+      "state": "minecraft:short_grass",
+      "chance": 0.015
+    }
+  ]
+}

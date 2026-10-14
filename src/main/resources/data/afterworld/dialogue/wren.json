@@ -1,0 +1,578 @@
+{
+ "npc": "wren",
+ "entry": [
+  {
+   "go": "meet",
+   "if": [
+    "!flag:met:wren"
+   ]
+  },
+  {
+   "go": "edges_done",
+   "if": [
+    "side:edges=1"
+   ]
+  },
+  {
+   "go": "edges_progress",
+   "if": [
+    "side:edges=0"
+   ]
+  },
+  {
+   "go": "greet"
+  }
+ ],
+ "nodes": {
+  "meet": {
+   "lines": [
+    {
+     "text": "Oh! A new face. Wren Halloway, Cartographers' Guild. I map the places that won't sit still.",
+     "sound": "afterworld:va.wren.meet_0",
+     "ticks": 149,
+     "beats": [
+      30,
+      690,
+      1310,
+      2190,
+      2810,
+      3530,
+      4150,
+      5080,
+      5700,
+      6320,
+      6940
+     ]
+    },
+    {
+     "text": "If you're looking for something out there, I can probably mark it on your map. Probably. And I keep the Guild Ledger, so your Marks can sleep somewhere safer than your pockets.",
+     "sound": "afterworld:va.wren.meet_1",
+     "ticks": 216,
+     "beats": [
+      50,
+      920,
+      2030,
+      2950,
+      4240,
+      5450,
+      6400,
+      7500,
+      8400,
+      9270,
+      10230
+     ]
+    }
+   ],
+   "options": [
+    {
+     "text": "Mark something for me.",
+     "go": "marks"
+    },
+    {
+     "text": "The Guild Ledger.",
+     "go": "#bank"
+    },
+    {
+     "text": "Tell me about the landmarks.",
+     "go": "landmarks"
+    },
+    {
+     "text": "What do you sell?",
+     "go": "#shop"
+    },
+    {
+     "text": "Farewell.",
+     "go": "#end"
+    }
+   ]
+  },
+  "greet": {
+   "lines": [
+    {
+     "text": "Back from the edges? Tell me everything. Or at least, tell me where.",
+     "sound": "afterworld:va.wren.greet_0",
+     "ticks": 101,
+     "cue": "excited",
+     "beats": [
+      20,
+      430,
+      830,
+      1510,
+      1910,
+      2310,
+      2990,
+      3390,
+      3810,
+      4210,
+      4620
+     ]
+    }
+   ],
+   "options": [
+    {
+     "text": "Mark something for me.",
+     "go": "marks"
+    },
+    {
+     "text": "The Guild Ledger.",
+     "go": "#bank"
+    },
+    {
+     "text": "Any surveying work?",
+     "go": "edges_offer",
+     "if": [
+      "!side:edges:started",
+      "chapter>=1"
+     ]
+    },
+    {
+     "text": "Where are the glyph tablets?",
+     "go": "tablets",
+     "if": [
+      "chapter>=3"
+     ]
+    },
+    {
+     "text": "What do you sell?",
+     "go": "#shop"
+    },
+    {
+     "text": "Farewell.",
+     "go": "#end"
+    }
+   ]
+  },
+  "marks": {
+   "lines": [
+    {
+     "text": "Of course. What are you after?",
+     "sound": "afterworld:va.wren.marks_0",
+     "ticks": 51,
+     "beats": [
+      30,
+      220,
+      400,
+      590,
+      770,
+      1200,
+      1380,
+      1570,
+      1750,
+      1940,
+      2120
+     ]
+    }
+   ],
+   "options": [
+    {
+     "text": "The nearest landmark.",
+     "go": "marked",
+     "do": [
+      "mark:landmark"
+     ]
+    },
+    {
+     "text": "A loose Edict.",
+     "go": "marked",
+     "do": [
+      "mark:anomaly"
+     ]
+    },
+    {
+     "text": "A shrine on the Pilgrim's road.",
+     "go": "marked",
+     "do": [
+      "mark:shrine"
+     ]
+    },
+    {
+     "text": "The Hollow Cathedral.",
+     "go": "marked",
+     "if": [
+      "chapter>=2"
+     ],
+     "do": [
+      "mark:cathedral"
+     ]
+    },
+    {
+     "text": "The Vault of Seconds.",
+     "go": "marked",
+     "if": [
+      "chapter>=2"
+     ],
+     "do": [
+      "mark:vault"
+     ]
+    },
+    {
+     "text": "A village.",
+     "go": "marked",
+     "do": [
+      "mark:village"
+     ]
+    },
+    {
+     "text": "Somewhere to test my blade.",
+     "go": "ladder",
+     "do": [
+      "mark:ladder"
+     ]
+    }
+   ]
+  },
+  "ladder": {
+   "lines": [
+    {
+     "text": "The Warden's Ladder. An old gate, dark stone, a stone that glows. Step through and you're somewhere else entirely.",
+     "sound": "afterworld:va.wren.ladder_0",
+     "ticks": 206,
+     "cue": "lowers voice",
+     "beats": [
+      90,
+      940,
+      2360,
+      3210,
+      4140,
+      5120,
+      5970,
+      7240,
+      8130,
+      8980,
+      9830
+     ]
+    },
+    {
+     "text": "Fifty floors, they say, each one meaner than the last. The Guild has never mapped past the fifth. I've marked the nearest gate for you!",
+     "sound": "afterworld:va.wren.ladder_1",
+     "ticks": 180,
+     "cue": "brightly",
+     "beats": [
+      30,
+      770,
+      1500,
+      2550,
+      3280,
+      4470,
+      5200,
+      5980,
+      7010,
+      7750,
+      8480
+     ]
+    }
+   ],
+   "options": [
+    {
+     "text": "Mark something else.",
+     "go": "marks"
+    },
+    {
+     "text": "Thanks, Wren.",
+     "go": "#end"
+    }
+   ]
+  },
+  "marked": {
+   "lines": [
+    {
+     "text": "There. It's on your map now. Follow the light, and mind the edges. The edges are where maps get hungry.",
+     "sound": "afterworld:va.wren.marked_0",
+     "ticks": 147,
+     "beats": [
+      20,
+      820,
+      1410,
+      2290,
+      2880,
+      3580,
+      4170,
+      5080,
+      5670,
+      6270,
+      6860
+     ]
+    }
+   ],
+   "options": [
+    {
+     "text": "Mark something else.",
+     "go": "marks"
+    },
+    {
+     "text": "Thanks, Wren.",
+     "go": "#end"
+    }
+   ]
+  },
+  "landmarks": {
+   "lines": [
+    {
+     "text": "There's a gazebo where the moon comes down to rest. A tower crowned with a crescent. A mushroom house frozen into the ice. And an airship that never quite lands.",
+     "sound": "afterworld:va.wren.landmarks_0",
+     "ticks": 234,
+     "beats": [
+      20,
+      1040,
+      2050,
+      3370,
+      4390,
+      5720,
+      6730,
+      7750,
+      9080,
+      10140,
+      11160
+     ]
+    },
+    {
+     "text": "Each has a keeper, and a waystone. Touch it, and you can come back whenever you like. It's the closest thing to cheating the Guild allows.",
+     "sound": "afterworld:va.wren.landmarks_1",
+     "ticks": 174,
+     "beats": [
+      30,
+      760,
+      1560,
+      2600,
+      3490,
+      4220,
+      4950,
+      6000,
+      6730,
+      7460,
+      8180
+     ]
+    }
+   ],
+   "options": [
+    {
+     "text": "Mark the nearest one.",
+     "go": "marked",
+     "do": [
+      "mark:landmark"
+     ]
+    },
+    {
+     "text": "Farewell.",
+     "go": "#end"
+    }
+   ]
+  },
+  "edges_offer": {
+   "lines": [
+    {
+     "text": "You've got good boots and a curious face. How'd you like to do some real surveying? The Guild pays, and I pay better.",
+     "sound": "afterworld:va.wren.edges_offer_0",
+     "ticks": 164,
+     "beats": [
+      30,
+      750,
+      1460,
+      2180,
+      3140,
+      3820,
+      4510,
+      5190,
+      6210,
+      7030,
+      7710
+     ]
+    },
+    {
+     "text": "Take this sextant. Find three landmarks, stand by their waystones and take a sighting. The trick is the wind. Hold your breath, and wait for the needle to settle.",
+     "sound": "afterworld:va.wren.edges_offer_1",
+     "ticks": 215,
+     "beats": [
+      30,
+      930,
+      2120,
+      3050,
+      3940,
+      4840,
+      6040,
+      6970,
+      8170,
+      9380,
+      10270
+     ]
+    },
+    {
+     "text": "Bring me three good sightings and I'll give you something that makes the whole world smaller. Well. Easier to fall off.",
+     "sound": "afterworld:va.wren.edges_offer_2",
+     "ticks": 159,
+     "cue": "laughs",
+     "beats": [
+      30,
+      700,
+      1360,
+      2210,
+      2880,
+      3560,
+      4240,
+      5230,
+      5910,
+      6710,
+      7390
+     ]
+    }
+   ],
+   "options": [
+    {
+     "text": "I'll take it.",
+     "go": "#end",
+     "do": [
+      "side:edges:start",
+      "give:afterworld:survey_sextant"
+     ]
+    },
+    {
+     "text": "Maybe later.",
+     "go": "#end"
+    }
+   ]
+  },
+  "edges_progress": {
+   "lines": [
+    {
+     "text": "Three sightings, three landmarks. The sextant counts them for you. Mind the needle.",
+     "sound": "afterworld:va.wren.edges_progress_0",
+     "ticks": 116,
+     "beats": [
+      20,
+      490,
+      960,
+      1440,
+      1910,
+      2680,
+      3150,
+      3620,
+      4390,
+      4860,
+      5320
+     ]
+    }
+   ],
+   "options": [
+    {
+     "text": "Mark the nearest landmark.",
+     "go": "marked",
+     "do": [
+      "mark:landmark"
+     ]
+    },
+    {
+     "text": "The Guild Ledger.",
+     "go": "#bank"
+    },
+    {
+     "text": "Farewell.",
+     "go": "#end"
+    }
+   ]
+  },
+  "edges_done": {
+   "lines": [
+    {
+     "text": "Three! Beautiful. These are the best sightings I've seen since, well, since mine.",
+     "sound": "afterworld:va.wren.edges_done_0",
+     "ticks": 134,
+     "cue": "delighted",
+     "beats": [
+      40,
+      520,
+      1320,
+      1800,
+      2440,
+      3050,
+      3530,
+      4000,
+      4980,
+      5700,
+      6170
+     ]
+    },
+    {
+     "text": "Here. Moth-silk. Hold your jump while you fall and it'll catch the wind. The moths spun it, so be nice to moths.",
+     "sound": "afterworld:va.wren.edges_done_1",
+     "ticks": 160,
+     "beats": [
+      20,
+      820,
+      1480,
+      2450,
+      3100,
+      3770,
+      4430,
+      5380,
+      6210,
+      6870,
+      7520
+     ]
+    }
+   ],
+   "do": [
+    "side:edges:finish",
+    "give:afterworld:moth_silk_glider"
+   ],
+   "options": [
+    {
+     "text": "Thank you, Wren.",
+     "go": "#end"
+    }
+   ]
+  },
+  "tablets": {
+   "lines": [
+    {
+     "text": "The five glyph tablets? I've a list. Of course I have a list.",
+     "sound": "afterworld:va.wren.tablets_0",
+     "ticks": 85,
+     "beats": [
+      20,
+      370,
+      720,
+      1070,
+      1690,
+      2040,
+      2390,
+      2740,
+      3090,
+      3440,
+      3780
+     ]
+    },
+    {
+     "text": "One in the sunken bog temple. One in the frozen mage tower. One in the buried obelisk, out in the dunes. One in the overgrown ziggurat. And one in a moonlit clearing in the Duskpine. I'll mark whichever is nearest.",
+     "sound": "afterworld:va.wren.tablets_1",
+     "ticks": 284,
+     "beats": [
+      30,
+      1250,
+      2760,
+      4260,
+      5480,
+      7050,
+      8260,
+      9760,
+      10970,
+      12510,
+      13720
+     ]
+    }
+   ],
+   "options": [
+    {
+     "text": "Mark the nearest one.",
+     "go": "marked",
+     "do": [
+      "mark:tablet"
+     ]
+    },
+    {
+     "text": "Farewell.",
+     "go": "#end"
+    }
+   ]
+  }
+ }
+}

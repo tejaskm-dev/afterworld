@@ -1,0 +1,186 @@
+{
+  "placement": {
+    "type": "minecraft:random_spread",
+    "salt": 7301,
+    "separation": 4,
+    "spacing": 12
+  },
+  "structures": [
+    {
+      "structure": "afterworld:caravan_wreck",
+      "weight": 4
+    },
+    {
+      "structure": "afterworld:buried_obelisk",
+      "weight": 4
+    },
+    {
+      "structure": "afterworld:sunken_bog_temple",
+      "weight": 4
+    },
+    {
+      "structure": "afterworld:frozen_mage_tower",
+      "weight": 4
+    },
+    {
+      "structure": "afterworld:overgrown_ziggurat",
+      "weight": 4
+    },
+    {
+      "structure": "afterworld:moonlit_clearing",
+      "weight": 4
+    },
+    {
+      "structure": "afterworld:barrow_mound",
+      "weight": 4
+    },
+    {
+      "structure": "afterworld:ossuary_gate",
+      "weight": 4
+    },
+    {
+      "structure": "afterworld:drowned_shrine",
+      "weight": 4
+    },
+    {
+      "structure": "afterworld:lighthouse",
+      "weight": 3
+    },
+    {
+      "structure": "afterworld:beached_wreck",
+      "weight": 3
+    },
+    {
+      "structure": "afterworld:ember_kilns",
+      "weight": 3
+    },
+    {
+      "structure": "afterworld:cinder_watchtower",
+      "weight": 3
+    },
+    {
+      "structure": "afterworld:bone_orchard",
+      "weight": 3
+    },
+    {
+      "structure": "afterworld:weavers_hollow",
+      "weight": 3
+    },
+    {
+      "structure": "afterworld:hanged_lanterns",
+      "weight": 3
+    },
+    {
+      "structure": "afterworld:crystal_observatory",
+      "weight": 3
+    },
+    {
+      "structure": "afterworld:shattered_caravan",
+      "weight": 3
+    },
+    {
+      "structure": "afterworld:tea_house",
+      "weight": 3
+    },
+    {
+      "structure": "afterworld:frozen_watch_post",
+      "weight": 3
+    },
+    {
+      "structure": "afterworld:colossus_graveyard",
+      "weight": 3
+    },
+    {
+      "structure": "afterworld:snowbound_camp",
+      "weight": 3
+    },
+    {
+      "structure": "afterworld:rime_cavern",
+      "weight": 3
+    },
+    {
+      "structure": "afterworld:aurora_shrine",
+      "weight": 3
+    },
+    {
+      "structure": "afterworld:peak_monastery",
+      "weight": 3
+    },
+    {
+      "structure": "afterworld:great_nest",
+      "weight": 3
+    },
+    {
+      "structure": "afterworld:wind_harp",
+      "weight": 3
+    },
+    {
+      "structure": "afterworld:nomad_yurts",
+      "weight": 3
+    },
+    {
+      "structure": "afterworld:starfall_crater",
+      "weight": 3
+    },
+    {
+      "structure": "afterworld:abandoned_mine",
+      "weight": 3
+    },
+    {
+      "structure": "afterworld:canyon_outpost",
+      "weight": 3
+    },
+    {
+      "structure": "afterworld:canopy_outpost",
+      "weight": 3
+    },
+    {
+      "structure": "afterworld:spore_lab",
+      "weight": 3
+    },
+    {
+      "structure": "afterworld:glowcap_grotto",
+      "weight": 3
+    },
+    {
+      "structure": "afterworld:ranger_outpost",
+      "weight": 3
+    },
+    {
+      "structure": "afterworld:druids_ring",
+      "weight": 3
+    },
+    {
+      "structure": "afterworld:hermits_bough",
+      "weight": 3
+    },
+    {
+      "structure": "afterworld:proving_ring",
+      "weight": 3
+    },
+    {
+      "structure": "afterworld:climbers_needle",
+      "weight": 3
+    },
+    {
+      "structure": "afterworld:ladder_gate",
+      "weight": 2
+    },
+    {
+      "structure": "afterworld:sunken_forge",
+      "weight": 3
+    },
+    {
+      "structure": "afterworld:glowcap_hollow",
+      "weight": 3
+    },
+    {
+      "structure": "afterworld:geode_vault",
+      "weight": 3
+    },
+    {
+      "structure": "afterworld:drowned_catacombs",
+      "weight": 3
+    }
+  ]
+}

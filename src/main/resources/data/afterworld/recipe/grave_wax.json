@@ -1,0 +1,13 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "category": "misc",
+  "ingredients": [
+    "minecraft:candle",
+    "minecraft:bone_meal",
+    "minecraft:honeycomb"
+  ],
+  "result": {
+    "id": "afterworld:grave_wax",
+    "count": 2
+  }
+}

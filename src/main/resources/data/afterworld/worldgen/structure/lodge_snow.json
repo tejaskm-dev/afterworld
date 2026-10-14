@@ -1,0 +1,10 @@
+{
+  "type": "afterworld:wonder",
+  "wonder": "lodge_snow",
+  "sink": 3,
+  "max_relief": 8,
+  "biomes": "#afterworld:has_structure/lodge_snow",
+  "step": "surface_structures",
+  "terrain_adaptation": "beard_box",
+  "spawn_overrides": {}
+}

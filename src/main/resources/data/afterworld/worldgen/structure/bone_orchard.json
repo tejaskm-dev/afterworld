@@ -1,0 +1,10 @@
+{
+  "type": "afterworld:wonder",
+  "wonder": "bone_orchard",
+  "sink": 3,
+  "max_relief": 8,
+  "biomes": "#afterworld:has_structure/bone_orchard",
+  "step": "top_layer_modification",
+  "terrain_adaptation": "beard_box",
+  "spawn_overrides": {}
+}

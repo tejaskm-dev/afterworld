@@ -1,0 +1,10 @@
+{
+  "type": "afterworld:wonder",
+  "wonder": "sunken_bog_temple",
+  "sink": 4,
+  "max_relief": 6,
+  "biomes": "#afterworld:has_structure/sunken_bog_temple",
+  "step": "top_layer_modification",
+  "terrain_adaptation": "beard_box",
+  "spawn_overrides": {}
+}

@@ -1,0 +1,13 @@
+{
+  "placement": {
+    "type": "afterworld:atlas",
+    "site": "crimson_necropolis",
+    "salt": 7400
+  },
+  "structures": [
+    {
+      "structure": "afterworld:crimson_necropolis",
+      "weight": 1
+    }
+  ]
+}

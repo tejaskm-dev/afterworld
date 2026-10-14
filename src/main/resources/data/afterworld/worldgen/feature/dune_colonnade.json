@@ -1,0 +1,43 @@
+{
+  "type": "afterworld:ruin",
+  "wall": {
+    "type": "minecraft:weighted",
+    "entries": [
+      {
+        "data": "minecraft:cut_sandstone",
+        "weight": 3
+      },
+      {
+        "data": "minecraft:chiseled_sandstone",
+        "weight": 1
+      },
+      {
+        "data": "minecraft:smooth_sandstone",
+        "weight": 1
+      }
+    ]
+  },
+  "floor": {
+    "type": "minecraft:weighted",
+    "entries": [
+      {
+        "data": "minecraft:smooth_sandstone",
+        "weight": 2
+      },
+      {
+        "data": "minecraft:sandstone",
+        "weight": 1
+      }
+    ]
+  },
+  "style": "colonnade",
+  "loot_chance": 0.4,
+  "underwater": false,
+  "accent": {
+    "id": "minecraft:waxed_copper_lantern",
+    "properties": {
+      "hanging": "false"
+    }
+  },
+  "loot": "afterworld:chests/ruin_cache"
+}

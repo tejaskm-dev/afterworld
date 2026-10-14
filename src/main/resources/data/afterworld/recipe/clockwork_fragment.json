@@ -1,0 +1,13 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "category": "misc",
+  "ingredients": [
+    "minecraft:copper_ingot",
+    "minecraft:gold_nugget",
+    "minecraft:redstone"
+  ],
+  "result": {
+    "id": "afterworld:clockwork_fragment",
+    "count": 1
+  }
+}

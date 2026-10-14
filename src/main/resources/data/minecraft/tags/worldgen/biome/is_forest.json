@@ -1,0 +1,11 @@
+{
+  "replace": false,
+  "values": [
+    "afterworld:gloomwald",
+    "afterworld:hollowwood",
+    "afterworld:mossmere_wood",
+    "afterworld:pale_reach",
+    "afterworld:petalfall",
+    "afterworld:skyspire_peaks"
+  ]
+}

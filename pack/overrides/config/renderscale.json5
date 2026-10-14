@@ -1,0 +1,12 @@
+{
+	// Afterworld pack default: draw the 3D world below the screen's full Retina resolution and
+	// scale it up; menus and the HUD stay sharp. 1.0 = full resolution (try it on non-Retina screens).
+	"scale": 0.75,
+	"forceLinear": false,
+	"targetFrameRate": 0,
+	"aggressionLevel": "NORMAL",
+	"minimumScale": 0.1,
+	"fsr": false,
+	// With shaders on, half the Retina resolution (the same pixel count as a normal 1080p-class screen).
+	"irisScale": 0.5
+}

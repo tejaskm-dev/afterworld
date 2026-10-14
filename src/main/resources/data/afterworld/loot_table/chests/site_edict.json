@@ -1,0 +1,94 @@
+{
+  "type": "minecraft:chest",
+  "pools": [
+    {
+      "rolls": 1,
+      "entries": [
+        {
+          "type": "minecraft:item",
+          "name": "afterworld:edict_shard",
+          "weight": 1
+        }
+      ]
+    },
+    {
+      "rolls": 1,
+      "entries": [
+        {
+          "type": "minecraft:item",
+          "name": "afterworld:silver_mark",
+          "weight": 1,
+          "modifier": [
+            {
+              "type": "minecraft:set_count",
+              "count": {
+                "type": "minecraft:uniform",
+                "min": 2,
+                "max": 4
+              }
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "rolls": 1,
+      "entries": [
+        {
+          "type": "minecraft:item",
+          "name": "afterworld:edict_fragment_return",
+          "weight": 1
+        },
+        {
+          "type": "minecraft:item",
+          "name": "afterworld:edict_fragment_echoes",
+          "weight": 1
+        },
+        {
+          "type": "minecraft:item",
+          "name": "afterworld:edict_fragment_borrowed_time",
+          "weight": 1
+        },
+        {
+          "type": "minecraft:item",
+          "name": "afterworld:edict_fragment_weightlessness",
+          "weight": 1
+        },
+        {
+          "type": "minecraft:item",
+          "name": "afterworld:edict_fragment_hunger",
+          "weight": 1
+        },
+        {
+          "type": "minecraft:item",
+          "name": "afterworld:edict_fragment_hospitality",
+          "weight": 1
+        },
+        {
+          "type": "minecraft:item",
+          "name": "afterworld:edict_fragment_trespass",
+          "weight": 1
+        },
+        {
+          "type": "minecraft:item",
+          "name": "afterworld:edict_fragment_stillness",
+          "weight": 1
+        },
+        {
+          "type": "minecraft:item",
+          "name": "afterworld:edict_fragment_witness",
+          "weight": 1
+        },
+        {
+          "type": "minecraft:item",
+          "name": "afterworld:edict_fragment_forgotten",
+          "weight": 1
+        }
+      ],
+      "condition": {
+        "type": "minecraft:random_chance",
+        "chance": 0.5
+      }
+    }
+  ]
+}

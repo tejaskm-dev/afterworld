@@ -1,0 +1,1344 @@
+{
+ "npc": "isolde",
+ "entry": [
+  {
+   "go": "welcome",
+   "if": [
+    "obj=meet_isolde"
+   ]
+  },
+  {
+   "go": "chapter_one",
+   "if": [
+    "obj=report_prologue"
+   ]
+  },
+  {
+   "go": "chapter_two",
+   "if": [
+    "obj=report_listening"
+   ]
+  },
+  {
+   "go": "chapter_three",
+   "if": [
+    "obj=report_three"
+   ]
+  },
+  {
+   "go": "epilogue",
+   "if": [
+    "obj=report_wardens"
+   ]
+  },
+  {
+   "go": "stew",
+   "if": [
+    "side:meal=2"
+   ]
+  },
+  {
+   "go": "hint_attune",
+   "if": [
+    "obj=attune_camp"
+   ]
+  },
+  {
+   "go": "hint_cast",
+   "if": [
+    "obj=cast"
+   ]
+  },
+  {
+   "go": "hint_marta",
+   "if": [
+    "obj=meet_marta"
+   ]
+  },
+  {
+   "go": "hint_training",
+   "if": [
+    "obj=dodge"
+   ]
+  },
+  {
+   "go": "hint_training",
+   "if": [
+    "obj=parry"
+   ]
+  },
+  {
+   "go": "hint_journal",
+   "if": [
+    "obj=journal"
+   ]
+  },
+  {
+   "go": "hint_bram",
+   "if": [
+    "obj=meet_bram"
+   ]
+  },
+  {
+   "go": "hint_bram",
+   "if": [
+    "obj=trade"
+   ]
+  },
+  {
+   "go": "hint_listening",
+   "if": [
+    "chapter=1"
+   ]
+  },
+  {
+   "go": "hint_three",
+   "if": [
+    "chapter=2"
+   ]
+  },
+  {
+   "go": "hint_wardens",
+   "if": [
+    "chapter=3"
+   ]
+  },
+  {
+   "go": "after",
+   "if": [
+    "finished"
+   ]
+  },
+  {
+   "go": "idle"
+  }
+ ],
+ "nodes": {
+  "welcome": {
+   "lines": [
+    {
+     "text": "There you are. I felt the waystone hum the moment you woke.",
+     "sound": "afterworld:va.isolde.welcome_0",
+     "ticks": 104,
+     "cue": "softly",
+     "beats": [
+      20,
+      370,
+      710,
+      2140,
+      2480,
+      2840,
+      3180,
+      3540,
+      3980,
+      4330,
+      4750
+     ]
+    },
+    {
+     "text": "Easy, now. Everyone wakes a little lost. The Afterworld is like that. It listens before it speaks.",
+     "sound": "afterworld:va.isolde.welcome_1",
+     "ticks": 177,
+     "beats": [
+      20,
+      670,
+      1500,
+      2140,
+      2780,
+      4380,
+      5020,
+      5660,
+      6960,
+      7660,
+      8390
+     ]
+    },
+    {
+     "text": "I'm Isolde, Warden of this camp. We keep the waystones lit, and we keep travellers like you on your feet.",
+     "sound": "afterworld:va.isolde.welcome_2",
+     "ticks": 163,
+     "beats": [
+      20,
+      610,
+      1440,
+      2040,
+      3610,
+      4200,
+      5230,
+      5830,
+      6410,
+      7000,
+      7650
+     ]
+    }
+   ],
+   "options": [
+    {
+     "text": "Where am I?",
+     "go": "where"
+    },
+    {
+     "text": "What do you mean, it listens?",
+     "go": "listens"
+    },
+    {
+     "text": "What should I do first?",
+     "go": "first"
+    }
+   ]
+  },
+  "where": {
+   "lines": [
+    {
+     "text": "A world still deciding what it wants to be. Old rules, half forgotten, written into stone and storm.",
+     "sound": "afterworld:va.isolde.where_0",
+     "ticks": 186,
+     "beats": [
+      30,
+      740,
+      1450,
+      2170,
+      4160,
+      4860,
+      5620,
+      6710,
+      7410,
+      8120,
+      8820
+     ]
+    },
+    {
+     "text": "We call those rules Edicts. A few folk carry one inside them, the way you do. That's why the world noticed you.",
+     "sound": "afterworld:va.isolde.where_1",
+     "ticks": 195,
+     "beats": [
+      20,
+      710,
+      1570,
+      3220,
+      3910,
+      4610,
+      5300,
+      6220,
+      7900,
+      8590,
+      9270
+     ]
+    }
+   ],
+   "options": [
+    {
+     "text": "What do you mean, it listens?",
+     "go": "listens"
+    },
+    {
+     "text": "What should I do first?",
+     "go": "first"
+    }
+   ]
+  },
+  "listens": {
+   "lines": [
+    {
+     "text": "Walk far enough and you'll see. Stones that forget to fall. A bell that rings and takes the memory with it. A king who keeps time in a vault.",
+     "sound": "afterworld:va.isolde.listens_0",
+     "ticks": 223,
+     "beats": [
+      30,
+      850,
+      1670,
+      3100,
+      3930,
+      5470,
+      6290,
+      7150,
+      8960,
+      9840,
+      10700
+     ]
+    },
+    {
+     "text": "None of it's cruel, exactly. But it remembers what you do. Every kindness, and every grudge.",
+     "sound": "afterworld:va.isolde.listens_1",
+     "ticks": 169,
+     "beats": [
+      20,
+      690,
+      1360,
+      2030,
+      2930,
+      3600,
+      4270,
+      5710,
+      6730,
+      7400,
+      8070
+     ]
+    }
+   ],
+   "options": [
+    {
+     "text": "Where am I?",
+     "go": "where"
+    },
+    {
+     "text": "What should I do first?",
+     "go": "first"
+    }
+   ]
+  },
+  "first": {
+   "lines": [
+    {
+     "text": "First things first. Lay your hand on the waystone, there on the dais. Once it knows you, it will always bring you home.",
+     "sound": "afterworld:va.isolde.first_0",
+     "ticks": 187,
+     "beats": [
+      0,
+      680,
+      2040,
+      2710,
+      3400,
+      4210,
+      5780,
+      6460,
+      7480,
+      8210,
+      8880
+     ]
+    },
+    {
+     "text": "Then let out the Edict that lives in you, and go and see Marta at the forge. She'll teach you how not to die. Mostly.",
+     "sound": "afterworld:va.isolde.first_1",
+     "ticks": 222,
+     "cue": "dryly",
+     "beats": [
+      20,
+      1020,
+      1930,
+      2750,
+      3580,
+      4720,
+      5550,
+      7090,
+      7910,
+      8740,
+      10700
+     ]
+    }
+   ],
+   "do": [
+    "complete:meet_isolde"
+   ],
+   "options": [
+    {
+     "text": "I'll do that.",
+     "go": "#end"
+    }
+   ]
+  },
+  "hint_attune": {
+   "lines": [
+    {
+     "text": "The waystone first. Touch it, and it'll learn your name.",
+     "sound": "afterworld:va.isolde.hint_attune_0",
+     "ticks": 95,
+     "beats": [
+      10,
+      330,
+      650,
+      960,
+      2170,
+      2480,
+      3060,
+      3380,
+      3690,
+      4010,
+      4400
+     ]
+    }
+   ],
+   "options": [
+    {
+     "text": "Farewell.",
+     "go": "#end"
+    }
+   ]
+  },
+  "hint_cast": {
+   "lines": [
+    {
+     "text": "Go on, let the Edict out. Whatever it does, it's yours. The camp has seen worse.",
+     "sound": "afterworld:va.isolde.hint_cast_0",
+     "ticks": 142,
+     "beats": [
+      20,
+      560,
+      1160,
+      1700,
+      3200,
+      3740,
+      4300,
+      4840,
+      5640,
+      6180,
+      6710
+     ]
+    }
+   ],
+   "options": [
+    {
+     "text": "Farewell.",
+     "go": "#end"
+    }
+   ]
+  },
+  "hint_marta": {
+   "lines": [
+    {
+     "text": "Marta's at the forge, west of the dais. Follow the sound of hammering. And the swearing.",
+     "sound": "afterworld:va.isolde.hint_marta_0",
+     "ticks": 127,
+     "cue": "amused",
+     "beats": [
+      30,
+      540,
+      1050,
+      1660,
+      2160,
+      3080,
+      3590,
+      4390,
+      4900,
+      5410,
+      5950
+     ]
+    }
+   ],
+   "options": [
+    {
+     "text": "Farewell.",
+     "go": "#end"
+    }
+   ]
+  },
+  "hint_training": {
+   "lines": [
+    {
+     "text": "Marta will have you rolling in the dirt by now. Good. Dodge first, parry second, and pride last of all.",
+     "sound": "afterworld:va.isolde.hint_training_0",
+     "ticks": 164,
+     "beats": [
+      20,
+      680,
+      1340,
+      2000,
+      2980,
+      4200,
+      5030,
+      5690,
+      6450,
+      7110,
+      7770
+     ]
+    }
+   ],
+   "options": [
+    {
+     "text": "Farewell.",
+     "go": "#end"
+    }
+   ]
+  },
+  "hint_journal": {
+   "lines": [
+    {
+     "text": "Open your journal. It writes down everything the world tells you, so you don't have to.",
+     "sound": "afterworld:va.isolde.hint_journal_0",
+     "ticks": 102,
+     "beats": [
+      30,
+      420,
+      810,
+      1620,
+      2040,
+      2490,
+      2880,
+      3310,
+      3780,
+      4170,
+      4600
+     ]
+    }
+   ],
+   "options": [
+    {
+     "text": "Farewell.",
+     "go": "#end"
+    }
+   ]
+  },
+  "hint_bram": {
+   "lines": [
+    {
+     "text": "Bram's at the supply stall, east of the dais. He'll teach you what a Mark is worth. To the copper.",
+     "sound": "afterworld:va.isolde.hint_bram_0",
+     "ticks": 125,
+     "beats": [
+      20,
+      530,
+      1030,
+      1630,
+      2130,
+      3000,
+      3500,
+      4010,
+      4510,
+      5370,
+      5870
+     ]
+    }
+   ],
+   "options": [
+    {
+     "text": "Farewell.",
+     "go": "#end"
+    }
+   ]
+  },
+  "chapter_one": {
+   "lines": [
+    {
+     "text": "You're ready, then. Good. The camp can only hold you so long, and the world won't wait.",
+     "sound": "afterworld:va.isolde.chapter_one_0",
+     "ticks": 122,
+     "beats": [
+      10,
+      520,
+      1540,
+      2040,
+      2630,
+      3130,
+      3640,
+      4140,
+      4680,
+      5180,
+      5730
+     ]
+    },
+    {
+     "text": "Take work from the Warden's Board, there by the dais. Coin, reputation, and a reason to see the wilds.",
+     "sound": "afterworld:va.isolde.chapter_one_1",
+     "ticks": 139,
+     "beats": [
+      30,
+      590,
+      1140,
+      1840,
+      2390,
+      3410,
+      4070,
+      4800,
+      5350,
+      5900,
+      6460
+     ]
+    },
+    {
+     "text": "Then follow the tremors. Where the ground hums, an Edict has slipped loose. Bind it before it binds something else.",
+     "sound": "afterworld:va.isolde.chapter_one_2",
+     "ticks": 156,
+     "beats": [
+      20,
+      660,
+      1300,
+      2420,
+      3060,
+      3740,
+      4380,
+      5440,
+      6080,
+      6720,
+      7350
+     ]
+    },
+    {
+     "text": "Find a shrine on the Pilgrim's road, and touch the waystone at one of the old landmarks. Then come back and tell me everything.",
+     "sound": "afterworld:va.isolde.chapter_one_3",
+     "ticks": 153,
+     "beats": [
+      20,
+      660,
+      1300,
+      2070,
+      2720,
+      3380,
+      4020,
+      5180,
+      5830,
+      6510,
+      7160
+     ]
+    }
+   ],
+   "do": [
+    "complete:report_prologue"
+   ],
+   "options": [
+    {
+     "text": "What's the light in the sky?",
+     "go": "the_light"
+    },
+    {
+     "text": "I'll go.",
+     "go": "#end"
+    }
+   ]
+  },
+  "the_light": {
+   "lines": [
+    {
+     "text": "The waystones answer the ones they know. While you're on the road, a pillar of light stands over the place you're bound for.",
+     "sound": "afterworld:va.isolde.the_light_0",
+     "ticks": 142,
+     "beats": [
+      20,
+      620,
+      1220,
+      1820,
+      2930,
+      3530,
+      4240,
+      4840,
+      5450,
+      6050,
+      6640
+     ]
+    },
+    {
+     "text": "Press G to change which place it marks, if you're chasing more than one thing at once.",
+     "sound": "afterworld:va.isolde.the_light_1",
+     "ticks": 97,
+     "beats": [
+      30,
+      520,
+      970,
+      1370,
+      1820,
+      2270,
+      2700,
+      3090,
+      3480,
+      3920,
+      4350
+     ]
+    }
+   ],
+   "options": [
+    {
+     "text": "Thank you, Isolde.",
+     "go": "#end"
+    }
+   ]
+  },
+  "hint_listening": {
+   "lines": [
+    {
+     "text": "The Board, the tremor, the shrine, the landmark. One at a time, or all at once. Your mark will show you.",
+     "sound": "afterworld:va.isolde.hint_listening_0",
+     "ticks": 152,
+     "beats": [
+      20,
+      610,
+      1320,
+      2010,
+      2750,
+      3780,
+      4370,
+      5090,
+      5670,
+      6520,
+      7100
+     ]
+    }
+   ],
+   "options": [
+    {
+     "text": "Send me down the road.",
+     "go": "#travel"
+    },
+    {
+     "text": "Farewell.",
+     "go": "#end"
+    }
+   ]
+  },
+  "chapter_two": {
+   "lines": [
+    {
+     "text": "So it's true. An Edict came to your hand, and the shrine didn't turn you away.",
+     "sound": "afterworld:va.isolde.chapter_two_0",
+     "ticks": 116,
+     "beats": [
+      0,
+      490,
+      1000,
+      1900,
+      2380,
+      2860,
+      3360,
+      3930,
+      4420,
+      4900,
+      5380
+     ]
+    },
+    {
+     "text": "Then I'll tell you what the Wardens don't tell everyone. Three old powers wait out there. The Bell-Ringer in the Hollow Cathedral. The King of Seconds, deep in his vault. And the Pilgrim, who walks and never arrives.",
+     "sound": "afterworld:va.isolde.chapter_two_1",
+     "ticks": 285,
+     "beats": [
+      30,
+      1150,
+      2340,
+      4030,
+      5220,
+      6840,
+      8350,
+      9660,
+      11200,
+      12670,
+      13780
+     ]
+    },
+    {
+     "text": "They're why the world is stuck. Free them, or face them. Either way, it starts to move again. And whatever they leave behind is yours to carry.",
+     "sound": "afterworld:va.isolde.chapter_two_2",
+     "ticks": 196,
+     "cue": "quietly",
+     "beats": [
+      20,
+      800,
+      1970,
+      2890,
+      3670,
+      4870,
+      5730,
+      7060,
+      7840,
+      8610,
+      9410
+     ]
+    }
+   ],
+   "do": [
+    "complete:report_listening"
+   ],
+   "options": [
+    {
+     "text": "Where do I find them?",
+     "go": "find_three"
+    },
+    {
+     "text": "I'll find them.",
+     "go": "#end"
+    }
+   ]
+  },
+  "find_three": {
+   "lines": [
+    {
+     "text": "The cathedral lies south and west, under a bell nobody remembers hearing. The vault goes down a long way, past the old roads.",
+     "sound": "afterworld:va.isolde.find_three_0",
+     "ticks": 174,
+     "beats": [
+      20,
+      740,
+      1460,
+      2370,
+      3090,
+      3810,
+      5050,
+      5820,
+      6540,
+      7440,
+      8190
+     ]
+    },
+    {
+     "text": "The Pilgrim you'll hear before you see. Its footsteps wear roads into the grass. Wren can mark any of them for you.",
+     "sound": "afterworld:va.isolde.find_three_1",
+     "ticks": 155,
+     "beats": [
+      30,
+      690,
+      1300,
+      1910,
+      2930,
+      3550,
+      4170,
+      4830,
+      5960,
+      6600,
+      7250
+     ]
+    }
+   ],
+   "options": [
+    {
+     "text": "Thank you.",
+     "go": "#end"
+    }
+   ]
+  },
+  "hint_three": {
+   "lines": [
+    {
+     "text": "The Bell-Ringer, the King and the Pilgrim. Rest when you need to. The camp will always be here.",
+     "sound": "afterworld:va.isolde.hint_three_0",
+     "ticks": 130,
+     "beats": [
+      20,
+      530,
+      1180,
+      1840,
+      2350,
+      3260,
+      3760,
+      4550,
+      5050,
+      5570,
+      6080
+     ]
+    }
+   ],
+   "options": [
+    {
+     "text": "Send me down the road.",
+     "go": "#travel"
+    },
+    {
+     "text": "Farewell.",
+     "go": "#end"
+    }
+   ]
+  },
+  "chapter_three": {
+   "lines": [
+    {
+     "text": "Listen. The bell is quiet. The clocks have stopped arguing. And somewhere, a stone pilgrim is finally sitting down.",
+     "sound": "afterworld:va.isolde.chapter_three_0",
+     "ticks": 172,
+     "cue": "quietly",
+     "beats": [
+      10,
+      1300,
+      1950,
+      2990,
+      3640,
+      4770,
+      5420,
+      6180,
+      6830,
+      7480,
+      8120
+     ]
+    },
+    {
+     "text": "But the world has five more locks on it. Five Wardens, set to guard the lands when the old powers fell asleep. They never stopped guarding.",
+     "sound": "afterworld:va.isolde.chapter_three_1",
+     "ticks": 183,
+     "beats": [
+      30,
+      770,
+      1520,
+      2800,
+      3540,
+      4380,
+      5120,
+      5900,
+      6640,
+      7900,
+      8730
+     ]
+    },
+    {
+     "text": "A samurai of ash in the blossom country. A lich who will not stay dead. A colossus in the white waste. A sentinel under the sun. And a gilded warden who judges everyone who passes.",
+     "sound": "afterworld:va.isolde.chapter_three_2",
+     "ticks": 264,
+     "beats": [
+      20,
+      1140,
+      2250,
+      3810,
+      5470,
+      6610,
+      7930,
+      9420,
+      10520,
+      11680,
+      12760
+     ]
+    },
+    {
+     "text": "Each one has a trial before it will even face you. The keepers know the ways in. Ask them.",
+     "sound": "afterworld:va.isolde.chapter_three_3",
+     "ticks": 130,
+     "beats": [
+      20,
+      560,
+      1090,
+      1620,
+      2160,
+      2690,
+      3540,
+      4080,
+      4610,
+      5530,
+      6080
+     ]
+    }
+   ],
+   "do": [
+    "complete:report_three"
+   ],
+   "options": [
+    {
+     "text": "The samurai?",
+     "go": "shogun_hint"
+    },
+    {
+     "text": "The lich?",
+     "go": "lich_hint"
+    },
+    {
+     "text": "The colossus?",
+     "go": "colossus_hint"
+    },
+    {
+     "text": "The sentinel?",
+     "go": "sentinel_hint"
+    },
+    {
+     "text": "The gilded warden?",
+     "go": "warden_hint"
+    },
+    {
+     "text": "I'll begin.",
+     "go": "#end"
+    }
+   ]
+  },
+  "shogun_hint": {
+   "lines": [
+    {
+     "text": "Go to the Lantern Dojo in Petalfall. His last disciple still keeps it. Win the Duel of Lanterns and you'll earn the right to challenge him.",
+     "sound": "afterworld:va.isolde.shogun_hint_0",
+     "ticks": 171,
+     "beats": [
+      20,
+      750,
+      1480,
+      2510,
+      3240,
+      3980,
+      5070,
+      5800,
+      6590,
+      7320,
+      8040
+     ]
+    }
+   ],
+   "options": [
+    {
+     "text": "And the others?",
+     "go": "chapter_three_menu"
+    },
+    {
+     "text": "Farewell.",
+     "go": "#end"
+    }
+   ]
+  },
+  "lich_hint": {
+   "lines": [
+    {
+     "text": "Sister Ines has been reading the crypt records. Three crypts, three phylacteries. Break them all, or he'll simply get up again.",
+     "sound": "afterworld:va.isolde.lich_hint_0",
+     "ticks": 174,
+     "beats": [
+      0,
+      720,
+      1440,
+      2170,
+      3230,
+      4210,
+      4930,
+      5980,
+      6750,
+      7470,
+      8190
+     ]
+    }
+   ],
+   "options": [
+    {
+     "text": "And the others?",
+     "go": "chapter_three_menu"
+    },
+    {
+     "text": "Farewell.",
+     "go": "#end"
+    }
+   ]
+  },
+  "colossus_hint": {
+   "lines": [
+    {
+     "text": "Torvald has seen its tracks. If you've hunted with him, you know how to follow them. Don't lose the trail in the snow.",
+     "sound": "afterworld:va.isolde.colossus_hint_0",
+     "ticks": 139,
+     "beats": [
+      20,
+      620,
+      1210,
+      2090,
+      2680,
+      3290,
+      3890,
+      4750,
+      5340,
+      5930,
+      6520
+     ]
+    }
+   ],
+   "options": [
+    {
+     "text": "And the others?",
+     "go": "chapter_three_menu"
+    },
+    {
+     "text": "Farewell.",
+     "go": "#end"
+    }
+   ]
+  },
+  "sentinel_hint": {
+   "lines": [
+    {
+     "text": "Rashid's people tell of a temple under the dunes that only opens to the sun. You'll need to bend the light.",
+     "sound": "afterworld:va.isolde.sentinel_hint_0",
+     "ticks": 139,
+     "beats": [
+      30,
+      650,
+      1240,
+      1830,
+      2420,
+      3060,
+      3640,
+      4230,
+      5170,
+      5790,
+      6470
+     ]
+    }
+   ],
+   "options": [
+    {
+     "text": "And the others?",
+     "go": "chapter_three_menu"
+    },
+    {
+     "text": "Farewell.",
+     "go": "#end"
+    }
+   ]
+  },
+  "warden_hint": {
+   "lines": [
+    {
+     "text": "The Gilded Vault won't open without five glyph tablets. They're scattered through the old places. Wren has a list. Of course she does.",
+     "sound": "afterworld:va.isolde.warden_hint_0",
+     "ticks": 171,
+     "cue": "amused",
+     "beats": [
+      10,
+      750,
+      1480,
+      2210,
+      2940,
+      3920,
+      4650,
+      5380,
+      6400,
+      7360,
+      8090
+     ]
+    }
+   ],
+   "options": [
+    {
+     "text": "And the others?",
+     "go": "chapter_three_menu"
+    },
+    {
+     "text": "Farewell.",
+     "go": "#end"
+    }
+   ]
+  },
+  "chapter_three_menu": {
+   "lines": [
+    {
+     "text": "Ask me anything. I'll tell you what I know.",
+     "sound": "afterworld:va.isolde.chapter_three_menu_0",
+     "ticks": 52,
+     "beats": [
+      20,
+      230,
+      440,
+      640,
+      850,
+      1160,
+      1370,
+      1580,
+      1780,
+      1990,
+      2190
+     ]
+    }
+   ],
+   "options": [
+    {
+     "text": "The samurai?",
+     "go": "shogun_hint"
+    },
+    {
+     "text": "The lich?",
+     "go": "lich_hint"
+    },
+    {
+     "text": "The colossus?",
+     "go": "colossus_hint"
+    },
+    {
+     "text": "The sentinel?",
+     "go": "sentinel_hint"
+    },
+    {
+     "text": "The gilded warden?",
+     "go": "warden_hint"
+    },
+    {
+     "text": "Farewell.",
+     "go": "#end"
+    }
+   ]
+  },
+  "hint_wardens": {
+   "lines": [
+    {
+     "text": "Five Wardens. Take them one at a time. And come home between them, will you? I worry.",
+     "sound": "afterworld:va.isolde.hint_wardens_0",
+     "ticks": 125,
+     "cue": "softly",
+     "beats": [
+      0,
+      500,
+      1000,
+      1730,
+      2230,
+      2730,
+      3500,
+      4000,
+      4500,
+      5400,
+      5890
+     ]
+    }
+   ],
+   "options": [
+    {
+     "text": "Remind me where they are.",
+     "go": "chapter_three_menu"
+    },
+    {
+     "text": "Send me down the road.",
+     "go": "#travel"
+    },
+    {
+     "text": "Farewell.",
+     "go": "#end"
+    }
+   ]
+  },
+  "epilogue": {
+   "lines": [
+    {
+     "text": "You did it. All of it. Do you feel that? The wind's changed. The waystones are singing a new song.",
+     "sound": "afterworld:va.isolde.epilogue_0",
+     "ticks": 152,
+     "cue": "softly",
+     "beats": [
+      0,
+      600,
+      1530,
+      2390,
+      2990,
+      3960,
+      4560,
+      5420,
+      6020,
+      6620,
+      7220
+     ]
+    },
+    {
+     "text": "When you first woke here, the world was holding its breath. Now it's breathing again, and it's because of you.",
+     "sound": "afterworld:va.isolde.epilogue_1",
+     "ticks": 141,
+     "beats": [
+      20,
+      600,
+      1180,
+      1900,
+      2480,
+      3120,
+      3960,
+      4600,
+      5440,
+      6050,
+      6620
+     ]
+    },
+    {
+     "text": "Whatever you do next, build, wander, rest, it'll remember you kindly. And so will I.",
+     "sound": "afterworld:va.isolde.epilogue_2",
+     "ticks": 143,
+     "cue": "warmly",
+     "beats": [
+      20,
+      600,
+      1170,
+      2020,
+      2660,
+      3290,
+      4180,
+      4760,
+      5330,
+      6190,
+      6760
+     ]
+    }
+   ],
+   "do": [
+    "complete:report_wardens"
+   ],
+   "options": [
+    {
+     "text": "It was an honour, Warden.",
+     "go": "#end"
+    }
+   ]
+  },
+  "stew": {
+   "lines": [
+    {
+     "text": "Is that Bram's stew? You made it? Thank you. I'll pretend I wasn't hungry.",
+     "sound": "afterworld:va.isolde.stew_0",
+     "ticks": 120,
+     "cue": "surprised",
+     "beats": [
+      20,
+      530,
+      1030,
+      1760,
+      2260,
+      3010,
+      3510,
+      4000,
+      4600,
+      5100,
+      5590
+     ]
+    }
+   ],
+   "do": [
+    "side:meal:advance"
+   ],
+   "options": [
+    {
+     "text": "Enjoy it.",
+     "go": "#end"
+    }
+   ]
+  },
+  "after": {
+   "lines": [
+    {
+     "text": "The waystones sing different songs now. Happier ones, I think. Safe roads, traveller.",
+     "sound": "afterworld:va.isolde.after_0",
+     "ticks": 119,
+     "beats": [
+      20,
+      520,
+      1020,
+      1520,
+      2020,
+      2780,
+      3280,
+      3780,
+      4560,
+      5060,
+      5560
+     ]
+    }
+   ],
+   "options": [
+    {
+     "text": "Send me down the road.",
+     "go": "#travel"
+    },
+    {
+     "text": "Farewell.",
+     "go": "#end"
+    }
+   ]
+  },
+  "idle": {
+   "lines": [
+    {
+     "text": "Safe roads, traveller. The waystones remember you.",
+     "sound": "afterworld:va.isolde.idle_0",
+     "ticks": 73,
+     "beats": [
+      0,
+      300,
+      590,
+      890,
+      1180,
+      1760,
+      2050,
+      2350,
+      2640,
+      2940,
+      3230
+     ]
+    }
+   ],
+   "options": [
+    {
+     "text": "Send me down the road.",
+     "go": "#travel"
+    },
+    {
+     "text": "Farewell.",
+     "go": "#end"
+    }
+   ]
+  }
+ }
+}

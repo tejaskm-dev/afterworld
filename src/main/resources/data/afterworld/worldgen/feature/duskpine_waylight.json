@@ -1,0 +1,39 @@
+{
+  "type": "afterworld:ruin",
+  "wall": {
+    "type": "minecraft:weighted",
+    "entries": [
+      {
+        "data": "minecraft:mossy_stone_bricks",
+        "weight": 3
+      },
+      {
+        "data": "minecraft:stone_bricks",
+        "weight": 1
+      }
+    ]
+  },
+  "floor": {
+    "type": "minecraft:weighted",
+    "entries": [
+      {
+        "data": "minecraft:mossy_cobblestone",
+        "weight": 1
+      },
+      {
+        "data": "minecraft:podzol",
+        "weight": 1
+      }
+    ]
+  },
+  "style": "shrine",
+  "loot_chance": 0.4,
+  "underwater": false,
+  "accent": {
+    "id": "minecraft:lantern",
+    "properties": {
+      "hanging": "false"
+    }
+  },
+  "loot": "afterworld:chests/ruin_cache"
+}

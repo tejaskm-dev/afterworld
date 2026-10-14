@@ -1,0 +1,51 @@
+{
+  "type": "afterworld:ground",
+  "biome": "afterworld:windworn_highlands",
+  "surface": [
+    {
+      "state": "minecraft:gravel",
+      "noise": 0,
+      "min": 0.82,
+      "max": 1.01
+    },
+    {
+      "state": "minecraft:coarse_dirt",
+      "noise": 1,
+      "min": 0.9,
+      "max": 1.01
+    },
+    {
+      "state": "minecraft:stone",
+      "noise": 0,
+      "min": 0.0,
+      "max": 0.08
+    }
+  ],
+  "plants": [
+    {
+      "state": "minecraft:short_grass",
+      "chance": 0.2
+    },
+    {
+      "state": "minecraft:allium",
+      "chance": 0.02
+    },
+    {
+      "state": {
+        "id": "minecraft:lilac",
+        "properties": {
+          "half": "lower"
+        }
+      },
+      "chance": 0.005
+    },
+    {
+      "state": "minecraft:bush",
+      "chance": 0.01
+    },
+    {
+      "state": "minecraft:fern",
+      "chance": 0.02
+    }
+  ]
+}

@@ -1,0 +1,13 @@
+{
+  "pack": {
+    "description": "Afterworld Resources: sky, water and menus to match Afterworld Shaders",
+    "min_format": [
+      97,
+      0
+    ],
+    "max_format": [
+      97,
+      1
+    ]
+  }
+}
